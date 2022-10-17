@@ -1,0 +1,26 @@
+name: HCI Website Deployment
+run-name: ${{ github.actor }} is running the deployment 🚀
+on: [push]
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm grunt
+      - uses: burnett01/rsync-deployments@5.2.1
+        with: 
+          switches: -avzr --delete
+          path: build/
+          remote_path: ${{ secrets.RAS_DEPLOY_PATH }}
+          remote_host: ${{ secrets.RAS_DEPLOY_HOST }}
+          remote_user: ${{ secrets.RAS_DEPLOY_USER }}
+          remote_key: ${{ secrets.RAS_DEPLOY_KEY }}

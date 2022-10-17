@@ -60,6 +60,8 @@ Instead, compile a mustache template HTML with `news.json` to get a static HTML.
 
 There is an `html` VS Code snippet.
 
+**Always keep responsiveness in mind when writing codes. (Adaptability on Mobile, Tablets, Desktops)**
+
 Mustache is a logic-less template language. The only *if* is whether a variable is falsy or empty.
 For other conditional logics (assign a color to each role),
 add a `dataPreprocessor` at `scripts/mustache.js` with the corresponding JSON file's name,
