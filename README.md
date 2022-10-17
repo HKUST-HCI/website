@@ -2,12 +2,30 @@
 
 ## For maintainer
 
+### What to edit
+
 All content data are abstracted into `src/data/*.json`.
 To change the content without modifying the page structures,
 
 * Edit corresponding JSON files
 * Git commit, push.
 * Monitor the progress at GitHub Action
+
+### Secrets and credentials
+
+Automatic CD is configured using GitHub Actions.
+When a new maintainer takes over this website, he/she should do the following:
+* Go ask for access to the HCI website directory on the departmental ras server. (CS System will add your account to an authorized user group; prior endorsement email from prof may be needed)
+* Create an SSH keypair on your local machine by `ssh-keygen` command
+  * It is suggested to generate a *dedicated keypair for CI/CD platforms* instead of using the same keypair at your local device by your own
+  * Example command of my keypair generation: `ssh-keygen -f ~/.ssh/hci_ras_ed25519 -t ed25519 -C "Created by email@connect.ust.hk SURNAME First Name for CI tools to access HCI Lab content at HKUST CSE ras server"`
+* Copy the SSH key to the server by `ssh-copy-id`
+  * Example command: `ssh-copy-id -i .ssh/hci_ras_ed25519 username@ras.server.url`
+* Test SSH connection via the keypair
+  * Example command: `ssh -i .ssh/hci_ras_ed25519 username@ras.server.url`
+* At the GitHub repository page, goto Settings – Security:Actions and change the following repository secrets
+  * RAS_DEPLOY_USER: your username to log in to ras server
+  * RAS_DEPLOY_KEY: your private key (`.ssh/hci_ras_ed25519` in the above example) content (yes, it is pure text. Just open it and copy-paste)
 
 ## For developer
 
@@ -51,7 +69,7 @@ Examples include
 * generating `publications.json`'s `authorLine` fields from `authors` (to add commas and "and"s)
 
 Tailwindcss is a utility-first CSS library.
-It encourages you to write bunches of utility classes instead of a single named class with complex CSS definitions.
+**It encourages you to write bunches of utility classes instead of a single named class with complex CSS definitions.**
 This makes issues easier to track, and styling more straightforward.
 Many redundant code issue can be solved by templating (mustache in this case).
 Custom utility classes can be added in `tailwind.config.js` (refer to [their doc here](https://tailwindcss.com/docs/adding-custom-styles)).
@@ -65,12 +83,12 @@ Examples are
   * Because they are library related. Should be defined for once are don't care at all.
 Refer to their website for [more tailwindcss philosophy](https://tailwindcss.com/docs/utility-first).
 
-You can visit the data from mustache template by their file names.
+**You can visit the JSON data file inside mustache template by their file names.**
 The build script provides the JSON data as-is by file names.
 
-Use camelCases for any content data file in `data/*.json`.
+**Use camelCases for any content data file in `data/*.json`.**
 This ensures the build script to make data visible to mustache without any accident.
-But use kebab-cases for any other resource files (images, folders, JS, HTML/mustache...) to avoid unexpectedly broken URL on case-sensitive systems.
+But **use kebab-cases for any other resource files** (images, folders, JS, HTML/mustache...) to avoid unexpectedly broken URL on case-sensitive systems.
 
 `main.js` is included on every page. Other `.js` files are named after HTML/mustache files and imported by each page.
 
