@@ -44,17 +44,7 @@ const pages = fs.readdirSync('./src', { withFileTypes: true })
 
 // Load people data first. It may be needed in other files
 
-const PEOPLE = JSON.parse(fs.readFileSync(`./src/data/people.json`, 'utf8').toString());
-const PEOPLE_NAME_BY_URL = PEOPLE.reduce((acc, {members}) => {
-    const group = members.reduce((accMembers, {name, url}) => ({
-        ...accMembers,
-        [name]: url,
-    }), {})
-    return {
-        ...acc,
-        ...group
-    }
-}, {})
+let PEOPLE = JSON.parse(fs.readFileSync(`./src/data/people.json`, 'utf8').toString());
 
 const dataPreprocessors = {
     publications: (data) => {
@@ -71,6 +61,7 @@ const dataPreprocessors = {
         data.forEach(group => {
             group.members.forEach(person => {
                 person.color = classColor[person.class] || classColor.default;
+                person.url = person.url || '#'
             })
         })
         return data;
@@ -102,6 +93,20 @@ const dataPreprocessors = {
     //     })
     // }
 }
+
+if (dataPreprocessors.people) {
+    PEOPLE = dataPreprocessors.people(PEOPLE)
+}
+const PEOPLE_NAME_BY_URL = PEOPLE.reduce((acc, {members}) => {
+    const group = members.reduce((accMembers, {name, url}) => ({
+        ...accMembers,
+        [name]: url,
+    }), {})
+    return {
+        ...acc,
+        ...group
+    }
+}, {})
 
 const data = fs.readdirSync('./src/data')
     .filter(file => file.endsWith('.json') && file != 'people.json')

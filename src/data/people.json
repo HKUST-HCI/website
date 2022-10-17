@@ -3,11 +3,39 @@
         "type": "Current Members",
         "members": [
             {
+                "name": "Xiaojuan Ma",
+                "position": "Associate Professor & Associate Head – CSE",
+                "class": "faculty_in",
+                "url": "https://www.cse.ust.hk/~mxj/",
+                "image": "img/people/faculty-xiaojuan.jpg"
+            },
+            {
+                "name": "Bo Li",
+                "position": "Chair Professor – CSE",
+                "class": "faculty_in",
+                "url": "https://cse.hkust.edu.hk/faculty/bli/",
+                "image": "https://cse.hkust.edu.hk/admin/people/faculty/photos/bli.jpg"
+            },
+            {
                 "name": "Huamin Qu",
-                "position": "Professor – CSE",
+                "position": "Chair Professor – CSE",
                 "class": "faculty_in",
                 "url": "http://huamin.org",
                 "image": "img/people/faculty-huamin.png"
+            },
+            {
+                "name": "Andrew B. Horner",
+                "position": "Professor – CSE",
+                "class": "faculty_in",
+                "url": "https://www.cse.ust.hk/faculty/horner/",
+                "image": "img/people/faculty-andrew.jpg"
+            },
+            {
+                "name": "Qiong Luo",
+                "position": "Professor – CSE",
+                "class": "faculty_in",
+                "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/luo",
+                "image": "https://cse.hkust.edu.hk/admin/people/faculty/photos/luo.jpg"
             },
             {
                 "name": "Chiew-Lan Tai",
@@ -17,190 +45,92 @@
                 "image": "img/people/faculty-chiew-lan.jpg"
             },
             {
-                "name": "Andrew B. HORNER",
-                "position": "Professor  – CSE",
+                "name": "Pan Hui",
+                "position": "Chair Professor – CMA (GZ)",
                 "class": "faculty_in",
-                "url": "https://www.cse.ust.hk/faculty/horner/",
-                "image": "img/people/faculty-andrew.jpg"
-            },
-            {
-                "name": "Dekai Wu",
-                "position": "Professor – CSE",
-                "class": "faculty_in",
-                "url": "http://www.cs.ust.hk/~dekai/",
-                "image": "img/people/faculty-dekai.jpg"
+                "url": "https://www.cse.ust.hk/~panhui/",
+                "image": "https://facultyprofiles.hkust-gz.edu.cn/fp-image/723.png"
             },
             {
                 "name": "Pascale Fung",
-                "position": "Professor – ECE",
+                "position": "Chair Professor – ECE",
                 "class": "faculty_in",
-                "url": "http://www.ee.ust.hk/~pascale/",
+                "url": "https://pascale.home.ece.ust.hk",
                 "image": "img/people/faculty-pascale.jpg"
             },
             {
-                "name": "JRavi Goonetilleke",
-                "position": "Professor – IEDA",
-                "class": "faculty_in",
-                "url": "http://www.ielm.ust.hk/dfaculty/ravi/",
-                "image": "img/people/faculty-ravi.jpg"
-            },
-            {
-                "name": "Richard So",
-                "position": "Professor – IEDA",
-                "class": "faculty_in",
-                "url": "http://www.ielm.ust.hk/dfaculty/so/",
-                "image": "img/people/faculty-richard.jpg"
-            },
-            {
-                "name": "Pan Hui",
-                "position": "AP – CSE",
-                "class": "faculty_in",
-                "url": "https://www.cse.ust.hk/~panhui/",
-                "image": "img/people/faculty-panhui.jpg"
-            },
-            {
-                "name": "Xiaojuan Ma",
-                "position": "AP – CSE",
-                "class": "faculty_in",
-                "url": "https://www.cse.ust.hk/~mxj/",
-                "image": "img/people/faculty-xiaojuan.jpg"
-            },
-            {
-                "name": "James She",
-                "position": "AP – ECE",
-                "class": "faculty_in",
-                "url": "http://smedia.ust.hk/james/",
-                "image": "img/people/faculty-james.jpg"
-            },
-            {
-                "name": "Daisy Du",
-                "position": "AP – HUMA",
-                "class": "faculty_in",
-                "url": "http://huma.ust.hk/cgi-bin/people/people_index.php?action=view&type=F&profile_id=285",
-                "image": "img/people/faculty-duyan.jpg"
-            },
-            {
-                "name": "Panpan Xu",
-                "position": "Postdoc",
-                "class": "staff",
-                "url": "http://www.cse.ust.hk/~pxu",
-                "image": "img/people/panpan.png"
-            },
-            {
-                "name": "Yun Wang",
-                "position": "Ph.D Candidate",
+                "name": "Reza Hadi Mogavi",
+                "position": "PhD Candidate",
                 "class": "phd",
-                "url": "http://www.cse.ust.hk/~ywangch",
-                "image": "img/people/yunwang.png"
+                "url": "http://rezahadi.com",
+                "image": "img/people/reza.jpg"
             },
             {
-                "name": "Qing Chen",
-                "position": "Ph.D Student",
+                "name": "Chuhan Shi",
+                "position": "PhD Candidate",
                 "class": "phd",
-                "url": "http://www.cse.ust.hk/~qchenah",
-                "image": "img/people/qingchen.png"
+                "image": "img/people/default.png"
             },
             {
-                "name": "Siwei Fu",
-                "position": "Ph.D Student",
+                "name": "Chengzhong Liu",
+                "position": "PhD Candidate",
                 "class": "phd",
-                "url": "http://www.cse.ust.hk/~sfuaa",
-                "image": "img/people/siwei.png"
+                "image": "img/people/default.png"
             },
             {
-                "name": "Dongyu Liu",
-                "position": "Ph.D Student",
+                "name": "Shuai Ma",
+                "position": "PhD Candidate",
                 "class": "phd",
-                "url": "http://www.cse.ust.hk/~dliuae",
-                "image": "img/people/dongyu.png"
+                "image": "img/people/default.png"
             },
             {
-                "name": "Yong Wang",
-                "position": "Ph.D Student",
+                "name": "Qian Zhu",
+                "position": "PhD Candidate",
                 "class": "phd",
-                "url": "http://www.cse.ust.hk/~ywangct",
-                "image": "img/people/yongwang.png"
+                "image": "img/people/default.png"
             },
             {
-                "name": "Yanhong Wu",
-                "position": "Ph.D Student",
+                "name": "Chengbo Zheng",
+                "position": "PhD Candidate",
                 "class": "phd",
-                "url": "http://yhwu.me",
-                "image": "img/people/yanhong.png"
+                "image": "img/people/default.png"
             },
             {
-                "name": "Yuanzhe Chen",
-                "position": "Ph.D Student",
+                "name": "Qingyu Guo",
+                "position": "PhD Candidate",
                 "class": "phd",
-                "url": "http://www.cse.ust.hk/~ychench",
-                "image": "img/people/yuanzhe.png"
-            },
-            {
-                "name": "Qiaomu Shen",
-                "position": "Ph.D Student",
-                "class": "phd",
-                "image": "img/people/qiaomu.png"
-            },
-            {
-                "name": "Haipeng Zeng",
-                "position": "Ph.D Student",
-                "class": "phd",
-                "image": "img/people/haipeng.png"
-            },
-            {
-                "name": "Andrew Cattle",
-                "position": "Ph.D Student",
-                "class": "phd",
-                "image": "img/people/andrew.png"
-            },
-            {
-                "name": "Mingfei Sun",
-                "position": "Ph.D Student",
-                "class": "phd",
-                "url": "http://www.mingfeisun.com/",
-                "image": "img/people/mingfei.png"
-            },
-            {
-                "name": "Zhida Sun",
-                "position": "Ph.D Student",
-                "class": "phd",
-                "url": "http://zsunaj.student.ust.hk/",
-                "image": "img/people/zhida.png"
-            },
-            {
-                "name": "Zhenjie Zhao",
-                "position": "Ph.D Student",
-                "class": "phd",
-                "url": "#",
-                "image": "img/people/zhenjie.png"
-            },
-            {
-                "name": "Ziming Wu",
-                "position": "Ph.D Student",
-                "class": "phd",
-                "url": "http://ihome.ust.hk/~zwual/",
-                "image": "img/people/ziming.png"
+                "image": "img/people/default.png"
             },
             {
                 "name": "Zeyu Huang",
-                "position": "Ph.D Student",
+                "position": "PhD Student",
                 "class": "phd",
                 "url": "https://zhuangbi.student.ust.hk/",
                 "image": "img/people/zeyu.jpg"
             },
             {
-                "name": "Yang Yang",
-                "position": "Mphil Student",
-                "class": "mphil",
-                "url": "#",
-                "image": "img/people/yang.png"
+                "name": "Junze Li",
+                "position": "PhD Student",
+                "class": "phd",
+                "image": "img/people/default.png"
             },
             {
-                "name": "Hong Peng",
-                "position": "Visiting Intern",
-                "class": "intern",
-                "url": "#",
-                "image": "img/people/ann.png"
+                "name": "Dingdong Liu",
+                "position": "PhD Student",
+                "class": "phd",
+                "image": "img/people/default.png"
+            },
+            {
+                "name": "Hanfang Lyu",
+                "position": "PhD Student",
+                "class": "phd",
+                "image": "img/people/default.png"
+            },
+            {
+                "name": "Jiehui Luo",
+                "position": "MPhil Student",
+                "class": "mphil",
+                "image": "img/people/default.png"
             }
         ]
     },
@@ -208,39 +138,55 @@
         "type": "Past Members",
         "members": [
             {
-                "name": "Wenchao Wu",
-                "position": "Alumnus",
-                "class": "phd",
-                "url": "http://www.cse.ust.hk/~wwuag",
-                "image": "img/people/wenchao.png"
-            },
-            {
-                "name": "Yixian Zheng",
-                "position": "Alumnus",
-                "class": "phd",
-                "url": "http://www.cse.ust.hk/~yzhengaj",
-                "image": "img/people/yixian.png"
-            },
-            {
                 "name": "Naveen Pitipornvivat",
-                "position": "Alumnus",
+                "position": "MPhil",
                 "class": "mphil",
-                "url": "#",
                 "image": "img/people/naveen.png"
             },
             {
-                "name": "Yi Yang",
-                "position": "Alumnus",
-                "class": "mphil",
-                "url": "#",
-                "image": "img/people/yangyi.png"
+                "name": "Andrew Cattle",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/andrew.png"
             },
             {
-                "name": "Chengjin Li",
-                "position": "Alumnus",
+                "name": "Mingfei Sun",
+                "position": "PhD",
+                "class": "phd",
+                "url": "http://www.mingfeisun.com/",
+                "image": "img/people/mingfei.png"
+            },
+            {
+                "name": "Zhida Sun",
+                "position": "PhD",
+                "class": "phd",
+                "url": "http://zsunaj.student.ust.hk/",
+                "image": "img/people/zhida.png"
+            },
+            {
+                "name": "Zhenjie Zhao",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/zhenjie.png"
+            },
+            {
+                "name": "Ziming Wu",
+                "position": "PhD",
+                "class": "phd",
+                "url": "http://ihome.ust.hk/~zwual/",
+                "image": "img/people/ziming.png"
+            },
+            {
+                "name": "Yang Yang",
+                "position": "MPhil",
                 "class": "mphil",
-                "url": "#",
-                "image": "img/people/chengjin.png"
+                "image": "img/people/yang.png"
+            },
+            {
+                "name": "Hong Peng",
+                "position": "Visiting Intern",
+                "class": "intern",
+                "image": "img/people/ann.png"
             }
         ]
     }
