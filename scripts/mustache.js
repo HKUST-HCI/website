@@ -112,7 +112,7 @@ const data = fs.readdirSync('./src/data')
             d = dataPreprocessors[name](d);
         }
         return { ...acc, [name]: d }
-    }, {});
+    }, { people: dataPreprocessors.people ? dataPreprocessors.people(PEOPLE) : PEOPLE });
 
 // }}}
 
