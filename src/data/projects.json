@@ -1,0 +1,68 @@
+[
+    {
+        "image": "projects/Exiting_the_Design_Studio/images/figure2.png",
+        "title": "Exiting the Design Studio",
+        "description": "Leveraging Online Participants for Early-Stage Design Feedback",
+        "url": "projects/Exiting_the_Design_Studio/index.html"
+    },
+    {
+        "image": "projects/Social_Eye_Tracking/images/figure2.png",
+        "title": "Social Eye Tracking",
+        "description": "Gaze Recall with Online Crowds",
+        "url": "projects/Social_Eye_Tracking/index.html"
+    },
+    {
+        "image": "projects/evocation/images/figure2.png",
+        "title": "Evocation",
+        "description": "Analyzing and Propagating a Semantic Link Based on Free Word Association",
+        "url": "projects/evocation/index.html"
+    },
+    {
+        "image": "projects/famer_tale/images/figure2.png",
+        "title": "Farmer’s Tale",
+        "description": "A Facebook Game to Promote Volunteerism.",
+        "url": "projects/famer_tale/index.html"
+    },
+    {
+        "image": "projects/food_messaging/images/figure2.png",
+        "title": "Food Messaging",
+        "description": "Using Edible Medium for Social Messaging",
+        "url": "projects/food_messaging/index.html"
+    },
+    {
+        "image": "projects/share_your_view/images/figure2.png",
+        "title": "Share your View",
+        "description": "Impact of Co-Navigation Support and Status Composition in Collaborative Online Shopping",
+        "url": "projects/share_your_view/index.html"
+    },
+    {
+        "image": "projects/soundnet/images/figure2.png",
+        "title": "SoundNet",
+        "description": "Investigating a Language Composed of Environmental Sounds",
+        "url": "projects/soundnet/index.html"
+    },
+    {
+        "image": "projects/speaking_through_pictures/images/figure2.png",
+        "title": "Peaking Through Pictures",
+        "description": "Images vs. Icons",
+        "url": "projects/speaking_through_pictures/index.html"
+    },
+    {
+        "image": "projects/visual_verbs/images/figure2.png",
+        "title": "Visual Verbers",
+        "description": "How Well do Visual Verbs Work in Daily Communication for Young and Old Adults?",
+        "url": "projects/visual_verbs/index.html"
+    },
+    {
+        "image": "projects/invisible-hand/images/figure.png",
+        "title": "Invisible hand",
+        "description": "“Invisible Hand” is an immersive, interactive audio visual installation which presents various items of news from the Internet, and...",
+        "url": "http://lbcone.ust.hk/exhibit/exhibition/28/artwork/506"
+    },
+    {
+        "image": "projects/memo-tv/images/figure.png",
+        "title": "Memo-TV",
+        "description": "Memo-TV is a technology combining modern software and antique hardware. It is aimed at the Elderly, to improve their memory and....",
+        "url": "http://lbcone.ust.hk/exhibit/exhibition/49"
+    }
+]

@@ -1,0 +1,83 @@
+body {
+  /*font-family: Avenir, Helvetica Neue, Helvetica, Arial;*/
+  font-family: Arial,Helvetica,sans-serif;
+  padding-left: 15px;
+  background-color: #eee;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #50C1FD;
+}
+
+#paper {
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 80px 50px 80px;
+  background-color: #fff;
+}
+
+.heading {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: gray;
+}
+
+.content .authors {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.content .figure {
+  margin: 25px 0 25px 0;
+}
+
+.content .figure img {
+  max-width: 800px;
+}
+
+.content .figure .caption {
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: justify;
+}
+.content .text {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.content .materials {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.content .title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.content .player {
+  margin-top: 5px;
+}
+
+.video {
+  margin-top: 30px;
+}
+
+

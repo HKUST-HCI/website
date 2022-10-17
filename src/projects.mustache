@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{> head}}
+</head>
+
+<body>
+    {{> header}}
+    <div class="container mx-auto px-4">
+        <main>
+            <section>
+                <h2 class="text-2xl font-title mb-6 mt-10">Current Projects</h2>
+                <article class="card mb-8">
+                    <ul class="list list-disc">
+                        {{#ongoingProjects}}
+                        <li>
+                            {{title}}&nbsp;
+                            {{#url}}<a href="{{.}}" class="link">({{supervisor}})</a>{{/url}}
+                            {{^url}}({{supervisor}}){{/url}}
+                        </li>
+                        {{/ongoingProjects}}
+                    </ul>
+                </article>
+            </section>
+            <section>
+                <h2 class="text-2xl font-title mb-6 mt-10">Project Gallery</h2>
+                <div class="columns-1 md:columns-2 lg:columns-3 gap-x-8 -mb-8">
+                    <!-- https://stackoverflow.com/questions/33769524/css-multi-column-layout-margin-issue -->
+                    {{#projects}}
+                    <div class="break-inside-avoid">
+                        <article class="card relative text-center group break-inside-avoid overflow-hidden">
+                            {{#url}}<a class="decoration-white group-hover:underline group-hover:cursor-pointer" rel="noopener noreferrer" target="_blank" href="{{.}}">{{/url}}
+                                <header class="py-10 group-hover:py-4 bg-white absolute top-0 left-0 right-0 transition-all">
+                                    <h3 class="font-title text-xl group-hover:underline">{{title}}</h3>
+                                    <div class="group-hover:sr-only">
+                                        <hr class="my-4 mx-auto w-20 border" style="border-color: {{color}}">
+                                        <p class="mx-8 text-sm">{{description}}</p>
+                                    </div>
+                                </header>
+                                <figure>
+                                    <img src="{{image}}" alt="Photo of {{title}}" class="w-full h-auto">
+                                </figure>
+                                <div class="absolute left-0 right-0 bottom-0 py-2 text-white bg-blue-500/50 translate-y-full group-hover:translate-y-0 transition">
+                                    <i class="fa fa-eye"></i>&nbsp;View
+                                </div>
+                            {{#url}}</a>{{/url}}
+                        </article>
+                        <div class="h-8"></div>
+                    </div>
+                    {{/projects}}
+                </div>
+            </section>
+        </main>
+    </div>
+    {{> footer}}
+</body>
+</html>

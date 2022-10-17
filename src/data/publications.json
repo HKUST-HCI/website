@@ -1,0 +1,97 @@
+[
+    {
+        "year": "2016",
+        "papers": [
+            {
+                "authors": [
+                    "Zhida Sun",
+                    "Mingfei Sun",
+                    "Nan Cao",
+                    "Xiaojuan Ma"
+                ],
+                "title": "VideoForest: Interactive Visual Summarization of Video Streams Based on Danmu Data",
+                "year": "2016",
+                "venue": "SIGGRAPH ASIA 2016 Symposium on Visualization (SA '16)",
+                "links": {
+                    "url": "http://dl.acm.org/citation.cfm?id=3002159",
+                    "pdf": "http://ihome.ust.hk/~zsunaj/papers/sun_siggraphasia16_paper_revised.pdf"
+                },
+                "image": "img/publications/videoforest.png"
+            }
+        ]
+    },
+    {
+        "year": "2015",
+        "papers": [
+            {
+                "authors": [
+                    "Xiaojuan Ma",
+                    "Yu Li",
+                    "Jodi Forlizzi",
+                    "Steven Dow"
+                ],
+                "title": "Exiting the Design Studio: Leveraging Online Participants for Early-Stage Design Feedback",
+                "year": "2015",
+                "venue": "Proc. CSCW2015",
+                "links": {
+                    "url": "http://dl.acm.org/citation.cfm?id=2675174",
+                    "pdf": "http://www.cs.cmu.edu/~spdow/files/CrowdFeedback-cscw2015.pdf"
+                },
+                "image": "img/publications/exiting-design-studio.png"
+            },
+            {
+                "authors": [
+                    "Shiwei Cheng",
+                    "Zhiqiang Sun",
+                    "Xiaojuan Ma",
+                    "Jodi Forlizzi",
+                    "Scott Hudson",
+                    "Anind Dey"
+                ],
+                "title": "Social Eye Tracking: Gaze Recall with Online Crowds",
+                "year": "2015",
+                "venue": "Proc. CSCW2015",
+                "links": {
+                    "url": "http://dl.acm.org/citation.cfm?id=2675249",
+                    "pdf": "http://delivery.acm.org/10.1145/2680000/2675249/p454-cheng.pdf?ip=143.89.214.119&id=2675249&acc=ACTIVE%20SERVICE&key=CDD1E79C27AC4E65%2EFC30B8D6EF32B758%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=693319064&CFTOKEN=28194835&__acm__=1437022672_f6dfdb01f017a2a67e43b2ced6c6a39c"
+                },
+                "image": "img/publications/social-mind-eye-tracking.png"
+            }
+        ]
+    },
+    {
+        "year": "2014",
+        "papers": [
+            {
+                "authors": [
+                    "YanZhen Yue",
+                    "Xiaojuan Ma",
+                    "Zhenhui Jiang"
+                ],
+                "title": "Share your View: Impact of Co-Navigation Support and Status Composition in Collaborative Online Shopping",
+                "year": "2014",
+                "venue": "Proc. CHI2014",
+                "links": {
+                    "url": "http://dl.acm.org/citation.cfm?id=2557143",
+                    "pdf": "http://delivery.acm.org/10.1145/2560000/2557143/p3299-yue.pdf?ip=143.89.214.119&id=2557143&acc=ACTIVE%20SERVICE&key=CDD1E79C27AC4E65%2EFC30B8D6EF32B758%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=693319064&CFTOKEN=28194835&__acm__=1437022889_874d74418ad7c7948f0accbe3e9abd0d"
+                },
+                "image": "img/publications/share-your-view.png"
+            },
+            {
+                "authors": [
+                    "Jun Wei",
+                    "Xiaojuan Ma",
+                    "Shengdong Zhao"
+                ],
+                "title": "Food Messaging: Using Edible Medium for Social Messaging",
+                "year": "2014",
+                "venue": "Proc. CHI2014",
+                "links": {
+                    "url": "http://dl.acm.org/citation.cfm?id=2557026",
+                    "pdf": "http://delivery.acm.org/10.1145/2560000/2557026/p2873-wei.pdf?ip=143.89.214.119&id=2557026&acc=ACTIVE%20SERVICE&key=CDD1E79C27AC4E65%2EFC30B8D6EF32B758%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=693319064&CFTOKEN=28194835&__acm__=1437022989_dfcbaa3c8c313d5b9d5fe8ce9ea6ff00"
+                },
+                "image": "img/publications/food-messaging.png"
+            }
+        ]
+    }
+]

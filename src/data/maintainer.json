@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "name": "Zeyu Huang"
+        },
+        {
+            "name": "Dongyu Liu"
+        },
+        {
+            "name": "Qing Chen"
+        },
+        {
+            "name": "Conglei Shi",
+            "url": "http://conglei.org/"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "Zeyu Huang"
+        }
+    ]
+}

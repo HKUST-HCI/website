@@ -1,0 +1,20 @@
+<footer class="bg-zinc-700 text-white py-2 mt-8">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <img src="img/logo.svg" class="w-32" alt="logo">
+        <div class="float-right text-center text-xs">
+            {{#maintainer}}
+            <p><small>Authored by
+                {{#authors}}
+                <a href="{{url}}" class="link">{{name}}</a>
+                {{/authors}}
+            </small></p>
+            <p><small>Maintained by
+                {{#maintainers}}
+                <a href="{{url}}" class="link">{{name}}</a>
+                {{/maintainers}}
+            </small></p>
+            {{/maintainer}}
+            <p><small>© 2022 All rights reserved.</small></p>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> head}}
+    <script src="index.js"></script>
+</head>
+
+<body>
+    {{> header}}
+
+    <div class="container mx-auto px-4">
+        <div class="flex flex-wrap md:flex-nowrap md:gap-x-8 gap-y-8">
+            <div class="w-full md:w-2/3">
+                <!--POST-->
+                <main class="bg-white rounded-sm shadow-md p-8">
+                    <div id="slider" class="w-full h-[230px] relative">
+                        <div id="slider-controls">
+                            <button id="slider-control-prev"
+                                class="absolute z-50 left-0 top-half px-4 py-3 text-white bg-black/30 hover:bg-black/20"><i
+                                    class="fa fa-angle-left"></i></button>
+                            <button id="slider-control-next"
+                                class="absolute z-50 right-0 top-half px-4 py-3 text-white bg-black/30 hover:bg-black/20"><i
+                                    class="fa fa-angle-right"></i></button>
+                        </div>
+                        <ul id="slider-slides" class="w-full h-full">
+                            {{#slides}}
+                            <li class="w-full h-full absolute top-0 left-0 opacity-0 transition duration-500">
+                                {{#url}}
+                                <a href="{{{.}}}">
+                                    {{/url}}
+                                    <img src="{{{image}}}" alt="{{title}}" class="w-full h-full object-contain">
+                                    <div
+                                        class="absolute left-0 right-0 bottom-0 p-3 text-right bg-black/50 text-white text-sm">
+                                        {{title}}</div>
+                                    {{#url}}
+                                </a>
+                                {{/url}}
+                            </li>
+                            {{/slides}}
+                        </ul>
+                    </div>
+                    <div class="content" id="main-content">
+                        <h2 class="font-bold text-lg mt-6">About Us</h2>
+                        <p class="mt-2">
+                            The HKUST HCI Initiative aims to drive creative, transformative research, education, and
+                            practices with an emphasis on designing technologies that better fulfill human needs and
+                            values. In particular, the HCI Initiative uses data as a bridge to cross the boundary
+                            between the virtual and the physical world, targets real-world problems in radical
+                            collaboration with academic, industrial, and government partners, and introduces new
+                            pedagogy with HCI@ Intersection of technology, art, and entrepreneurship.
+                        </p>
+                        <h2 class="font-bold text-lg mt-6">Our Mission</h2>
+                        <p class="mt-2">
+                            Our mission is to build a leading HCI research group in Asia and the world, prepare new
+                            generations of students for human-centric, data-intensive, business-critical challenges
+                            of our times, and put HKUST on the map of the HCI field. HCI can complement the
+                            strengths of the existing programs and create synergy among faculties from different
+                            research areas, particularly with strong connections to three of the five main areas
+                            (i.e., Data Science, Autonomous Systems, and Entrepreneurship & Design) identified by
+                            HKUST for hiring.
+                        </p>
+                        <p class="mt-2">
+                            Our HCI initiative will focus on data-driven approaches to empowering the seamless
+                            integration of the digital realm and the physical world, and demonstrate the excellence
+                            through ground-breaking innovations, high-impact publications, novel education program,
+                            and recognition by the industry.
+                        </p>
+                        <h2 class="font-bold text-lg mt-6">Research Aim</h2>
+                        <p class="mt-2">
+                            The HCI Initiative aims to build an ecosystem of human-machine hybrid computing, which
+                            bridges the virtual and the physical world via communication through and beyond data.
+                            Various research activities will be carried out in collaboration with academia and
+                            industrial partners in areas such as:
+                        </p>
+                        <ul class="mt-2 list list-disc">
+                            <li>Frontend: intelligent, natural user interface – multimodal and multisensory interaction with data
+                                <ul class="list-circle">
+                                    <li>
+                                        Visual and sonified interface (e.g., visualization, sonification, speech, animation, virtual/augmented reality, 3D printing, etc.)
+                                    </li>
+                                    <li>
+                                        Tangible interface (e.g., mobile devices, wearable devices, smart environment, etc.)
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Backend: making sense of data to gain better knowledge of the crowd and the environment
+                                <ul class="list-circle">
+                                    <li>User modeling (e.g., social media, crowdsourcing, etc.)</li>
+                                    <li>Context modeling (e.g., urban computing, affective computing, etc.)</li>
+                                </ul>
+                            </li>
+                            <li>Thinking
+                                <ul class="list-circle">
+                                    <li>Design philosophies that integrate merits from Eastern and Western thinking (e.g., sustainability, harmony, etc.)</li>
+                                    <li>Design theories related to new media and platforms (e.g., game, E-learning, etc.)</li>
+                                    <li>Design methodologies and practices using MIT media lab, Stanford d.school, etc. as benchmarks</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </main>
+                <!--END POST-->
+            </div>
+            <!--SIDEBAR-->
+            <div class="w-full md:w-1/3">
+                <!-- <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showCalendars=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hcihkust%40gmail.com&amp;color=%231B887A&amp;ctz=Asia%2FHong_Kong" style="border-width:0" width="390" height="300" frameborder="0" scrolling="no"></iframe> -->
+                <aside class="bg-white rounded-sm shadow-md p-8">
+                    <h2 class="font-bold uppercase">Highlight</h2>
+                    <div id="highlight" class="text-sm">
+                        <p class="mt-2">
+                            We are looking for Postdoc, PhD, MPhil, and Visiting Intern.
+                        </p>
+                        <p class="mt-2">
+                            <a href="https://www.cse.ust.hk/~mxj/" class="link">For potential PhD, MPhil, MScIT, and
+                                UROP students</a>
+                        </p>
+                    </div>
+
+                    <h2 class="font-bold uppercase mt-6">Activities</h2>
+                    <div id="activities" class="text-sm">
+                        <p class="mt-2">
+                            <a href="https://www.interaction-design.org/calendar/" class="link">Calendar of HCI
+                                Conference/Journal</a>
+                        </p>
+                    </div>
+
+                    <h2 class="font-bold uppercase mt-6">Recent News</h2>
+                    <div id="recent-news" class="text-sm">
+                        {{#news}}
+                        <p class="text-sm mt-2">
+                            [{{{time}}}] {{{content}}}
+                        </p>
+                        {{/news}}
+                    </div>
+
+                </aside>
+            </div>
+            <!--END SIDEBAR-->
+        </div>
+    </div>
+
+    {{> footer}}
+</body>
+
+</html>

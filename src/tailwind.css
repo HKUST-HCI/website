@@ -1,0 +1,76 @@
+/* Tailwind includes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Below are custom styles abstracted by @apply.
+ * But please don't overuse it because it goes against Tailwind's philosophy.
+ * https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction */
+
+.link {
+  @apply text-blue-500 hover:text-blue-400 underline;
+}
+
+.left-half {
+  @apply left-[50%] translate-x-[-50%];
+}
+
+.top-half {
+  @apply top-[50%] translate-y-[-50%];
+}
+
+.list, .list ul, .list ol, .list menu {
+  @apply list-outside ml-6;
+}
+
+.card {
+  @apply bg-white rounded-sm shadow-md p-8;
+}
+
+/* Below are custom CSS rules.
+ * But please don't overuse it because it goes against Tailwind's philosophy.
+ * https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction */
+body {
+  background-color: #eee;
+}
+
+.tooltip {
+  @apply hidden;
+}
+
+.tooltip[data-show] {
+  @apply block
+}
+
+.tooltip-arrow,
+.tooltip-arrow::before {
+  @apply absolute w-2 h-2 bg-inherit
+}
+
+.tooltip-arrow {
+  @apply invisible
+}
+
+.tooltip-arrow::before {
+  @apply visible rotate-45
+}
+
+.tooltip-arrow {
+  @apply invisible before:visible rotate-45
+}
+
+.tooltip[data-popper-placement^='top'] > .tooltip-arrow {
+  @apply -bottom-1
+}
+
+.tooltip[data-popper-placement^='bottom'] > .tooltip-arrow {
+  @apply -top-1
+}
+
+.tooltip[data-popper-placement^='left'] > .tooltip-arrow {
+  @apply -right-1
+}
+
+.tooltip[data-popper-placement^='right'] > .tooltip-arrow {
+  @apply -left-1
+}
