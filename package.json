@@ -1,4 +1,10 @@
 {
+	"name": "hkust-hci-initiative-website",
+	"private": true,
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"packageManager": "pnpm@7.13.5",
 	"devDependencies": {
 		"grunt": "^1.5.3",
 		"grunt-contrib-copy": "^1.0.0",
