@@ -9,7 +9,7 @@
 <body>
     {{> header}}
 
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 text-lg">
         <div class="flex flex-wrap md:flex-nowrap md:gap-x-8 gap-y-8">
             <div class="w-full md:w-2/3">
                 <!--POST-->
@@ -26,16 +26,12 @@
                         <ul id="slider-slides" class="w-full h-full">
                             {{#slides}}
                             <li class="w-full h-full absolute top-0 left-0 opacity-0 transition duration-500">
-                                {{#url}}
-                                <a href="{{{.}}}">
-                                    {{/url}}
+                                {{#url}}<a href="{{{.}}}">{{/url}}
                                     <img src="{{{image}}}" alt="{{title}}" class="w-full h-full object-contain">
                                     <div
-                                        class="absolute left-0 right-0 bottom-0 p-3 text-right bg-black/50 text-white text-sm">
+                                        class="absolute left-0 right-0 bottom-0 p-3 text-right bg-black/50 text-white text-base">
                                         {{title}}</div>
-                                    {{#url}}
-                                </a>
-                                {{/url}}
+                                {{#url}}</a>{{/url}}
                             </li>
                             {{/slides}}
                         </ul>
@@ -107,7 +103,7 @@
                 <!-- <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showCalendars=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hcihkust%40gmail.com&amp;color=%231B887A&amp;ctz=Asia%2FHong_Kong" style="border-width:0" width="390" height="300" frameborder="0" scrolling="no"></iframe> -->
                 <aside class="bg-white rounded-sm shadow-md p-8">
                     <h2 class="font-bold uppercase">Highlight</h2>
-                    <div id="highlight" class="text-sm">
+                    <div id="highlight" class="text-base">
                         <p class="mt-2">
                             We are looking for Postdoc, PhD, MPhil, and Visiting Intern.
                         </p>
@@ -118,7 +114,7 @@
                     </div>
 
                     <h2 class="font-bold uppercase mt-6">Activities</h2>
-                    <div id="activities" class="text-sm">
+                    <div id="activities" class="text-base">
                         <p class="mt-2">
                             <a href="https://www.interaction-design.org/calendar/" class="link">Calendar of HCI
                                 Conference/Journal</a>
@@ -126,9 +122,9 @@
                     </div>
 
                     <h2 class="font-bold uppercase mt-6">Recent News</h2>
-                    <div id="recent-news" class="text-sm">
+                    <div id="recent-news" class="text-base">
                         {{#news}}
-                        <p class="text-sm mt-2">
+                        <p class="mt-2">
                             [{{{time}}}] {{{content}}}
                         </p>
                         {{/news}}

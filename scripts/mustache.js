@@ -61,7 +61,8 @@ const dataPreprocessors = {
         data.forEach(group => {
             group.members.forEach(person => {
                 person.color = classColor[person.class] || classColor.default;
-                person.url = person.url || '#'
+                // person.url = person.url || '#'
+                person.image = person.image || "img/people/default.png"
             })
         })
         return data;

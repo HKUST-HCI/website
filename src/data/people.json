@@ -138,10 +138,10 @@
         "type": "Past Members",
         "members": [
             {
-                "name": "Naveen Pitipornvivat",
+                "name": "Emily Yang Yang",
                 "position": "MPhil",
                 "class": "mphil",
-                "image": "img/people/naveen.png"
+                "image": "img/people/yang.png"
             },
             {
                 "name": "Andrew Cattle",
@@ -150,43 +150,72 @@
                 "image": "img/people/andrew.png"
             },
             {
+                "name": "Quan Li",
+                "url": "https://thinkavatar.github.io/",
+                "position": "PhD",
+                "class": "phd"
+            },
+            {
                 "name": "Mingfei Sun",
+                "url": "https://mingfeisun.github.io/",
                 "position": "PhD",
                 "class": "phd",
-                "url": "http://www.mingfeisun.com/",
                 "image": "img/people/mingfei.png"
             },
             {
-                "name": "Zhida Sun",
+                "name": "Taewook Kim",
+                "url": "https://hcikim.github.io/",
+                "position": "PhD",
+                "class": "phd"
+            },
+            {
+                "name": "Meng Xia",
+                "url": "https://www.xiameng.org/",
+                "position": "PhD",
+                "class": "phd"
+            },
+            {
+                "name": "Ziming Wu",
+                "url": "http://home.cse.ust.hk/~zwual/",
                 "position": "PhD",
                 "class": "phd",
-                "url": "http://zsunaj.student.ust.hk/",
-                "image": "img/people/zhida.png"
+                "image": "img/people/ziming.png"
             },
             {
                 "name": "Zhenjie Zhao",
+                "url": "https://zhaozj89.github.io/",
                 "position": "PhD",
                 "class": "phd",
                 "image": "img/people/zhenjie.png"
             },
             {
-                "name": "Ziming Wu",
+                "name": "Zhida Sun",
+                "url": "https://zhdsun.github.io/",
                 "position": "PhD",
                 "class": "phd",
-                "url": "http://ihome.ust.hk/~zwual/",
-                "image": "img/people/ziming.png"
+                "image": "img/people/zhida.jpg"
             },
             {
-                "name": "Yang Yang",
+                "name": "Man Ching Ko",
+                "position": "PhD",
+                "class": "phd"
+            },
+            {
+                "name": "Zhenhui Peng",
+                "url": "http://zhenhuipeng.com/",
+                "position": "PhD",
+                "class": "phd"
+            },
+            {
+                "name": "Feng Han",
+                "position": "PhD",
+                "class": "phd"
+            },
+            {
+                "name": "Wenjie Yang",
+                "url": "https://ywj-cs.github.io/",
                 "position": "MPhil",
-                "class": "mphil",
-                "image": "img/people/yang.png"
-            },
-            {
-                "name": "Hong Peng",
-                "position": "Visiting Intern",
-                "class": "intern",
-                "image": "img/people/ann.png"
+                "class": "mphil"
             }
         ]
     }
