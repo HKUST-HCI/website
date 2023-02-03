@@ -43,7 +43,7 @@ jobs:
       - uses: burnett01/rsync-deployments@5.2.1
         name: Rsync deployment
         with: 
-          switches: -avzr --delete
+          switches: -avzr
           path: build/
           remote_path: ${{ secrets.RAS_DEPLOY_PATH }}
           remote_host: ${{ secrets.RAS_DEPLOY_HOST }}
