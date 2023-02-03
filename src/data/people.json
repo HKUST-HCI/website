@@ -81,12 +81,14 @@
                 "name": "Shuai Ma",
                 "position": "PhD Candidate",
                 "class": "phd",
+		"url": "https://shuaima.cc/",
                 "image": "img/people/default.png"
             },
             {
                 "name": "Qian Zhu",
                 "position": "PhD Candidate",
                 "class": "phd",
+		"url": "https://zhuqian.org/",
                 "image": "img/people/default.png"
             },
             {
@@ -130,6 +132,7 @@
                 "name": "Jiehui Luo",
                 "position": "MPhil Student",
                 "class": "mphil",
+		"url": "https://jhluo.com/",
                 "image": "img/people/default.png"
             }
         ]
