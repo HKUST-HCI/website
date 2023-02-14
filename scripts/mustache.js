@@ -62,7 +62,7 @@ const dataPreprocessors = {
             group.members.forEach(person => {
                 person.color = classColor[person.class] || classColor.default;
                 // person.url = person.url || '#'
-                person.image = person.image || "img/people/default.png"
+                person.image = person.image || "img/people/default.jpg"
             })
         })
         return data;
@@ -98,8 +98,8 @@ const dataPreprocessors = {
 if (dataPreprocessors.people) {
     PEOPLE = dataPreprocessors.people(PEOPLE)
 }
-const PEOPLE_NAME_BY_URL = PEOPLE.reduce((acc, {members}) => {
-    const group = members.reduce((accMembers, {name, url}) => ({
+const PEOPLE_NAME_BY_URL = PEOPLE.reduce((acc, { members }) => {
+    const group = members.reduce((accMembers, { name, url }) => ({
         ...accMembers,
         [name]: url,
     }), {})
