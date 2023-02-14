@@ -114,3 +114,8 @@ At build time
 
 At runtime
 - [ ] ...
+
+### Todo
+
+- [ ] Perhaps I should migrate to jinja... Mustache is too basic and there is no wide syntax support in mainstream editors.
+- [ ] Tailwind seems an overkill for small projects.
