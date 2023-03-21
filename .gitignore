@@ -1,6 +1,10 @@
 # CUSTOM build files
 build/
 .DS_Store
+# Dirty patch of publication from Prof. Ma's site
+src/data/cache.html
+src/data/publication-old.json
+src/data/scrape.json
 
 # Logs
 logs

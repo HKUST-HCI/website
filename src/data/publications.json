@@ -1,96 +1,1433 @@
 [
     {
-        "year": "2016",
+        "year": 2022,
         "papers": [
             {
-                "authors": [
-                    "Zhida Sun",
-                    "Mingfei Sun",
-                    "Nan Cao",
-                    "Xiaojuan Ma"
-                ],
-                "title": "VideoForest: Interactive Visual Summarization of Video Streams Based on Danmu Data",
-                "year": "2016",
-                "venue": "SIGGRAPH ASIA 2016 Symposium on Visualization (SA '16)",
+                "category": "Journal",
+                "title": "Modeling Adaptive Expression of Robot Learning Engagement and Exploring its Effects on Human Teachers. ",
+                "authorLine": "Ma, S., Sun, M., and Ma, X.",
+                "venue": "ACM Transactions on Computer-Human Interaction (TOCHI)",
+                "year": 2022,
                 "links": {
-                    "url": "http://dl.acm.org/citation.cfm?id=3002159",
-                    "pdf": "http://ihome.ust.hk/~zsunaj/papers/sun_siggraphasia16_paper_revised.pdf"
+                    "url": "https://dl.acm.org/doi/10.1145/3571813"
                 },
-                "image": "img/publications/videoforest.png"
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-LearningEngagement.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Metaphoraction: Support Gesture-based Interaction Design with Metaphorical Meanings. ",
+                "authorLine": "Sun, Z., Wang, S., Liu, C., and Ma, X.",
+                "venue": "ACM Transactions on Computer-Human Interaction (TOCHI)",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/10.1145/3511892"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-metaphoraction.jpeg"
+            },
+            {
+                "category": "Journal",
+                "title": "CReBot: Exploring interactive question prompts for critical paper reading. ",
+                "authorLine": "Peng, Z., Liu, Y., Zhou, H., Xu, Z., and Ma, X.",
+                "venue": "International Journal of Human - Computer Studies (IJHCS)",
+                "year": 2022,
+                "links": {
+                    "url": "https://doi.org/10.1016/j.ijhcs.2022.102898",
+                    "doi": "https://doi.org/10.1016/j.ijhcs.2022.102898"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-CReBot.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Mobilizing Instrumental Childcare Support for Postpartum Mothers: Needs for and Barriers to Infant-centric Family Informatics Practices in Hong Kong. ",
+                "authorLine": "Ko, M. C., & Ma, X.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3555084"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-FamilyInfo.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Bias-Aware Design for Informed Decisions: Raising Awareness of Self-Selection Bias in User Ratings and Reviews. ",
+                "authorLine": "Zhu, Q., Lo, L. Y. H., Xia, M., Chen, Z., & Ma, X.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3555597"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Bias.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Persua: A visual interactive system to enhance the persuasiveness of arguments in online discussion. ",
+                "authorLine": "Xia, M., Zhu, Q., Wang, X., Nie, F., Qu, H., & Ma, X.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3555210"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Persua.png"
+            },
+            {
+                "category": "Journal",
+                "title": "PlanHelper: Supporting Activity Plan Construction with Answer Posts in Community-based QA Platforms. ",
+                "authorLine": "Liu, C., Huang, Z., Liu, D., Zhou, S., Peng, Z., & Ma, X.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3555555"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-PlanHelper.png"
+            },
+            {
+                "category": "Journal",
+                "title": "What Do Users Think of Promotional Gamification Schemes? A Qualitative Case Study in a Question Answering Website. ",
+                "authorLine": "Hadi Mogavi, R., Zhang, Y., Haq, E. U., Wu, Y., Hui, P., & Ma, X.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3555124"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-PromotionalGamification.png"
+            },
+            {
+                "category": "Journal",
+                "title": "More Gamification Is Not Always Better: A Case Study of Promotional Gamification in a Question Answering Website. Proceedings of the ACM on Human-Computer Interaction, 6(CSCW2), Article 452, 32 pages. ",
+                "authorLine": "Hadi Mogavi, R., Haq, E. U., Gujar, S., Hui, P., & Ma, X.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3555553"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-WinterBash.png"
+            },
+            {
+                "category": "Journal",
+                "title": "MedChemLens: An Interactive Visual Tool to Support Direction Selection in Interdisciplinary Experimental Research of Medicinal Chemistry. ",
+                "authorLine": "Shi, C., Nie, F., Hu, Y., Xu, Y., Chen, L., Ma, X., & Luo, Q.",
+                "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+                "year": 2022,
+                "links": {
+                    "url": "https://ieeexplore.ieee.org/abstract/document/9904486/"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-MedChemLens.png"
+            },
+            {
+                "category": "Journal",
+                "title": "RankAxis: Towards a Systematic Combination of Projection and Ranking in Multi-Attribute Data Exploration. ",
+                "authorLine": "Liu, Q., Ren, Y., Zhu, Z., Li, D., Ma, X., & Li, Q.",
+                "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+                "year": 2022,
+                "links": {
+                    "url": "https://ieeexplore.ieee.org/abstract/document/9903343/"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-RankAxis.png"
+            },
+            {
+                "category": "Journal",
+                "title": "PromotionLens: Inspecting Promotion Strategies of Online E-commerce via Visual Analytics. ",
+                "authorLine": "Zhang, C., Wang, X., Zhao, C., Ren, Y., Zhang, T., Peng, Z., Fan, X., Ma, X. and Li, Q.",
+                "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+                "year": 2022,
+                "links": {
+                    "url": "https://ieeexplore.ieee.org/abstract/document/9903289/"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-PromotionLens.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Understanding and Modeling Viewers First Impressions with Images in Online Medical Crowdfunding Campaigns. In ",
+                "authorLine": "Guo, Q., Zhou, S., Wu, Y., Peng, Z., & Ma, X.",
+                "venue": "Proc. CHI2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3491102.3501830"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-OMCC.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Glancee: An Adaptable System for Instructors to Grasp Student Learning Status in Synchronous Online Classes. In ",
+                "authorLine": "Ma, S., Zhou, T., Nie, F., & Ma, X.",
+                "venue": "Proc. CHI2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3491102.3517482"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Glancee.png"
+            },
+            {
+                "category": "Conference",
+                "title": "How to Save Lives with Microblogs? Lessons From the Usage of Weibo for Requests for Medical Assistance During COVID-19. In ",
+                "authorLine": "Yang, W., Wu, Z., Mok, N. Y., & Ma, X.",
+                "venue": "Proc. CHI2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3491102.3517591"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Supertopic.png"
+            },
+            {
+                "category": "Conference",
+                "title": "A Personalized Visual Aid for Selections of Appearance Building Products with Long-term Effects. In ",
+                "authorLine": "Shi, C., Jiang, Z., Ma, X., & Luo, Q.",
+                "venue": "Proc. CHI2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3491102.3517659"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Skinmirror.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Telling Stories from Computational Notebooks: AI-Assisted Presentation Slides Creation for Presenting Data Science Work. In ",
+                "authorLine": "Zheng, C., Wang, D., Wang, A. Y., & Ma, X.",
+                "venue": "Proc. CHI2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3491102.3517615"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-NB2Slide.png"
+            },
+            {
+                "category": "Conference",
+                "title": "TalkTive: A Conversational Agent Using Backchannels to Engage Older Adults in Neurocognitive Disorders Screening. In ",
+                "authorLine": "Ding, Z., Kang, J., HO, T. O. T., Wong, K. H., Fung, H. H., Meng, H., & Ma, X.",
+                "venue": "Proc. CHI2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3491102.3502005"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-TalkTive.png"
+            },
+            {
+                "category": "Conference",
+                "title": "RoleSeer: Understanding Informal Social Role Changes in MMORPGs via Visual Analytics. In ",
+                "authorLine": "Xie, L., Wu, Z., Xu, P., Li, W., Ma, X., & Li, Q.",
+                "venue": "Proc. CHI2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3491102.3517712"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-RoleSeer.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Educational Question Generation of Children Storybooks via Question Type Distribution Learning and Event-centric Summarization. In ",
+                "authorLine": "Zhao, Z., Hou, Y., Wang, D., Yu, Mo., Liu, C., and Ma, X.",
+                "venue": "Proc. ACL2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://aclanthology.org/2022.acl-long.348"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-EducationalQA.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Fantastic Questions and Where to Find Them: FairytaleQA  An Authentic Dataset for Narrative Comprehension. In ",
+                "authorLine": "Xu, Y., Wang, D., Yu, M., Ritchie, D., Yao, B., Wu, T., Zhang, Z., Li, T., Bradford, N., Sun, B., Hoang, T., Sang, Y., Hou, Y., Ma, X., Yang, D., Peng, N., Yu, Z., and Warschauer, M.",
+                "venue": "Proc. ACL2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://aclanthology.org/2022.acl-long.34"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-FairytaleQA.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Know it to Defeat it: Exploring Health Rumor Characteristics and Debunking Efforts on Chinese Social Media during COVID-19 Crisis. In ",
+                "authorLine": "Yang, W., Wang, S., Peng, Z., Shi, C., Ma, X., & Yang, D.",
+                "venue": "Proc. AAAI ICWSM2022",
+                "year": 2022,
+                "links": {
+                    "pdf": "https://arxiv.org/pdf/2109.12372.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-HealthRumor.png"
+            },
+            {
+                "category": "Conference",
+                "title": "When Gamification Spoils Your Learning: A Qualitative Case Study of Gamification Misuse in a Language-Learning App. In ",
+                "authorLine": "Hadi Mogavi, R., Guo, B., Zhang, Y., Haq, E. U., Hui, P., & Ma, X.",
+                "venue": "Proc. ACM L@S2022",
+                "year": 2022,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3491140.3528274"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-GamificationMisuse.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Exploring the Effects of Self-Mockery to Improve Task-Oriented Chatbot's Social Intelligence. In ",
+                "authorLine": "Liu, C., Zhou, S., Zhang, Y., Liu, D., Peng, Z., and Ma, X.",
+                "venue": "Proc. ACM DIS2022",
+                "year": 2022,
+                "links": {
+                    "null": ""
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-SelfMockery.png"
+            },
+            {
+                "category": "Conference",
+                "title": "The Crafts+Fabrication Workshop: Engaging Students with Intangible Cultural Heritage-Oriented Creative Design. In ",
+                "authorLine": "ZLu, Z., Tan, P., Ji, Y., and Ma, X.",
+                "venue": "Proc. ACM DIS2022",
+                "year": 2022,
+                "links": {
+                    "null": ""
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Craft.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Evaluating the Effect of Enhanced Text-Visualization Integration on Combating Misinformation in Data Story. In ",
+                "authorLine": "Zheng., C. and Ma, X.",
+                "venue": "Proc. IEEE PacificVis2022",
+                "year": 2022,
+                "links": {
+                    "url": "https://youtu.be/hutiNbibNJQ"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-VisMisinfo.png"
             }
         ]
     },
     {
-        "year": "2015",
+        "year": 2021,
         "papers": [
             {
-                "authors": [
-                    "Xiaojuan Ma",
-                    "Yu Li",
-                    "Jodi Forlizzi",
-                    "Steven Dow"
-                ],
-                "title": "Exiting the Design Studio: Leveraging Online Participants for Early-Stage Design Feedback",
-                "year": "2015",
-                "venue": "Proc. CSCW2015",
+                "category": "Journal",
+                "title": "Inspecting the Running Process of Horizontal Federated Learning via Visual Analytics. ",
+                "authorLine": "Li, Q., Wei, X., Lin, H., Liu, Y., Chen, T., and Ma, X.",
+                "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+                "year": 2021,
                 "links": {
-                    "url": "http://dl.acm.org/citation.cfm?id=2675174",
+                    "url": "https://ieeexplore.ieee.org/document/9408377"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-HorFL.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Investigating the Effects of Robot Engagement Communication on Learning from Demonstration. ",
+                "authorLine": "Sun, M., Peng, Z., Xia, M. and Ma, X.",
+                "venue": "International Journal of Social Robotics",
+                "year": 2021,
+                "links": {
+                    "pdf": "https://link.springer.com/content/pdf/10.1007/s12369-021-00825-2.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-RLfD.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Characterizing Student Engagement Moods for Dropout Prediction in Question Pool Websites. ",
+                "authorLine": "Mogavi, R.H., Ma, X., and Hui, P.",
+                "venue": "Proc. ACM Hum.-Comput. Interact",
+                "year": 2021,
+                "links": {
+                    "url": "https://doi.org/10.1145/3449086",
+                    "doi": "https://doi.org/10.1145/3449086"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-dropout.png"
+            },
+            {
+                "category": "Journal",
+                "title": "CASS: Towards Building a Social-Support Chatbot for Online Health Community. ",
+                "authorLine": "Wang, L., Wang, D., Tian, F., Peng, Z., Fan, X., Zhang, Z., Ma, S., Yu, M., Ma, X., and Wang, H.",
+                "venue": "Proc. ACM Hum.-Comput. Interact",
+                "year": 2021,
+                "links": {
+                    "url": "https://doi.org/10.1145/3449083",
+                    "doi": "https://doi.org/10.1145/3449083"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-CASS.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Designing an Artificial Agent for Cognitive Apprenticeship Learning of Elevator Pitch in Virtual Reality. ",
+                "authorLine": "Zhao, Z. and Ma, X.",
+                "venue": "IEEE Transactions on Cognitive and Developmental Systems (TCDS)",
+                "year": 2021,
+                "links": {
+                    "url": "https://ieeexplore.ieee.org/document/9409128"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-VRCoach.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Effects of Support-Seekers Community Knowledge on Their Expressed Satisfaction with the Received Comments in Mental Health Communities. In ",
+                "authorLine": "Peng, Z., Ma, X., Yang, D., Tsang, K.W., and Guo, Q.",
+                "venue": "Proc. CHI2021",
+                "year": 2021,
+                "links": {
+                    "url": "https://doi.org/10.1145/3411764.3445446",
+                    "doi": "https://doi.org/10.1145/3411764.3445446"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-OMHC2.png"
+            },
+            {
+                "category": "Conference",
+                "title": "MetaMap: Supporting Visual Metaphor Ideation through Multi-dimensional Example-based Exploration. In ",
+                "authorLine": "Kang, Y.*, Sun, Z.*, Wang, S., Huang, Z., Wu, Z., and Ma, X.",
+                "venue": "Proc. CHI2021",
+                "year": 2021,
+                "links": {
+                    "url": "https://doi.org/10.1145/3411764.3445325",
+                    "doi": "https://doi.org/10.1145/3411764.3445325"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Metamap.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Hybrid Paper-Digital Interfaces: A Systematic Literature Review. In ",
+                "authorLine": "Han, F.*, Cheng, Y.*, Strachan, M., and Ma, X.",
+                "venue": "Proc. Designing Interactive Systems (DIS) 2021",
+                "year": 2021,
+                "links": {
+                    "null": ""
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-PaperPlus.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Exploring Designers Practice of Online Example Management for Supporting Mobile UI Design. In ",
+                "authorLine": "Wu, Z.*, Xu, Q.*, Liu, Y.*, Peng, Z., Xu, Y., and Ma, X.",
+                "venue": "Proc. ACM International Conference on Mobile Human-Computer Interaction (MobileHCI) 2021",
+                "year": 2021,
+                "links": {
+                    "null": ""
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-MobileExmp.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Meta-Reinforcement Learning for Mastering Multiple Skills and Generalizing across Environments in Text-based Games. In ",
+                "authorLine": "Zhao, Z., Sun, M., and Ma, X.",
+                "venue": "Proc. ACL Workshop on Meta Learning for NLP (MetaNLP)",
+                "year": 2021,
+                "links": {
+                    "null": ""
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-MetaRL.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Meta-learning for Task-oriented Household Text Games. In ",
+                "authorLine": "Zhao, Z. and Ma, X.",
+                "venue": "Proc. ACL Workshop on Meta Learning for NLP (MetaNLP)",
+                "year": 2021,
+                "links": {
+                    "null": ""
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-TextGame.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Student Barriers to Active Learning in Synchronous Online Classes: Characterization, Reflections, and Suggestions. In ",
+                "authorLine": "Mogavi, R.H., Zhao, Y., Haq, E.U., Hui, P. and Ma, X.",
+                "venue": "Proc. Learning at Scale (L@Scale) 2021",
+                "year": 2021,
+                "links": {
+                    "null": ""
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-ActiveL.png"
+            }
+        ]
+    },
+    {
+        "year": 2020,
+        "papers": [
+            {
+                "category": "Journal",
+                "title": "QLens: Visual Analytics of Multi-step Problem-solving Behaviors for Improving Question Design. ",
+                "authorLine": "Xia, M., Velumani, P., Xu, P., Wang, Y., Qu, H., and Ma, X.",
+                "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9222360"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-QLens.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Fostering Engagement in Technology-Mediated Stress Management: A Comparative Study of Biofeedback Designs. ",
+                "authorLine": "Sun, Z., Reani, M., Li, Q., and Ma, X.",
+                "venue": "International Journal of Human-Computer Studies (IJHCS)",
+                "year": 2020,
+                "links": {
+                    "url": "https://www.sciencedirect.com/science/article/pii/S1071581920300343"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Biofeedback.jpg"
+            },
+            {
+                "category": "Journal",
+                "title": "Sparse Mobile Crowdsensing with Differential and Distortion Location Privacy. ",
+                "authorLine": "Wang, L., Zhang, D., Yang, D., Lim, B.Y., Han, X., and Ma, X.",
+                "venue": "IEEE Transactions on Information Forensics & Security",
+                "year": 2020,
+                "links": {
+                    "url": "https://ieeexplore.ieee.org/document/9007517?source=authoralert"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-DP.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Exploring the Effects of Technological Writing Assistance for Support Providers in Online Mental Health Community. In ",
+                "authorLine": "Peng, Z., Guo, Q., Tsang, K.W., and Ma, X.",
+                "venue": "Proc. CHI2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376695"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-OMHC.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Predicting and Diagnosing User Engagement with Mobile UI Animation via a Data-Driven Approach. In ",
+                "authorLine": "Wu, Z., Jiang, Y., Liu, Y., and Ma, X.",
+                "venue": "Proc. CHI2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376324"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-AniLens.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "ARchitect: Building Interactive Virtual Experiences from Physical Affordances by Bringing Human-in-the-Loop. In ",
+                "authorLine": "Lin, C., Cheng, T.Y., and Ma, X.",
+                "venue": "Proc. CHI2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376614"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-ARchitect.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "RestoreVR: Generating Embodied Knowledge and Situated Experience of Dunhuang Mural Conservation via Interactive Virtual Reality. In ",
+                "authorLine": "Fu, X., Zhu, Y., Xiao, Z., Xu, Y., and Ma, X.",
+                "venue": "Proc. CHI2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376673"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-RestoreVR.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "MaraVis: Representation and Coordinated Intervention of Medical Encounters in Urban Marathon. In ",
+                "authorLine": "Li, Q., Lin, H., Wei, X., Huang, Y., Fan, L., Du, J., Ma., X., Chen, T.",
+                "venue": "Proc. CHI2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376281"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-MaraVis.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "VoiceCoach: Interactive Evidence-based Training for Voice Modulation Skills in Public Speaking. In ",
+                "authorLine": "Wang, X., Zeng, H., Wang, Y., Wu, A., Sun, Z., Ma, X., and Qu, H.",
+                "venue": "Proc. CHI2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376726"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-VoiceCoach.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "EmoG: Supporting the Sketching of Emotional Expressions for Storyboarding. In ",
+                "authorLine": "Shi, Y., Cao, N., Ma., X., Chen, S., and Liu, P.",
+                "venue": "Proc. CHI2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376520"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-EmoG.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Getting the Healthcare We Want: the Use of Online \"Ask the Doctor\" Platforms in Practice. In ",
+                "authorLine": "Ding, X., Gui, X., Ma., X., Ding, Z., and Chen, Y.",
+                "venue": "Proc. CHI2020 (Honourable Mention Award)",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376699"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-AtD2.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Understanding User Perceptions of Robot's Delay, Voice Quality-Speed Trade-off and GUI during Conversation. In ",
+                "authorLine": "Peng, Z., Mo, K., Zhu, X., Chen, J., Chen, Z., Xu, Q., and Ma, X.",
+                "venue": "Proc. CHI2020 EA",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3334480.3382792"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Xiaowei.png"
+            },
+            {
+                "category": "Conference",
+                "title": "SeqDynamics: Visual Analytics for Evaluating Online Problem-solving Dynamics. In ",
+                "authorLine": "Xia, M., Xu, M., Cheng, T., Lin, C., Qu, H., and Ma, X.",
+                "venue": "Proc. EuroVis2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13998"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-SeqDynamics.png"
+            },
+            {
+                "category": "Conference",
+                "title": "\"A Postcard from Your Food Journey in the Past\": Promoting Self-Reflection on Social Food Posting. In ",
+                "authorLine": "Sun, Z., Wang, S., Yang, W., Yürüten, O, Shi, C., and Ma, X.",
+                "venue": "Proc. DIS2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3357236.3395475"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-postcard.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Learning Physical Common Sense as Knowledge Graph Completion via BERT Data Augmentation and Constrained Tucker Factorization. In ",
+                "authorLine": "Zhao, Z, Papalexakis, E., and Ma, X.",
+                "venue": "Proc. EMNLP 2020",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://www.aclweb.org/anthology/2020.emnlp-main.266.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-physicalCS.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Using Information Visualization to Promote Students Reflection on Gaming the system in Online Learning. In ",
+                "authorLine": "Xia, M., Asano, Y., Williams, J.J., Qu, H., and Ma, X.",
+                "venue": "Proc. Learning at Scale (L@S2020)",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3386527.3405924"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-gameSys.png"
+            },
+            {
+                "category": "Conference",
+                "title": "A Visual Analytics Approach to Scheduling Customized Shuttle Buses via Perceiving Passengers' Travel Demands. In ",
+                "authorLine": "Liu, Q., Li, Q., Tang, C., Lin, H., Ma, X., and Chen, T.",
+                "venue": "Proc. IEEE VIS 2020 Short Paper",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://arxiv.org/pdf/2009.02538.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-Shuttlebus.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Situated Learning of Soft Skills with an Interactive Agent in Virtual Reality via Multimodal Feedback. In ",
+                "authorLine": "Zhao, Z. and Ma, X.",
+                "venue": "Proc. UIST 2020 EA",
+                "year": 2020,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3379350.3416174"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-VRCoach.png"
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "papers": [
+            {
+                "category": "Journal",
+                "title": "Love in Lyrics: An Exploration of Supporting Textual Manifestation of Affection in Social Messaging. ",
+                "authorLine": "Kim, T., Lee, J., Peng, Z., and Ma, X.",
+                "venue": "Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 79 (November 2019), 27 pages",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3359181"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-lyrics.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Ridesharing Car Detection by Transfer Learning. ",
+                "authorLine": "Wang, L., Geng, X., Ke, J., Peng, C., Ma, X., Zhang, D., and Yang, Q.",
+                "venue": "Artificial Intelligence",
+                "year": 2019,
+                "links": {
+                    "url": "https://www.sciencedirect.com/science/article/pii/S0004370219300165"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-ridesourcingAIJ.jpg"
+            },
+            {
+                "category": "Journal",
+                "title": "DataShot: Automatic Generation of Fact Sheets from Tabular Data. ",
+                "authorLine": "Wang, Y.*, Sun, Z.*, Zhang, H., Cui, W., Xu, K., Ma, X., Zhang, D.",
+                "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8805442"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-datashot.png"
+            },
+            {
+                "category": "Journal",
+                "title": "ShadowPlay2.5D: A 360-Degree Video Authoring Tool for Immersive Appreciation of Classical Chinese Poetry. ",
+                "authorLine": "Zhao, Z. and Ma, X.",
+                "venue": "ACM Journal on Computing and Cultural Heritage (JOCCH)",
+                "year": 2019,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3352590"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-shadowplay.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Gender Profiling from a Single Snapshot of Apps Installed on a Smartphone: An Empirical Study. ",
+                "authorLine": "Zhao, S., Xu, Y., Ma, X., Jiang, Z., Luo, Z., Li, S., Yang, L.T., Dey, A., and Pan, G.",
+                "venue": "IEEE Transactions on Industrial Informatics",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://ieeexplore.ieee.org/iel7/9424/4389054/08820062.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-GenderApp.png"
+            },
+            {
+                "category": "Book or Book Chapter",
+                "title": "",
+                "authorLine": "Li, Q., Wu, Z., Qu, H., and Ma, X.",
+                "venue": "Co-design of an Interactive Analytics System for Multiplayer Online Battle Arena Game Occurrences",
+                "year": 2019,
+                "links": {
+                    "read more": "http://www.autoteles.org/gdabook/"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-CoDesign.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Text Emotion Distribution Learning from Small Sample: A Meta-Learning Approach. In ",
+                "authorLine": "Zhao, Z. and Ma, X.",
+                "venue": "Proc. EMNLP-IJCNLP 2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://www.aclweb.org/anthology/D19-1408.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-EDL.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Embedding Lexical Features via Tensor Decomposition for Small Sample Humor Recognition. In ",
+                "authorLine": "Zhao, Z., Cattle, A., Papalexakis, E., and Ma, X.",
+                "venue": "Proc. EMNLP-IJCNLP 2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://www.aclweb.org/anthology/D19-1669.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-tensorHumor.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Adversarial Imitation Learning from Incomplete Demonstrations. In ",
+                "authorLine": "Sun, M. and Ma, X.",
+                "venue": "Proc. IJCAI2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://arxiv.org/pdf/1905.12310.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-AGAIL.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Cross-City Transfer Learning for Deep Spatio-Temporal Prediction. In ",
+                "authorLine": "Wang, L., Geng, X., Ma, X., Liu, F., and Yang, Q.",
+                "venue": "Proc. IJCAI2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://arxiv.org/pdf/1802.00386.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-crossCity.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Design and Evaluation of Service Robots Proactivity in Decision-Making Support Process. In ",
+                "authorLine": "Peng, Z., Kwon, Y., Lu, J., Wu, Z., and Ma, X.",
+                "venue": "Proc. CHI2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3290605.3300328"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-robotProactivity.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Understanding and Modeling User-Perceived Brand Personality from Mobile Application UIs. In ",
+                "authorLine": "Wu, Z., Kim, T., Li, Q., and Ma, X.",
+                "venue": "Proc. CHI2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3290605.3300443"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-mobileUI.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "PeerLens: Peer-inspired Interactive Learning Path Planning in Online Question Pool. In ",
+                "authorLine": "Xia, M., Sun, M., Wei, H., Chen, Q., Wang, Y., Shi, L., Qu, H., and Ma., X.",
+                "venue": "Proc. CHI2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3290605.3300864"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-PeerLens.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Exploring Perceived Emotional Intelligence of Personality-Driven Virtual Agents in Handling User Challenges. In ",
+                "authorLine": "Ma, X.*, Yang, E.*, and Fung, P.",
+                "venue": "Proc. WWW2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3308558.3313400"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-robotEI.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Rating Worker Skills and Task Strains in Collaborative Crowd Computing: A Competitive Perspective. In ",
+                "authorLine": "Trimponias, G.*, Ma, X.*, and Yang, Q.",
+                "venue": "Proc. WWW2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3308558.3313569"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-rateSkill.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "An AR Benchmark System for Indoor Planar Object Tracking. In ",
+                "authorLine": "Wu, Z.*, Guo, J.*, Zhang, S., Zhao, C. and Ma, X.",
+                "venue": "2019 IEEE International Conference on Multimedia and Expo (ICME)",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8784868"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-ARBenchmark.png"
+            },
+            {
+                "category": "Conference",
+                "title": "GremoBot: Exploring Emotion Regulation in Group Chat. In ",
+                "authorLine": "Peng, Z., Kim, T., and Ma, X.",
+                "venue": "Conference Companion Publication of CSCW2019",
+                "year": 2019,
+                "links": {
+                    "pdf": "https://hcikim.github.io/assets/CSCW_GremoBot.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-GremoBot.png"
+            }
+        ]
+    },
+    {
+        "year": 2018,
+        "papers": [
+            {
+                "category": "Journal",
+                "title": "WeSeer: Visual Analysis for Better Information Cascade Prediction of WeChat Articles. ",
+                "authorLine": "Li, Q., Yi, L., Njotoprawiro, K.S., Qu, H., and Ma, X.",
+                "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+                "year": 2018,
+                "links": {
+                    "pdf": "https://ieeexplore.ieee.org/document/8451903/"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-weseer.jpg"
+            },
+            {
+                "category": "Journal",
+                "title": "Professional Medical Advice at your Fingertips: An empirical study of an online \"Ask the Doctor\" Platform. ",
+                "authorLine": "Ma, X., Gui, X., Fan, J., Zhao, M., Chen, Y., and Zheng, K.",
+                "venue": "Proc. ACM Hum.-Comput. Interact. 2, CSCW",
+                "year": 2018,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3274385"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-AtD.jpg"
+            },
+            {
+                "category": "Journal",
+                "title": "Mediating Color Filter Exploration with Color Theme Semantics Derived from Social Curation Data. ",
+                "authorLine": "Wu, Z., Sun, Z., Kim, T., Reani, M., Jay, C., and Ma, X.",
+                "venue": "Proc. ACM Hum.-Comput. Interact. 2, CSCW",
+                "year": 2018,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3274456"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-IFIL.jpg"
+            },
+            {
+                "category": "Journal",
+                "title": "Storytelling and Visualization: An Extended Survey. ",
+                "authorLine": "Tong, C., Roberts, R., Borgo, R., Walton, S., Laramee, R.S., Wegba, K., Lu, A., Wang, Y., Qu, H., Luo, Q., and Ma, X.",
+                "venue": "Information",
+                "year": 2018,
+                "links": {
+                    "url": "https://www.mdpi.com/2078-2489/9/3/65/htm"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-storytelling.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Eyes-Free Target Acquisition in Interaction Space around the Body for Virtual Reality. In ",
+                "authorLine": "Yan, Y., Yu, C., Ma, X., Huang, S., Iqbal, H., and Shi, Y.",
+                "venue": "Proc. CHI2018",
+                "year": 2018,
+                "links": {
+                    "pdf": "http://pi.cs.tsinghua.edu.cn/lab/papers/Eyes-Free.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-eyefree.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "VirtualGrasp: Leveraging Experience of Interacting with Physical Objects to Facilitate Digital Object Retrieval. In ",
+                "authorLine": "Yan, Y., Yu, C., Ma, X., Yi, X., Ke, S., and Shi, Y.",
+                "venue": "Proc. CHI2018",
+                "year": 2018,
+                "links": {
+                    "pdf": "http://pi.cs.tsinghua.edu.cn/lab/people/KeSun/sources/VirtualGrasp.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-virtualgrasp.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "EmbeddingVis: A Visual Analytics Approach to Comparative Network Embedding Inspection. In ",
+                "authorLine": "Li, Q., Njotoprawiro, K.S., Haleem, H., Chen, Q., Yi, C., and Ma, X.",
+                "venue": "Proc. IEEE VAST2018",
+                "year": 2018,
+                "links": {
+                    "pdf": "https://arxiv.org/abs/1808.09074"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-embeddingVis.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Geographic Differential Privacy for Mobile Crowd Coverage Maximization. In ",
+                "authorLine": "Wang, L., Qin, G., Yang, D., Han, X., and Ma, X.",
+                "venue": "Proc. AAAI2018",
+                "year": 2018,
+                "links": {
+                    "pdf": "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16065/15688"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-privacyAAAI.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Coloring with Words: Guiding Image Colorization Through Text-based Palette Generation. In ",
+                "authorLine": "Bahng, H., Yoo, S., Cho, W., Park, D. K., Wu, Z., Ma, X., & Choo, J.",
+                "venue": "Proc. ECCV2018",
+                "year": 2018,
+                "links": {
+                    "read more": "https://github.com/awesome-davian/Text2Colors"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-text2image.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "A Multi-Phased Co-design of an Interactive Analytics System for MOBA Game Occurrences. In ",
+                "authorLine": "Li, Q., Wu, Z., Xu, P., Qu, H., and Ma, X.",
+                "venue": "Proc. DIS2018",
+                "year": 2018,
+                "links": {
+                    "read more": "http://home.cse.ust.hk/~qliba/DIS_paper.htm"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-CoDesign.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Recognizing Humour using Word Associations and Humour Anchor Extraction. In ",
+                "authorLine": "Cattle, A. and Ma, X.",
+                "venue": "Proc. COLING2018",
+                "year": 2018,
+                "links": {
+                    "pdf": "https://www.aclweb.org/anthology/C18-1157"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-associationPredict.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Exploring the Effects of Scale in Augmented Reality-Empowered Visual Analytics. In ",
+                "authorLine": "Sun, Z., Han, F., and Ma, X.",
+                "venue": "Proc. CHI2018 EA",
+                "year": 2018,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-scale.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Designing Emotional Expressions of Conversational States for Voice Assistants: Modality and Engagement. In ",
+                "authorLine": "Shi, Y., Yan, X. Ma, X., Lou, Y., and Cao, N.",
+                "venue": "Proc. CHI2018 EA",
+                "year": 2018,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-siri.jpg"
+            }
+        ]
+    },
+    {
+        "year": 2017,
+        "papers": [
+            {
+                "category": "Journal",
+                "title": "A Visual Analytics Approach for Understanding Reasons behind Snowballing and Comeback in MOBA Games. ",
+                "authorLine": "Li, Q., Xu, P., Chan, Y. Y., Wang, Y., Wang, Z., Qu, H., and Ma, X.",
+                "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+                "year": 2017,
+                "links": {
+                    "pdf": "https://ieeexplore.ieee.org/iel7/2945/4359476/07534855.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-MOBA.jpg"
+            },
+            {
+                "category": "Book or Book Chapter",
+                "title": "",
+                "authorLine": "Marcus, A., Kurosu, M., Ma, X., Hashizume, A.",
+                "venue": "Cuteness Engineering: Designing Adorable Products and Services",
+                "year": 2017,
+                "links": {
+                    "read more": "http://www.springer.com/gb/book/9783319619606"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-cutebook.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices. In ",
+                "authorLine": "Sun, M., Zhao, Z., and Ma, X.",
+                "venue": "Proc. CHI2017",
+                "year": 2017,
+                "links": {
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3025453.3025469"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-robotEngage.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "ViVo: Video-Augmented Dictionary for Vocabulary Learning. In ",
+                "authorLine": "Zhu, Y., Wang, Y., Yu, C., Shi, S., Zhang, Y., He, S., Zhao, P., Ma, X., and Shi, Y.",
+                "venue": "Proc. CHI2017",
+                "year": 2017,
+                "links": {
+                    "pdf": "http://pi.cs.tsinghua.edu.cn/lab/papers/ViVo_Yeshuang%20Zhu_CHI2017.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-ViVo.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Video-based Evanescent, Anonymous, Asynchronous Social Interaction: Motivation and Adaption to Medium. In ",
+                "authorLine": "Ma, X. and Cao, N.",
+                "venue": "Proc. CSCW2017",
+                "year": 2017,
+                "links": {
+                    "pdf": "https://idvxlab.com/papers/2016_ma_cscw.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-danmakuCSCW.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Attention, Comprehension, Execution: Effects of Different Designs of Biofeedback Display. In ",
+                "authorLine": "Sun, Z., Cao, N., and Ma, X.",
+                "venue": "Proc. CHI2017 EA",
+                "year": 2017,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-biofeedbackSingle.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Money as a Social Currency to Manage Group Dynamics: Red Packet Gifting in Chinese Online Communities. In ",
+                "authorLine": "Wu, Z. and Ma, X.",
+                "venue": "Proc. CHI2017 EA",
+                "year": 2017,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-redPacket.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Perceived Emotional Intelligence in Virtual Agents. In ",
+                "authorLine": "Yang, Y., Ma, X., and Fung, P.",
+                "venue": "Proc. CHI2017 EA",
+                "year": 2017,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-robotEmpathy.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Exploring the Effects of Strategy and Arousal of Cueing in Computer-Human Persuasion. In ",
+                "authorLine": "Zhu, F., Fang, K., and Ma, X.",
+                "venue": "Proc. CHI2017 EA",
+                "year": 2017,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-persuasiveScreen.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Location Privacy-Preserving Task Allocation for Mobile Crowdsensing with Differential Geo-Obfuscation. In ",
+                "authorLine": "Wang, L., Yang, D., Han, X., Wang, T., Zhang, D., and Ma., X.",
+                "venue": "Proc. WWW2017",
+                "year": 2017,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-privacyWWW.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Predicting Word Association Strengths. In ",
+                "authorLine": "Cattle, A. and Ma, X.",
+                "venue": "Proc. EMNLP2017",
+                "year": 2017,
+                "links": {
+                    "pdf": "https://www.aclweb.org/anthology/D17-1132"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-associationPredict.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "A Visual Analytics Approach for Understanding Egocentric Intimacy Network Evolution and Impact Propagation in MMORPGs. In ",
+                "authorLine": "Li, Q., Shen, Q., Ming, Y., Xu, P., Wang, Y., Ma., X., and Qu, H.",
+                "venue": "Proc. PacificVis2017",
+                "year": 2017,
+                "links": {
+                    "read more": "http://home.cse.ust.hk/~qliba/pacificvis_paper.htm"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-intimacyNetwork.jpg"
+            }
+        ]
+    },
+    {
+        "year": 2016,
+        "papers": [
+            {
+                "category": "Journal",
+                "title": "Tripartite Effects: Exploring Users' Mental Model of Mobile Gestures under the Influence of Operation, Handheld Posture, and Interaction Space. ",
+                "authorLine": "Zhu, K., Ma, X., Chen, H., and Liang, M.",
+                "venue": "International Journal of Human-Computer Interaction (IJHCI)",
+                "year": 2016,
+                "links": {
+                    "url": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2016.1275432"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-tripartiteGesture.jpg"
+            },
+            {
+                "category": "Journal",
+                "title": "Developing Design Guidelines for a Visual Vocabulary of Electronic Medical Information to Improve Health Literacy. ",
+                "authorLine": "Ma, X.",
+                "venue": "Interacting with Computers (IwC)",
+                "year": 2016,
+                "links": {
+                    "url": "https://academic.oup.com/iwc/article/28/2/151/2357495"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-ePHR.jpg"
+            },
+            {
+                "category": "Journal",
+                "title": "crowddeliver: Planning City-Wide Package Delivery Paths Leveraging the Crowd of Taxis. ",
+                "authorLine": "Chen, C., Zhang, D., Ma, X., Guo, B., Wang, L., Wang, Y., & Sha, E.",
+                "venue": "IEEE Transactions on Intelligent Transportation Systems",
+                "year": 2016,
+                "links": {
+                    "read more": "http://spectrum.ieee.org/cars-that-think/transportation/systems/new-taxi-hitchhiker-the-package"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-taxi.jpg"
+            },
+            {
+                "category": "Journal",
+                "title": "Container Port Performance Measurement and Comparison Leveraging Ship GPS Traces and Maritime Open Data. ",
+                "authorLine": "Chen, L., Zhang, D., Ma, X., Wang, L., Li, S., Wu, Z., & Pan, G.",
+                "venue": "IEEE Transactions on Intelligent Transportation Systems",
+                "year": 2016,
+                "links": {
+                    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7345574"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-port.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Influence of Content Layout and Motivation on Users' Herd Behavior in Social Discovery. In ",
+                "authorLine": "Yue, Y., Ma, X., and Jiang, Z.",
+                "venue": "Proc. CHI2016",
+                "year": 2016,
+                "links": {
+                    "url": "https://dl.acm.org/citation.cfm?id=2858497"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-display.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Data Edibilization: Representing Data with Food. In ",
+                "authorLine": "Yun, W., Ma, X., Luo, Q., and Qu, H.",
+                "venue": "Proc. CHI2016 alt.chi",
+                "year": 2016,
+                "links": {
+                    "url": "https://dl.acm.org/citation.cfm?id=2892570"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-edibilization.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Dynamic Cluster-Based Over-Demand Prediction in Bike Sharing Systems. In ",
+                "authorLine": "Chen, L., Zhang, D., Wang, L, Yang, D., Ma, X., Li, S., Wu, Z., Pan, G., Nguyen, T., and Jakubowicz, J.",
+                "venue": "Proc. Ubicomp2016",
+                "year": 2016,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-bike.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Differential Location Privacy for Sparse Mobile Crowdsensing. In ",
+                "authorLine": "Wang, L., Zhang, D., Yang, D., Lim, B., and Ma, X.",
+                "venue": "Proc. ICDM2016",
+                "year": 2016,
+                "links": {
+                    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7837982"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-privacyICDM.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "From Breakage to Icebreaker: Inspiration for Designing Technological Support for Human-Human Interaction. In ",
+                "authorLine": "Ma, X., Fang, K., and Zhu, F.",
+                "venue": "Proc. DIS2016",
+                "year": 2016,
+                "links": {
+                    "pdf": "./file/DIS2016-breakage-mxj.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-B2I.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Developing a Comprehensive Engagement Framework of Gamification for Reflective Learning. In ",
+                "authorLine": "Silpasuwanchai, C., Ma, X., Shigemasu, H., and Ren, X.",
+                "venue": "Proc. DIS2016",
+                "year": 2016,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-gamification.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Effects of Semantic Relatedness between Setups and Punchlines in Twitter Hashtag Games. In ",
+                "authorLine": "Cattle, A. and Ma, X.",
+                "venue": "Proc. PEOPLES 2016",
+                "year": 2016,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-hashtagGame.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "VideoForest: interactive visual summarization of video streams based on danmu data. In ",
+                "authorLine": "Sun, Z., Cao, N., and Ma, X.",
+                "venue": "Proc. SIGGRAPH ASIA 2016 Symposium on Visualization",
+                "year": 2016,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-VideoForest.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Animated narrative visualization for video clickstream data. In ",
+                "authorLine": "Wang, Y., Chen, Z., Ma, X., Luo, Q., and Qu, H.",
+                "venue": "Proc. SIGGRAPH ASIA 2016 Symposium on Visualization",
+                "year": 2016,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-clickstreamAnimation.jpg"
+            }
+        ]
+    },
+    {
+        "year": 2015,
+        "papers": [
+            {
+                "category": "Journal",
+                "title": "Data-Driven Techniques to Assist Design of Perceptually Effective Visual Displays. ",
+                "authorLine": "Ma, X.",
+                "venue": "Information Design Journal",
+                "year": 2015,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-idj.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Exiting the Design Studio: Leveraging Online Participants for Early-Stage Design Feedback. In ",
+                "authorLine": "Ma, X., Yu, L., Forlizzi, J., and Dow, S.",
+                "venue": "Proc. CSCW2015",
+                "year": 2015,
+                "links": {
                     "pdf": "http://www.cs.cmu.edu/~spdow/files/CrowdFeedback-cscw2015.pdf"
                 },
-                "image": "img/publications/exiting-design-studio.png"
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-needfinding.jpg"
             },
             {
-                "authors": [
-                    "Shiwei Cheng",
-                    "Zhiqiang Sun",
-                    "Xiaojuan Ma",
-                    "Jodi Forlizzi",
-                    "Scott Hudson",
-                    "Anind Dey"
-                ],
-                "title": "Social Eye Tracking: Gaze Recall with Online Crowds",
-                "year": "2015",
+                "category": "Conference",
+                "title": "Social Eye Tracking: Gaze Recall with Online Crowds. In ",
+                "authorLine": "Cheng, S., Sun, Z., Ma, X., Forlizzi, J., Hudson, S. and Dey, A.",
                 "venue": "Proc. CSCW2015",
+                "year": 2015,
                 "links": {
-                    "url": "http://dl.acm.org/citation.cfm?id=2675249",
-                    "pdf": "http://delivery.acm.org/10.1145/2680000/2675249/p454-cheng.pdf?ip=143.89.214.119&id=2675249&acc=ACTIVE%20SERVICE&key=CDD1E79C27AC4E65%2EFC30B8D6EF32B758%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=693319064&CFTOKEN=28194835&__acm__=1437022672_f6dfdb01f017a2a67e43b2ced6c6a39c"
+                    "url": "https://dl.acm.org/citation.cfm?id=2675249"
                 },
-                "image": "img/publications/social-mind-eye-tracking.png"
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-socialEyetracking.jpg"
             }
         ]
     },
     {
-        "year": "2014",
+        "year": 2014,
         "papers": [
             {
-                "authors": [
-                    "YanZhen Yue",
-                    "Xiaojuan Ma",
-                    "Zhenhui Jiang"
-                ],
-                "title": "Share your View: Impact of Co-Navigation Support and Status Composition in Collaborative Online Shopping",
-                "year": "2014",
-                "venue": "Proc. CHI2014",
-                "links": {
-                    "url": "http://dl.acm.org/citation.cfm?id=2557143",
-                    "pdf": "http://delivery.acm.org/10.1145/2560000/2557143/p3299-yue.pdf?ip=143.89.214.119&id=2557143&acc=ACTIVE%20SERVICE&key=CDD1E79C27AC4E65%2EFC30B8D6EF32B758%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=693319064&CFTOKEN=28194835&__acm__=1437022889_874d74418ad7c7948f0accbe3e9abd0d"
-                },
-                "image": "img/publications/share-your-view.png"
+                "category": "Journal",
+                "title": "TRIPPLANNER: Personalized Trip Planning Leveraging Heterogeneous Crowdsourced Digital Footprints. ",
+                "authorLine": "Chen, C., Zhang, D., Guo, B., Ma, X., Pan, G., and Wu, Z.",
+                "venue": "IEEE Transactions on Intelligent Transportation Systems",
+                "year": 2014,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-tripPlanner.jpg"
             },
             {
-                "authors": [
-                    "Jun Wei",
-                    "Xiaojuan Ma",
-                    "Shengdong Zhao"
-                ],
-                "title": "Food Messaging: Using Edible Medium for Social Messaging",
-                "year": "2014",
+                "category": "Conference",
+                "title": "Share your View: Impact of Co-Navigation Support and Status Composition in Collaborative Online Shopping. In ",
+                "authorLine": "Yue, Y., Ma, X., and Jiang, Z. (equal contribution)",
                 "venue": "Proc. CHI2014",
+                "year": 2014,
                 "links": {
-                    "url": "http://dl.acm.org/citation.cfm?id=2557026",
-                    "pdf": "http://delivery.acm.org/10.1145/2560000/2557026/p2873-wei.pdf?ip=143.89.214.119&id=2557026&acc=ACTIVE%20SERVICE&key=CDD1E79C27AC4E65%2EFC30B8D6EF32B758%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=693319064&CFTOKEN=28194835&__acm__=1437022989_dfcbaa3c8c313d5b9d5fe8ce9ea6ff00"
+                    "pdf": "https://dl.acm.org/doi/pdf/10.1145/2556288.2557143"
                 },
-                "image": "img/publications/food-messaging.png"
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-shopping.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Food Messaging: Using an Edible Medium for Social Messaging. In ",
+                "authorLine": "Wei, J., Ma, X., and Zhao, S.",
+                "venue": "Proc. CHI2014",
+                "year": 2014,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-foodmessaging.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Container Throughput Estimation Leveraging Ship GPS Traces and Open Data. In ",
+                "authorLine": "Chen, L., Zhang, D., Pan, G., Wang, L, Ma, X., Chen, C., and Li, S.",
+                "venue": "Proc. Ubicomp2014",
+                "year": 2014,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-ship.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "TaxiExp: A Novel Framework for Inner-City Package Express via Taxi CrowdSourcing. In ",
+                "authorLine": "Chen, C., Zhang, D., Wang, L, Ma, X., Han, X., and Sha, E.",
+                "venue": "Proc. UIC2014",
+                "year": 2014,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-crowdTaxi.jpg"
+            }
+        ]
+    },
+    {
+        "year": 2013,
+        "papers": [
+            {
+                "category": "Journal",
+                "title": "Evocation: Analyzing and Propagating a Semantic Relation based on Free Word Association. ",
+                "authorLine": "Ma, X.",
+                "venue": "Language Resources and Evaluation ",
+                "year": 2013,
+                "links": {
+                    "url": "https://link.springer.com/article/10.1007/s10579-013-9219-2"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-evocation.jpg"
+            }
+        ]
+    },
+    {
+        "year": 2012,
+        "papers": [
+            {
+                "category": "Conference",
+                "title": "Guidelines for Depicting Emotions in Storyboard Scenarios. In ",
+                "authorLine": "Ma, X., Forlizzi, J. and Dow, S.",
+                "venue": "Proc. 8th International Conference on Design & Emotion",
+                "year": 2012,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-cartoonEmotion.jpg"
+            }
+        ]
+    },
+    {
+        "year": 2011,
+        "papers": [
+            {
+                "category": "Conference",
+                "title": "Farmer's Tale: a Facebook Game to Promote Volunteerism. In ",
+                "authorLine": "Jianqiang, D.S., Ma, X., Zhao, S., Khoo, J.T., Bay, S.L. and Jiang, Z.",
+                "venue": "Proc. CHI2011",
+                "year": 2011,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-game4volunteerism.jpg"
+            }
+        ]
+    },
+    {
+        "year": 2010,
+        "papers": [
+            {
+                "category": "Conference",
+                "title": "SoundNet: Investigating a Language Composed of Environmental Sounds. In ",
+                "authorLine": "Ma, X., Fellbaum, C. and Cook, P.",
+                "venue": "Proc. CHI2010",
+                "year": 2010,
+                "links": {
+                    "pdf": "./file/CHI2010-pap1317-ma.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-soundnet.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Vocabulary navigation made easier In ",
+                "authorLine": "Nikolova, S., Ma, X., Tremaine, M., and Cook, P.",
+                "venue": "Proc. IUI2010",
+                "year": 2010,
+                "links": {},
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-vivo.jpg"
+            }
+        ]
+    },
+    {
+        "year": 2009,
+        "papers": [
+            {
+                "category": "Conference",
+                "title": "W2ANE: When Words Are Not Enough - Online Multimedia Language Assistant for People with Aphasia. In ",
+                "authorLine": "Ma, X., Nikolova, S., and Cook, P.",
+                "venue": "Proc. ACM Multimedia2009",
+                "year": 2009,
+                "links": {
+                    "pdf": "./file/ACMMM09-sp20493-ma.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-aphasiafox.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "How Well do Visual Verbs Work in Daily Communication for Young and Old Adults? In ",
+                "authorLine": "Ma, X. and Cook, P.",
+                "venue": "Proc. CHI2009",
+                "year": 2009,
+                "links": {
+                    "pdf": "./file/CHI2009-note1384-ma.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-verb2.jpg"
+            },
+            {
+                "category": "Conference",
+                "title": "Speaking Through Pictures: Images vs. Icons. In ",
+                "authorLine": "Ma, X., Boyd-Graber, J., Nikolova, S. and Cook, P.",
+                "venue": "Proc. ASSETS2009",
+                "year": 2009,
+                "links": {
+                    "pdf": "./file/ASSETS09-fp44-ma.pdf"
+                },
+                "image": "https://www.cse.ust.hk/~mxj/main/css/thumbnail-imagevsicon.jpg"
             }
         ]
     }
