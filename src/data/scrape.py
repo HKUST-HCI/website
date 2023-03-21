@@ -73,7 +73,7 @@ for row in pubs.find_all('tr', recursive=False):
         author_year_title = info.contents[0]
         authorLine, year, title = re.split(
             r'\s*\((\d+)\)\.?\s*', author_year_title)
-        title = title.removesuffix('.')
+        title = title.removesuffix('.').removesuffix('. In ')
         year = int(year)
 
         venue = info.i
@@ -94,6 +94,10 @@ for row in pubs.find_all('tr', recursive=False):
         pub = Publication(category, title, authorLine,
                           venue, year, links, thumbnail)
         pub_list.append(pub._asdict())
+
+for pub in pub_list:
+    if pub['links'].get('url', None) == "https://dl.acm.org/doi/abs/10.1145/3555553":
+        pub['venue'] = "Proceedings of the ACM on Human-Computer Interaction"
 
 json_path = path.join(path.dirname(__file__), "scrape.json")
 with open(json_path, 'w') as fp:
