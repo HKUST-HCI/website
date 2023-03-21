@@ -59,27 +59,30 @@
                 "image": "img/people/faculty-pascale.jpg"
             },
             {
-                "name": "Reza Hadi Mogavi",
-                "position": "PhD Candidate",
-                "class": "phd",
-                "url": "http://rezahadi.com",
-                "image": "img/people/reza.jpg"
+                "name": "Jiaxiong Hu",
+                "position": "Postdoc",
+                "class": "staff",
+                "url": "https://thfl.tsinghua.edu.cn/en/yjdw/yjs/bsyjs/hjx/index.htm",
+                "image": "img/people/jiaxiong.jpg"
             },
             {
                 "name": "Chuhan Shi",
                 "position": "PhD Candidate",
-                "class": "phd"
+                "class": "phd",
+                "image": "img/people/chuhan.jpg"
             },
             {
                 "name": "Chengzhong Liu",
                 "position": "PhD Candidate",
-                "class": "phd"
+                "class": "phd",
+                "image": "img/people/chengzhong.jpg"
             },
             {
                 "name": "Shuai Ma",
                 "position": "PhD Candidate",
                 "class": "phd",
-                "url": "https://shuaima.cc/"
+                "url": "https://shuaima.cc/",
+                "image": "img/people/shuai.jpg"
             },
             {
                 "name": "Qian Zhu",
@@ -110,7 +113,8 @@
             {
                 "name": "Junze Li",
                 "position": "PhD Student",
-                "class": "phd"
+                "class": "phd",
+                "image": "img/people/junze.jpg"
             },
             {
                 "name": "Dingdong Liu",
@@ -149,7 +153,8 @@
                 "name": "Quan Li",
                 "url": "https://thinkavatar.github.io/",
                 "position": "PhD",
-                "class": "phd"
+                "class": "phd",
+                "image": "img/people/quan.jpg"
             },
             {
                 "name": "Mingfei Sun",
@@ -169,7 +174,8 @@
                 "name": "Meng Xia",
                 "url": "https://www.xiameng.org/",
                 "position": "PhD",
-                "class": "phd"
+                "class": "phd",
+                "image": "img/people/meng.jpg"
             },
             {
                 "name": "Ziming Wu",
@@ -201,18 +207,28 @@
                 "name": "Zhenhui Peng",
                 "url": "http://zhenhuipeng.com/",
                 "position": "PhD",
-                "class": "phd"
+                "class": "phd",
+                "image": "img/people/zhenhui.jpg"
             },
             {
                 "name": "Feng Han",
                 "position": "PhD",
-                "class": "phd"
+                "class": "phd",
+                "image": "img/people/feng-han.jpg"
             },
             {
                 "name": "Wenjie Yang",
                 "url": "https://ywj-cs.github.io/",
                 "position": "MPhil",
-                "class": "mphil"
+                "class": "mphil",
+                "image": "img/people/wenjie.jpg"
+            },
+            {
+                "name": "Reza Hadi Mogavi",
+                "position": "PhD Candidate",
+                "class": "phd",
+                "url": "http://rezahadi.com",
+                "image": "img/people/reza.jpg"
             }
         ]
     }
