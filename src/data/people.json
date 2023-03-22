@@ -138,83 +138,11 @@
         "type": "Past Members",
         "members": [
             {
-                "name": "Emily Yang Yang",
-                "position": "MPhil",
-                "class": "mphil",
-                "image": "img/people/yang.jpg"
-            },
-            {
-                "name": "Andrew Cattle",
-                "position": "PhD",
+                "name": "Reza Hadi Mogavi",
+                "position": "PhD Candidate",
                 "class": "phd",
-                "image": "img/people/andrew.jpg"
-            },
-            {
-                "name": "Quan Li",
-                "url": "https://thinkavatar.github.io/",
-                "position": "PhD",
-                "class": "phd",
-                "image": "img/people/quan.jpg"
-            },
-            {
-                "name": "Mingfei Sun",
-                "url": "https://mingfeisun.github.io/",
-                "position": "PhD",
-                "class": "phd",
-                "image": "img/people/mingfei.jpg"
-            },
-            {
-                "name": "Taewook Kim",
-                "url": "https://hcikim.github.io/",
-                "position": "MPhil",
-                "class": "mphil",
-                "image": "img/people/taewook.jpg"
-            },
-            {
-                "name": "Meng Xia",
-                "url": "https://www.xiameng.org/",
-                "position": "PhD",
-                "class": "phd",
-                "image": "img/people/meng.jpg"
-            },
-            {
-                "name": "Ziming Wu",
-                "url": "http://home.cse.ust.hk/~zwual/",
-                "position": "PhD",
-                "class": "phd",
-                "image": "img/people/ziming.jpg"
-            },
-            {
-                "name": "Zhenjie Zhao",
-                "url": "https://zhaozj89.github.io/",
-                "position": "PhD",
-                "class": "phd",
-                "image": "img/people/zhenjie.jpg"
-            },
-            {
-                "name": "Zhida Sun",
-                "url": "https://zhdsun.github.io/",
-                "position": "PhD",
-                "class": "phd",
-                "image": "img/people/zhida.jpg"
-            },
-            {
-                "name": "Man Ching Ko",
-                "position": "PhD",
-                "class": "phd"
-            },
-            {
-                "name": "Zhenhui Peng",
-                "url": "http://zhenhuipeng.com/",
-                "position": "PhD",
-                "class": "phd",
-                "image": "img/people/zhenhui.jpg"
-            },
-            {
-                "name": "Feng Han",
-                "position": "PhD",
-                "class": "phd",
-                "image": "img/people/feng-han.jpg"
+                "url": "http://rezahadi.com",
+                "image": "img/people/reza.jpg"
             },
             {
                 "name": "Wenjie Yang",
@@ -224,11 +152,89 @@
                 "image": "img/people/wenjie.jpg"
             },
             {
-                "name": "Reza Hadi Mogavi",
-                "position": "PhD Candidate",
+                "name": "Feng Han",
+                "position": "PhD",
                 "class": "phd",
-                "url": "http://rezahadi.com",
-                "image": "img/people/reza.jpg"
+                "image": "img/people/feng-han.jpg"
+            },
+            {
+                "name": "Zhenhui Peng",
+                "url": "http://zhenhuipeng.com/",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/zhenhui.jpg"
+            },
+            {
+                "name": "Man Ching Ko",
+                "position": "PhD",
+                "class": "phd"
+            },
+            {
+                "name": "Zhida Sun",
+                "url": "https://zhdsun.github.io/",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/zhida.jpg"
+            },
+            {
+                "name": "Zhenjie Zhao",
+                "url": "https://zhaozj89.github.io/",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/zhenjie.jpg"
+            },
+            {
+                "name": "Ziming Wu",
+                "url": "http://home.cse.ust.hk/~zwual/",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/ziming.jpg"
+            },
+            {
+                "name": "Meng Xia",
+                "url": "https://www.xiameng.org/",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/meng.jpg"
+            },
+            {
+                "name": "Taewook Kim",
+                "url": "https://hcikim.github.io/",
+                "position": "MPhil",
+                "class": "mphil",
+                "image": "img/people/taewook.jpg"
+            },
+            {
+                "name": "Mingfei Sun",
+                "url": "https://mingfeisun.github.io/",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/mingfei.jpg"
+            },
+            {
+                "name": "Quan Li",
+                "url": "https://thinkavatar.github.io/",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/quan.jpg"
+            },
+            {
+                "name": "Leye Wang",
+                "position": "Postdoc",
+                "class": "staff",
+                "image": "img/people/leye.jpg"
+            },
+            {
+                "name": "Andrew Cattle",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/andrew.jpg"
+            },
+            {
+                "name": "Emily Yang Yang",
+                "position": "MPhil",
+                "class": "mphil",
+                "image": "img/people/yang.jpg"
             }
         ]
     }
