@@ -117,5 +117,6 @@ At runtime
 
 ### Todo
 
-- [ ] Perhaps I should migrate to jinja... Mustache is too basic and there is no wide syntax support in mainstream editors.
+- [ ] Perhaps I should migrate to jinja (or nunjucks)... Mustache is too basic and there is no wide syntax support in mainstream editors.
 - [ ] Tailwind seems an overkill for small projects.
+- [ ] And I also even want to go gulp instead of Grunt... 
