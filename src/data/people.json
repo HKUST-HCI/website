@@ -119,12 +119,14 @@
             {
                 "name": "Dingdong Liu",
                 "position": "PhD Student",
-                "class": "phd"
+                "class": "phd",
+                "image": "img/people/dingdong2.jpg"
             },
             {
                 "name": "Hanfang Lyu",
                 "position": "PhD Student",
-                "class": "phd"
+                "class": "phd",
+                "image": "img/people/hanfang.jpg"
             },
             {
                 "name": "Jiehui Luo",
