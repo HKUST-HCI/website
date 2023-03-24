@@ -88,7 +88,8 @@
                 "name": "Qian Zhu",
                 "position": "PhD Candidate",
                 "class": "phd",
-                "url": "https://zhuqian.org/"
+                "url": "https://zhuqian.org/",
+                "image": "img/people/qian.jpg"
             },
             {
                 "name": "Chengbo Zheng",
@@ -101,7 +102,8 @@
                 "name": "Qingyu Guo",
                 "position": "PhD Candidate",
                 "class": "phd",
-                "url": "https://qingyuguo.github.io/"
+                "url": "https://qingyuguo.github.io/",
+                "image": "img/people/qingyu.jpg"
             },
             {
                 "name": "Zeyu Huang",
