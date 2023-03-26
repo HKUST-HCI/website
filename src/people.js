@@ -25,14 +25,20 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
     function show(e) {
-        tooltip.setAttribute('data-show', '')
-
         const { target } = e
+        const person = target.parentElement.dataset.name
+        tooltip.setAttribute('data-show', person)
+
         popperInstance.state.elements.reference = target
         const { name, position, url } = target.parentElement.dataset
         tooltipName.textContent = name
         tooltipPosition.textContent = position
-        tooltipLink.href = url
+        if (url) {
+            tooltipLink.href = url
+            tooltipLink.style.display = 'inline'
+        } else {
+            tooltipLink.style.display = 'none'
+        }
 
         popperInstance.setOptions((options) => ({
             ...options,
@@ -56,8 +62,19 @@ document.addEventListener('DOMContentLoaded', function () {
         }));
     }
 
-    buttons.forEach(button => {
-        button.addEventListener('focus', show)
-        button.addEventListener('blur', hide)
-    })
+    /** @param e {MouseEvent} */
+    function onClick(e) {
+        const { target } = e
+        if (!target.matches('.avatar button') && tooltip.dataset.show) {
+            return hide()
+        }
+
+        const person = target.parentElement.dataset.name
+        if (tooltip.dataset.show == person) {
+            return hide()
+        }
+        show(e)
+    }
+
+    document.addEventListener('click', onClick)
 })

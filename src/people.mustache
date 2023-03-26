@@ -16,28 +16,30 @@
                 <div class="text-center">
                     <div class="flex flex-wrap  gap-2 md:gap-8">
                         {{#members}}
-                        <article
-                            class="avatar group mb-6 overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500
+                        <article class="avatar group mb-6 overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500
                                 relative w-12 h-12 rounded-full border-2
                                 sm:w-28 sm:h-auto sm:rounded-md sm:border
                                 md:w-38 md:border-none
-                                lg:w-52"
-                            style="border-color: {{color}}"
-                            data-name="{{name}}"
-                            data-position="{{position}}"
-                            data-url="{{url}}">
+                                lg:w-52" style="border-color: {{color}}" data-name="{{name}}"
+                            data-position="{{position}}" data-url="{{url}}">
                             <img src="{{image}}" alt="Photo of {{{name}}}" class="flex-none object-cover
                                 w-full
                                 sm:aspect-5/6">
-                            <button class="md:hidden absolute top-0 left-0 w-full h-full" aria-describedby="#mobile-person-tooltip"></button>
-                            {{#url}}<a class="hidden md:flex flex-col justify-end items-stretch absolute top-0 left-0 w-full h-full group-hover:cursor-pointer group-hover:underline decoration-white" href="{{.}}">{{/url}}
-                            {{^url}}<div class="hidden md:flex flex-col justify-end items-stretch absolute top-0 left-0 w-full h-full">{{/url}}
-                                <div class="py-1 text-center text-white" style="background-color: {{color}}">
-                                    <p class="font-title text-sm lg:text-base">{{name}}</p>
-                                    <p class="text-xs lg:test-sm">{{position}}</p>
-                                </div>
-                            {{^url}}</div>{{/url}}
-                            {{#url}}</a>{{/url}}
+                            <button class="md:hidden absolute top-0 left-0 w-full h-full"
+                                aria-describedby="#mobile-person-tooltip"></button>
+                            {{#url}}<a
+                                class="hidden md:flex flex-col justify-end items-stretch absolute top-0 left-0 w-full h-full group-hover:cursor-pointer group-hover:underline decoration-white"
+                                href="{{.}}">{{/url}}
+                                {{^url}}<div
+                                    class="hidden md:flex flex-col justify-end items-stretch absolute top-0 left-0 w-full h-full">
+                                    {{/url}}
+                                    <div class="py-1 text-center text-white" style="background-color: {{color}}">
+                                        <p class="font-title text-sm lg:text-base">{{name}}</p>
+                                        <p class="text-xs lg:test-sm">{{position}}</p>
+                                    </div>
+                                    {{^url}}
+                                </div>{{/url}}
+                                {{#url}}</a>{{/url}}
                         </article>
                         {{/members}}
                         <!-- <div class="w-56 h-0"></div>
@@ -50,11 +52,12 @@
                 </div>
             </section>
             {{/people}}
-            <article id="mobile-person-tooltip" class="tooltip bg-zinc-800 text-white py-1 px-2 rounded-md" role="tooltip">
+            <article id="mobile-person-tooltip" class="tooltip bg-zinc-800 text-white py-1 px-2 rounded-md"
+                role="tooltip">
                 <div class="tooltip-arrow" data-popper-arrow></div>
                 <p class="name font-title">(Name)</p>
                 <p class="position text-sm">(Position)</p>
-                <a href="#" class="link text-sm">Personal page</a>
+                <a href="#" class="link text-sm">Personal webpage</a>
             </article>
         </main>
     </div>
