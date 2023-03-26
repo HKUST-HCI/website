@@ -10,18 +10,18 @@
                 "image": "img/people/faculty-xiaojuan.jpg"
             },
             {
-                "name": "Bo Li",
-                "position": "Chair Professor – CSE",
-                "class": "faculty_in",
-                "url": "https://cse.hkust.edu.hk/faculty/bli/",
-                "image": "https://cse.hkust.edu.hk/admin/people/faculty/photos/bli.jpg"
-            },
-            {
                 "name": "Huamin Qu",
                 "position": "Chair Professor – CSE",
                 "class": "faculty_in",
                 "url": "http://huamin.org",
                 "image": "img/people/faculty-huamin.jpg"
+            },
+            {
+                "name": "Bo Li",
+                "position": "Chair Professor – CSE",
+                "class": "faculty_in",
+                "url": "https://cse.hkust.edu.hk/faculty/bli/",
+                "image": "https://cse.hkust.edu.hk/admin/people/faculty/photos/bli.jpg"
             },
             {
                 "name": "Andrew B. Horner",
