@@ -136,6 +136,23 @@
                 "class": "mphil",
                 "url": "https://jhluo.com/",
                 "image": "img/people/jiehui.jpg"
+            },
+            {
+                "name": "Ziqi Pan",
+                "position": "PhD Student",
+                "class": "phd",
+                "image": "img/people/panziqi.jpg"
+            },
+            {
+                "name": "Zuyu Xu",
+                "position": "PhD Student",
+                "class": "phd"
+            },
+            {
+                "name": "Yuanhao Zhang",
+                "position": "PhD Student",
+                "class": "phd",
+                "image": "img/people/zhangyuanhao.jpg"
             }
         ]
     },
