@@ -3,18 +3,18 @@
         "type": "Current Members",
         "members": [
             {
-                "name": "Xiaojuan Ma",
-                "position": "Associate Professor & Associate Head – CSE",
-                "class": "faculty_in",
-                "url": "https://www.cse.ust.hk/~mxj/",
-                "image": "img/people/faculty-xiaojuan.jpg"
-            },
-            {
                 "name": "Huamin Qu",
                 "position": "Chair Professor – CSE",
                 "class": "faculty_in",
                 "url": "http://huamin.org",
                 "image": "img/people/faculty-huamin.jpg"
+            },
+            {
+                "name": "Xiaojuan Ma",
+                "position": "Associate Professor & Associate Head – CSE",
+                "class": "faculty_in",
+                "url": "https://www.cse.ust.hk/~mxj/",
+                "image": "img/people/faculty-xiaojuan.jpg"
             },
             {
                 "name": "Bo Li",
@@ -24,18 +24,18 @@
                 "image": "https://cse.hkust.edu.hk/admin/people/faculty/photos/bli.jpg"
             },
             {
-                "name": "Andrew B. Horner",
-                "position": "Professor – CSE",
-                "class": "faculty_in",
-                "url": "https://www.cse.ust.hk/faculty/horner/",
-                "image": "img/people/faculty-andrew.jpg"
-            },
-            {
                 "name": "Qiong Luo",
                 "position": "Professor – CSE",
                 "class": "faculty_in",
                 "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/luo",
                 "image": "https://cse.hkust.edu.hk/admin/people/faculty/photos/luo.jpg"
+            },
+            {
+                "name": "Andrew B. Horner",
+                "position": "Professor – CSE",
+                "class": "faculty_in",
+                "url": "https://www.cse.ust.hk/faculty/horner/",
+                "image": "img/people/faculty-andrew.jpg"
             },
             {
                 "name": "Chiew-Lan Tai",
@@ -64,12 +64,6 @@
                 "class": "staff",
                 "url": "https://thfl.tsinghua.edu.cn/en/yjdw/yjs/bsyjs/hjx/index.htm",
                 "image": "img/people/jiaxiong.jpg"
-            },
-            {
-                "name": "Chuhan Shi",
-                "position": "PhD Candidate",
-                "class": "phd",
-                "image": "img/people/chuhan.jpg"
             },
             {
                 "name": "Chengzhong Liu",
@@ -154,6 +148,18 @@
                 "position": "PhD Student",
                 "class": "phd",
                 "image": "img/people/zhangyuanhao.jpg"
+            },
+            {
+                "name": "Laixin Xie",
+                "position": "Visiting Student",
+                "class": "intern",
+                "image": "img/people/xielaixin.jpg"
+            },
+            {
+                "name": "Xiyuan Wang",
+                "position": "Visiting Student",
+                "class": "intern",
+                "image": "img/people/wangxiyuan.jpg"
             }
         ]
     },
@@ -161,8 +167,14 @@
         "type": "Past Members",
         "members": [
             {
+                "name": "Chuhan Shi",
+                "position": "PhD",
+                "class": "phd",
+                "image": "img/people/chuhan.jpg"
+            },
+            {
                 "name": "Reza Hadi Mogavi",
-                "position": "PhD Candidate",
+                "position": "PhD",
                 "class": "phd",
                 "url": "http://rezahadi.com",
                 "image": "img/people/reza.jpg"
