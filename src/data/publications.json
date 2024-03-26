@@ -1,5 +1,131 @@
 [
     {
+        "year": 2023,
+        "papers": [
+            {
+                "category": "Journal",
+                "title": "Exploring the Effects of Event-induced Sudden Influx of Newcomers to Online Pop Music Fandom Communities: Content, Interaction, and Engagement.",
+                "authorLine": "Guo, Q., Shi, C., Yin, Z., Liu, C., and Ma, X.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction, 7, CSCW2",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3610063"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-Fandom.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Care Workers' Wellbeing in Data-Driven Healthcare Workplace: Identity, Agency, and Social Justice.",
+                "authorLine": "Sun, Y., Ma, X., Lindtner, S., and He, L.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction, 7, CSCW1",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3610178"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-CareworkerWellbeing.png"
+            },
+            {
+                "category": "Conference",
+                "title": "CriTrainer: An Adaptive Training Tool for Critical Paper Reading.",
+                "authorLine": "Yuan, K., Lin, H., Cao, S., Peng, Z., Guo, Q., and Ma, X.",
+                "venue": "Proceedings of Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST'23)",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3586183.3606816"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-CriTrainer.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Storyfier: Exploring Vocabulary Learning Support with Text Generation Models.",
+                "authorLine": "Peng, Z., Wang, X., Han, Q., Zhu, J., Ma, X., and Qu, H.",
+                "venue": "Proceedings of Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST'23)",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3586183.3606786"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-Storyfier.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Who Should I Trust: AI or Myself? Leveraging Human and AI Correctness Likelihood to Promote Appropriate Trust in AI-Assisted Decision-Making.",
+                "authorLine": "Ma, S., Lei, Y., Wang, X., Zheng, C., Shi, C., Yin, M. and Ma, X.",
+                "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI'23)",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3544548.3581058"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-CL.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Competent but Rigid: Identifying the Gap in Empowering AI to Participate Equally in Group Decision-Making.",
+                "authorLine": "Zheng, C., Wu, Y., Shi, C., Ma, S., Luo, J. and Ma, X.",
+                "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI'23)",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3544548.3581131"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-AESER.png"
+            },
+            {
+                "category": "Conference",
+                "title": "CoArgue: Fostering Lurkers’ Contribution to Collective Arguments in Community-based QA Platforms.",
+                "authorLine": "Liu, C., Zhou, S., Liu, D., Li, J., Huang, Z. and Ma, X.",
+                "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI'23)",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3544548.3580932"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-CoArgue.png"
+            },
+            {
+                "category": "Conference",
+                "title": "What Makes Creators Engage with Online Critiques? Understanding the Role of Artifacts’ Creation Stage, Characteristics of Community Comments, and their Interactions.",
+                "authorLine": "Guo, Q., Zhang, C., Lyu, H., Peng, Z. and Ma, X.",
+                "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI'23)",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3544548.3581054"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-OCC.png"
+            },
+            {
+                "category": "Conference",
+                "title": "RetroLens: A Human-AI Collaborative System for Multi-step Retrosynthetic Route Planning.",
+                "authorLine": "Shi, C., Hu, Y., Wang, S., Ma, S., Zheng, C., Ma, X. and Luo, Q. ",
+                "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI'23)",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3544548.3581469"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-RetroLens.png"
+            },
+            {
+                "category": "Conference",
+                "title": "PopBlends: Strategies for Conceptual Blending with Large Language Models.",
+                "authorLine": "Wang, S., Petridis, S., Kwon, T., Ma, X. & Chilton, L.B.",
+                "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI'23)",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3544548.3580948"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-PopBlends.png"
+            },
+            {
+                "category": "Conference",
+                "title": "IntimaSea: Exploring Shared Stress Display in Close Relationships.",
+                "authorLine": "Jiang, Y., Ding, X., Ma, X., Sun, Z., & Gu, N.",
+                "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI'23)",
+                "year": 2023,
+                "links": {
+                    "url": "https://doi.org/10.1145/3544548.3581000"
+                },
+                "image": "http://home.cse.ust.hk/~mxj/main/css/thumbnail-IntimaSea.png"
+            }
+        ]
+    },
+    {
         "year": 2022,
         "papers": [
             {
