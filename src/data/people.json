@@ -148,7 +148,12 @@
                 "position": "PhD Student",
                 "class": "phd",
                 "image": "img/people/zhangyuanhao.jpg"
-            },
+            }
+        ]
+    },
+    {
+        "type": "Past Members",
+        "members": [
             {
                 "name": "Laixin Xie",
                 "position": "Visiting Student",
@@ -160,12 +165,7 @@
                 "position": "Visiting Student",
                 "class": "intern",
                 "image": "img/people/wangxiyuan.jpg"
-            }
-        ]
-    },
-    {
-        "type": "Past Members",
-        "members": [
+            },
             {
                 "name": "Chuhan Shi",
                 "position": "PhD",
