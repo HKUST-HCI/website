@@ -1,27 +1,7 @@
 [
     {
-        "title": "Social Mind/Eye Tracking",
-        "image": "img/publications/social-mind-eye-tracking.png",
-        "url": null
-    },
-    {
-        "title": "Human Machine Hybrid Learning",
-        "image": "img/publications/human-machine-hybrid-learning.png",
-        "url": null
-    },
-    {
-        "title": "A Data-Driven Approach to Design",
-        "image": "img/publications/data-driven-design.png",
-        "url": null
-    },
-    {
-        "title": "Utilize breakdowns in human-machine interaction to facilitate human-human interaction",
-        "image": "img/publications/breakage-to-icebreaker.png",
-        "url": null
-    },
-    {
-        "title": "VideoForest: Interactive Visual Summarization of Video Streams Based on Danmu Data",
-        "image": "img/publications/videoforest.png",
+        "title": "HKUST HCI Initiative attended the Greater Bay Area Pre-CHI 2024 event",
+        "image": "img/events/gba-pre-chi-2024.jpg",
         "url": null
     }
 ]

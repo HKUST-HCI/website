@@ -1,26 +1,50 @@
 [
-    {
-        "time": "2016-12-8",
-        "content": "Our paper <strong>VideoForest: Interactive Visual Summarization of Video Streams Based on Danmu Data</strong> has been presented on SIGGRAPH ASIA 2016 Symposium on Visualization (SA '16)."
-    },
-    {
-        "time": "2015-5-6",
-        "content": "We won the 2014 <strong>Higher Education Scientific and Technological Progress Award</strong> (Second Class) presented by the Ministry of Education of China."
-    },
-    {
-        "time": "2014-4-10",
-        "content": "We won the <strong>HKICT Best Innovation (Innovative Technology) Silver Award</strong> with our VisMOOC system."
-    },
-    {
-        "time": "2014-7-12",
-        "content": "We have two papers accepted by PacificVis 2015"
-    },
-    {
-        "time": "2014-8-23",
-        "content": "Our paper <strong>LoyalTracker: Visualizing Loyalty Dynamics in Search Engines</strong> has been selected to receive an IEEE VAST 2014 Honorable Mention Award！"
-    },
-    {
-        "time": "2014-7-16",
-        "content": "Our System <strong>VisMOOC</strong> is officially online. The link is <a href='http://vis.cse.ust.hk/vismoocNew'>here</a>"
-    }
+  {
+    "time": "Apr 2024",
+    "content": "We attended the Pre-CHI 2024 event organized by the Greater Bay Area HCI Forum and presented 15 published/ongoing works."
+  },
+  {
+    "time": "Apr 2024",
+    "content": "Our paper “Where Are We So Far? Understanding Data Storytelling Tools from the Perspective of Human-AI Collaboration” received Honorable Mention @ CHI2024. Congrat to Haotian Li, Yun Wang, and Prof. Huamin Qu."
+  },
+  {
+    "time": "Mar 2024",
+    "content": "Charting the Future of AI in Project-Based Learning @ CHI2024. Congrat to Chengbo, Kangyu, Bingcan, Reza, Shuai, and Prof. Peng."
+  },
+  {
+    "time": "Mar 2024",
+    "content": "Designing Scaffolding Strategies for Conversational Agents in Dialog Task of Neurocognitive Disorders Screening @ CHI2024. Congrat to Jiaxiong, Junze and the HKUST-CUHK team."
+  },
+  {
+    "time": "Mar 2024",
+    "content": "DiaryHelper: Exploring the Use of an Automatic Contextual Information Recording Agent for Elicitation Diary Study @ CHI2024. Congrat to Junze, Jiaxiong and our collaborators."
+  },
+  {
+    "time": "Mar 2024",
+    "content": "“Are You Really Sure?” Understanding the Effects of Human Self-Confidence Calibration in AI-Assisted Decision Making @ CHI2024. Congrat to Shuai, Prof. Shi, Prof. Yin and our collaborators."
+  },
+  {
+    "time": "Mar 2024",
+    "content": "Sharing Frissons among Online Video Viewers: Exploring the Design of Affective Communication for Aesthetic Chills @ CHI2024. Congrat to Zeyu, Yuanhao and the team."
+  },
+  {
+    "time": "Mar 2024",
+    "content": "“Make Interaction Situated”: Designing User Acceptable Interaction for Situated Visualization in Public Environments @ CHI2024. Congrat to Qian and Prof. Zeng's team (HKUST-GZ)."
+  },
+  {
+    "time": "Mar 2024",
+    "content": "TypeDance: Creating Semantic Typographic Logos from Image through Personalized Generation @ CHI2024. Congrat to Shishi and Prof. Zeng's team (HKUST-GZ)."
+  },
+  {
+    "time": "Mar 2024",
+    "content": "Design Makeup Residue Visualization System for Chinese Traditional Opera (Xiqu) Performers @ CHI2024. Congrat to Zeyu Xiong and Prof. Fan's team (HKUST-GZ)."
+  },
+  {
+    "time": "Mar 2024",
+    "content": "Technology-Mediated Non-pharmacological Interventions for Dementia @ CHI2024. Congrat to Prof. Sun's team (ECNU)."
+  },
+  {
+    "time": "Jan 2024",
+    "content": "Problem-solving Analysis Test System, Test Method and Test Software @ Chinese Patent Granted. Congrat to Meng and Prof. Qu."
+  }
 ]
