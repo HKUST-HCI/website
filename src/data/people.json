@@ -107,6 +107,13 @@
                 "image": "img/people/qingyu.jpg"
             },
             {
+                "name": "Changyang He",
+                "position": "PhD Candidate",
+                "class": "phd",
+                "url": "https://hechangyang.com/",
+                "image": "img/people/hechangyang.jpg"
+            },
+            {
                 "name": "Zeyu Huang",
                 "position": "PhD Candidate",
                 "class": "phd",
@@ -130,6 +137,12 @@
                 "position": "PhD Student",
                 "class": "phd",
                 "image": "img/people/hanfang.jpg"
+            },
+            {
+                "name": "Yue Deng",
+                "position": "PhD Student",
+                "class": "phd",
+                "image": "img/people/dengyue.jpg"
             },
             {
                 "name": "Jiehui Luo",
@@ -161,6 +174,13 @@
     {
         "type": "Past Members",
         "members": [
+            {
+                "name": "Bingcan Guo",
+                "position": "Visiting Student",
+                "class": "intern",
+                "image": "img/people/guobingcan.jpg",
+                "url": "https://www.gloriaguo.com/"
+            },
             {
                 "name": "Laixin Xie",
                 "position": "Visiting Student",
