@@ -1,5 +1,148 @@
 [
     {
+        "year": 2024,
+        "papers": [
+            {
+                "category": "Journal",
+                "title": "DesignQuizzer: A Community-Powered Conversational Agent for Learning Visual Design",
+                "authorLine": "Peng, Z., Chen, Q., Shen, Z., Ma, X., & Oulasvirta, A.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction, 8, CSCW1, Article 44",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/10.1145/3637321"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-DesignQuizzer.png"
+            },
+            {
+                "category": "Journal",
+                "title": "Designing the Conversational Agent: Asking Follow-up Questions for Information Elicitation",
+                "authorLine": "Hu, J., Guo, J., Tang, N., Ma, X., Yao, Y., Yang, C., and Xu, Y.",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction, 8, CSCW1, Article 43",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/10.1145/3637320"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-FollowUp.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Designing Scaffolding Strategies for Conversational Agents in Dialog Task of Neurocognitive Disorders Screening",
+                "authorLine": "Hu, J., Li, J., Zeng, Y., Yang, D., Liang, D., Meng, H., and Ma, X.",
+                "venue": "Proc. CHI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/full/10.1145/3613904.3642960"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-NCDScaffolding.jpeg"
+            },
+            {
+                "category": "Conference",
+                "title": "Sharing Frissons among Online Video Viewers: Exploring the Design of Affective Communication for Aesthetic Chills",
+                "authorLine": "Huang, Z., Cao, X., Zhang, Y. and Ma, X.",
+                "venue": "Proc. CHI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/full/10.1145/3613904.3642818"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-Frisson.png"
+            },
+            {
+                "category": "Conference",
+                "title": "“Are You Really Sure?” Understanding the Effects of Human Self-Confidence Calibration in AI-Assisted Decision Making",
+                "authorLine": "Ma, S., Wang, X., Lei, Y., Shi, C., Yin, M. and Ma, X.",
+                "venue": "Proc. CHI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/10.1145/3613904.3642671"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-ConfCalibration.png"
+            },
+            {
+                "category": "Conference",
+                "title": "DiaryHelper: Exploring the Use of an Automatic Contextual Information Recording Agent for Elicitation Diary Study",
+                "authorLine": "Li, J., He, C., Hu, J., Jia, B., Halevy, A., and Ma, X.",
+                "venue": "Proc. CHI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/10.1145/3613904.3642853"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-DiaryHelper.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Charting the Future of AI in Project-Based Learning: A Co-Design Exploration with Students",
+                "authorLine": "Zheng, C., Yuan, K., Guo, B., Mogavi, R.H., Peng, Z., Ma, S. and Ma, X.",
+                "venue": "Proc. CHI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/full/10.1145/3613904.3642807"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-AIDocumentation.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Make Interaction Situated: Designing User Acceptable Interaction for Situated Visualization in Public Environments",
+                "authorLine": "Zhu, Q., Wang, Z., Zeng, W., Wai, T., Lin, W. and Ma, X.",
+                "venue": "Proc. CHI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/10.1145/3613904.3642049"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-AcceptableVis.png"
+            },
+            {
+                "category": "Conference",
+                "title": "Technology-Mediated Non-pharmacological Interventions for Dementia: Needs for and Challenges in Professional, Personalized and Multi-Stakeholder Collaborative Interventions",
+                "authorLine": "Sun, Y., Yi, Z., Ma, X., Mao, J., and Tong, X.",
+                "venue": "Proc. CHI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/full/10.1145/3613904.3641977"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-Tech4Dementia.png",
+                "awards": [
+                    "Best Paper"
+                ]
+            },
+            {
+                "category": "Conference",
+                "title": "“It is hard to remove from my eye”: Design Makeup Residue Visualization System for Chinese Traditional Opera (Xiqu) Performers",
+                "authorLine": "Xiong, Z., Fu, S., Zhu, Y., Zhu, C., Ma, X. and Fan, M.",
+                "venue": "Proc. CHI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/10.1145/3613904.3642261"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-Xiqu.png",
+                "awards": [
+                    "Honorable Mention"
+                ]
+            },
+            {
+                "category": "Conference",
+                "title": "TypeDance: Creating Semantic Typographic Logos from Image through Personalized Generation",
+                "authorLine": "Xiao, S., Wang, L., Ma, X. and Zeng, W.",
+                "venue": "Proc. CHI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3613904.3642185"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-TypeDance.png"
+            },
+            {
+                "category": "Conference",
+                "title": "FARPLS: A Feature-Augmented Robot Trajectory Preference Labeling System to Assist Human Labelers’ Preference Elicitation",
+                "authorLine": "Lyu, H., Bai, Y., Liang, X., Das, U., Shi, C., Gong, L., Li, Y., Sun, M., Ge, M. and Ma, X.",
+                "venue": "Proc. IUI2024",
+                "year": 2024,
+                "links": {
+                    "url": "https://dl.acm.org/doi/abs/10.1145/3640543.3645145"
+                },
+                "image": "https://home.cse.ust.hk/~mxj/main/css/thumbnail-FARPLS.png"
+            }
+        ]
+    },
+    {
         "year": 2023,
         "papers": [
             {
