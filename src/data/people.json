@@ -112,7 +112,8 @@
 				"name": "Yuanhao Zhang",
 				"position": "PhD Student",
 				"class": "phd",
-				"image": "img/people/zhangyuanhao.jpg"
+				"image": "img/people/zhangyuanhao.jpg",
+				"url": "https://yuanhaozhang.xyz/"
 			},
 			{
 				"name": "Assem Zhunis",
@@ -224,7 +225,7 @@
 				"position": "Visiting Student",
 				"class": "intern",
 				"image": "img/people/guobingcan.jpg",
-				"url": "https://www.gloriaguo.com/"
+				"url": "https://bguoac.info/"
 			},
 			{
 				"name": "Laixin Xie",
