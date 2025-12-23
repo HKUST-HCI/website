@@ -66,51 +66,44 @@
 				"image": "img/people/jiaxiong.jpg"
 			},
 			{
-				"name": "Zeyu Huang",
-				"position": "PhD Candidate",
-				"class": "phd",
-				"url": "https://yellowzeyu.com/en/",
-				"image": "img/people/zeyu.jpg"
-			},
-			{
 				"name": "Junze Li",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/junze.jpg"
 			},
 			{
 				"name": "Dingdong Liu",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/dingdong.jpg"
 			},
 			{
 				"name": "Hanfang Lyu",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/hanfang.jpg"
 			},
 			{
 				"name": "Yue Deng",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/dengyue.jpg"
 			},
 			{
 				"name": "Ziqi Pan",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/panziqi.jpg"
 			},
 			{
 				"name": "Zuyu Xu",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/xuzuyu.jpg"
 			},
 			{
 				"name": "Yuanhao Zhang",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/zhangyuanhao.jpg",
 				"url": "https://yuanhaozhang.xyz/"
@@ -159,12 +152,32 @@
 				"class": "phd",
 				"image": "img/people/runhua.jpg",
 				"url": "https://www.runhuazhang.com/"
+			},
+			{
+				"name": "Baiqiao Zhang",
+				"position": "PhD Student",
+				"class": "phd",
+				"image": "img/people/baiqiao.jpg",
+				"url": "https://sleepybq.github.io"
+			},
+			{
+				"name": "Weiying Liu",
+				"position": "PhD Student",
+				"class": "phd",
+				"image": "img/people/weiying.jpg"
 			}
 		]
 	},
 	{
 		"type": "Past Members",
 		"members": [
+			{
+				"name": "Zeyu Huang",
+				"position": "PhD Candidate",
+				"class": "phd",
+				"url": "https://yellowzeyu.com/en/",
+				"image": "img/people/zeyu.jpg"
+			},
 			{
 				"name": "Jiehui Luo",
 				"position": "MPhil Student",
