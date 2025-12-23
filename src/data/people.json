@@ -66,6 +66,13 @@
 				"image": "img/people/jiaxiong.jpg"
 			},
 			{
+				"name": "Heng Zhang",
+				"position": "Postdoc",
+				"class": "staff",
+				"url": "https://sites.google.com/view/heng-zhang-social-robotics/",
+				"image": "img/people/heng.jpg"
+			},
+			{
 				"name": "Junze Li",
 				"position": "PhD Candidate",
 				"class": "phd",
@@ -165,6 +172,12 @@
 				"position": "PhD Student",
 				"class": "phd",
 				"image": "img/people/weiying.jpg"
+			},
+			{
+				"name": "Bolin Zhao",
+				"position": "PhD Student",
+				"class": "phd",
+				"image": "img/people/bolin.jpg"
 			}
 		]
 	},
