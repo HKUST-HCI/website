@@ -73,6 +73,12 @@
 				"image": "img/people/heng.jpg"
 			},
 			{
+				"name": "Yanjun Lyu",
+				"position": "Postdoc",
+				"class": "staff",
+				"image": "img/people/yanjun.jpg"
+			},
+			{
 				"name": "Junze Li",
 				"position": "PhD Candidate",
 				"class": "phd",
@@ -178,6 +184,12 @@
 				"position": "PhD Student",
 				"class": "phd",
 				"image": "img/people/bolin.jpg"
+			},
+			{
+				"name": "Yiyao Peng",
+				"position": "MPhil Student",
+				"class": "mphil",
+				"image": "img/people/yiyao.jpg"
 			}
 		]
 	},
