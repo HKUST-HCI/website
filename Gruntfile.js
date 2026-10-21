@@ -15,7 +15,7 @@ const gruntConfig = {
         }
     },
     exec: {
-        tailwindcss: 'tailwindcss -i ./src/tailwind.css -o ./build/style.css --minify',
+        tailwindcss: '.\\node_modules\\.bin\\tailwindcss.cmd -i .\\src\\tailwind.css -o .\\build\\style.css --minify',
         mustache: 'node scripts/mustache.js',
     },
     watch: {

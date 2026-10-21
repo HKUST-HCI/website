@@ -73,22 +73,30 @@
 				"image": "img/people/heng.jpg"
 			},
 			{
-				"name": "Yanjun Lyu",
+				"name": "Junze Li",
 				"position": "Postdoc",
 				"class": "staff",
-				"image": "img/people/yanjun.jpg"
-			},
-			{
-				"name": "Junze Li",
-				"position": "PhD Candidate",
-				"class": "phd",
 				"image": "img/people/junze.jpg"
 			},
 			{
 				"name": "Dingdong Liu",
-				"position": "PhD Candidate",
-				"class": "phd",
+				"position": "Postdoc",
+				"class": "staff",
 				"image": "img/people/dingdong.jpg"
+			},
+			{
+				"name": "Yang Ouyang",
+				"position": "Postdoc",
+				"class": "staff",
+				"image": "img/people/ouyang.jpg",
+				"url": "https://cat-ouyang.github.io"
+			},
+			{
+				"name": "Xiang Pan",
+				"position": "Postdoc",
+				"class": "staff",
+				"image": "img/people/xiangpan.jpg",
+				"url": "https://pan-xiang.github.io/"
 			},
 			{
 				"name": "Hanfang Lyu",
@@ -196,12 +204,24 @@
 				"position": "MPhil Student",
 				"class": "mphil",
 				"image": "img/people/yiyao.jpg"
+			},
+			{
+				"name": "Xuning Hu",
+				"position": "PhD Student",
+				"class": "phd",
+				"image": "img/people/xuning.png"
 			}
 		]
 	},
 	{
 		"type": "Past Members",
 		"members": [
+			{
+				"name": "Yanjun Lyu",
+				"position": "Postdoc",
+				"class": "staff",
+				"image": "img/people/yanjun.jpg"
+			},
 			{
 				"name": "Zeyu Huang",
 				"position": "PhD Candidate",
