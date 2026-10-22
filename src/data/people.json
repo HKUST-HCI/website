@@ -131,45 +131,46 @@
 			},
 			{
 				"name": "Assem Zhunis",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/assem.jpg",
 				"url": "www.assem.live"
 			},
 			{
 				"name": "Kangyu Yuan",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
-				"image": "img/people/kangyu.jpg"
+				"image": "img/people/kangyu.jpg",
+				"url": "https://yuanky123.github.io/"
 			},
 			{
 				"name": "Qiaoyi Chen",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/qiaoyi.jpg"
 			},
 			{
 				"name": "Xuanhui Yang",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/xuanhui.jpg"
 			},
 			{
 				"name": "Shixu Zhou",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/shixu.jpg"
 			},
 			{
 				"name": "Yuying Tang",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/yuying.jpg",
 				"url": "https://yuyingtang1999.github.io/"
 			},
 			{
 				"name": "Runhua Zhang",
-				"position": "PhD Student",
+				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/runhua.jpg",
 				"url": "https://www.runhuazhang.com/"
@@ -210,6 +211,12 @@
 				"position": "PhD Student",
 				"class": "phd",
 				"image": "img/people/xuning.png"
+			},
+			{
+				"name": "Yue Zhang",
+				"position": "PhD Student",
+				"class": "phd",
+				"image": "img/people/yuezhang.jpg"
 			}
 		]
 	},
