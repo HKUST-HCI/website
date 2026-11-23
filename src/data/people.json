@@ -154,7 +154,8 @@
 				"name": "Xuanhui Yang",
 				"position": "PhD Candidate",
 				"class": "phd",
-				"image": "img/people/xuanhui.jpg"
+				"image": "img/people/xuanhui.jpg",
+				"url": "https://yang-xuanhui.github.io/"
 			},
 			{
 				"name": "Shixu Zhou",
@@ -167,7 +168,7 @@
 				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/yuying.jpg",
-				"url": "https://yuyingtang1999.github.io/"
+				"url": "https://madeby-yuyingtang.github.io/"
 			},
 			{
 				"name": "Runhua Zhang",
