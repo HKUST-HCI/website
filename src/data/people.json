@@ -109,7 +109,8 @@
 				"name": "Ziqi Pan",
 				"position": "PhD Candidate",
 				"class": "phd",
-				"image": "img/people/panziqi.jpg"
+				"image": "img/people/panziqi.jpg",
+				"url": "https://delpanz7.github.io/panz7-now-here/"
 			},
 			{
 				"name": "Zuyu Xu",
@@ -222,7 +223,8 @@
 				"name": "Xiaoyu Wang",
 				"position": "PhD Student",
 				"class": "phd",
-				"image": "img/people/xiaoyu.jpg"
+				"image": "img/people/xiaoyu.jpg",
+				"url": "https://meow-wwww.github.io/"
 			},
 			{
 				"name": "Heidan",
