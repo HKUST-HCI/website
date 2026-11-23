@@ -211,7 +211,8 @@
 				"name": "Xuning Hu",
 				"position": "PhD Student",
 				"class": "phd",
-				"image": "img/people/xuning.png"
+				"image": "img/people/xuning.png",
+				"url":"https://xuning-hu.github.io/"
 			},
 			{
 				"name": "Yue Zhang",
