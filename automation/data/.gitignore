@@ -1,0 +1,6 @@
+review.json
+scholar-cache.json
+crossref-cache.json
+publication-image-report.json
+__pycache__/
+*.tmp

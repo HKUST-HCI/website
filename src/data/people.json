@@ -11,7 +11,7 @@
 			},
 			{
 				"name": "Xiaojuan Ma",
-				"position": "Associate Professor & Associate Head – CSE",
+				"position": "Associate Professor – CSE",
 				"class": "faculty_in",
 				"url": "https://www.cse.ust.hk/~mxj/",
 				"image": "img/people/faculty-xiaojuan.jpg"
@@ -59,18 +59,25 @@
 				"image": "img/people/faculty-pascale.jpg"
 			},
 			{
+				"name": "Sehi L'YI",
+				"position": "Assistant Professor – CSE",
+				"class": "faculty_in",
+				"url": "https://sehilyi.com/",
+				"image": "img/people/faculty-sehilyi.jpg"
+			},
+			{
+				"name": "Arpit Narechania",
+				"position": "Assistant Professor – CSE",
+				"class": "faculty_in",
+				"url": "https://narechania.com/",
+				"image": "img/people/faculty-arpit.jpg"
+			},
+			{
 				"name": "Jiaxiong Hu",
 				"position": "Postdoc",
 				"class": "staff",
 				"url": "https://thfl.tsinghua.edu.cn/en/yjdw/yjs/bsyjs/hjx/index.htm",
 				"image": "img/people/jiaxiong.jpg"
-			},
-			{
-				"name": "Heng Zhang",
-				"position": "Postdoc",
-				"class": "staff",
-				"url": "https://sites.google.com/view/heng-zhang-social-robotics/",
-				"image": "img/people/heng.jpg"
 			},
 			{
 				"name": "Junze Li",
@@ -97,18 +104,6 @@
 				"class": "staff",
 				"image": "img/people/xiangpan.jpg",
 				"url": "https://pan-xiang.github.io/"
-			},
-			{
-				"name": "Hanfang Lyu",
-				"position": "PhD Candidate",
-				"class": "phd",
-				"image": "img/people/hanfang.jpg"
-			},
-			{
-				"name": "Yue Deng",
-				"position": "PhD Candidate",
-				"class": "phd",
-				"image": "img/people/dengyue.jpg"
 			},
 			{
 				"name": "Ziqi Pan",
@@ -141,7 +136,12 @@
 				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/kangyu.jpg",
-				"url": "https://yuanky123.github.io/"
+				"url": "https://yuanky123.github.io/",
+				"maintainerBadge": {
+					"class": "current",
+					"label": "Current Maintainer",
+					"generation": "2"
+				}
 			},
 			{
 				"name": "Qiaoyi Chen",
@@ -217,12 +217,43 @@
 				"position": "PhD Student",
 				"class": "phd",
 				"image": "img/people/yuezhang.jpg"
+			},
+			{
+				"name": "Xiaoyu Wang",
+				"position": "PhD Student",
+				"class": "phd",
+				"image": "img/people/xiaoyu.jpg"
+			},
+			{
+				"name": "Heidan",
+				"position": "Honorary Member",
+				"class": "intern",
+				"image": "img/people/heidan.jpg"
 			}
 		]
 	},
 	{
 		"type": "Past Members",
 		"members": [
+			{
+				"name": "Yue Deng",
+				"position": "PhD",
+				"class": "phd",
+				"image": "img/people/dengyue.jpg"
+			},
+			{
+				"name": "Hanfang Lyu",
+				"position": "PhD",
+				"class": "phd",
+				"image": "img/people/hanfang.jpg"
+			},
+			{
+				"name": "Heng Zhang",
+				"position": "Postdoc",
+				"class": "staff",
+				"url": "https://sites.google.com/view/heng-zhang-social-robotics/",
+				"image": "img/people/heng.jpg"
+			},
 			{
 				"name": "Yanjun Lyu",
 				"position": "Postdoc",
@@ -231,62 +262,67 @@
 			},
 			{
 				"name": "Zeyu Huang",
-				"position": "PhD Candidate",
+				"position": "PhD",
 				"class": "phd",
 				"url": "https://yellowzeyu.com/en/",
-				"image": "img/people/zeyu.jpg"
+				"image": "img/people/zeyu.jpg",
+				"maintainerBadge": {
+					"class": "",
+					"label": "First-generation Maintainer",
+					"generation": "1"
+				}
 			},
 			{
 				"name": "Jiehui Luo",
-				"position": "MPhil Student",
+				"position": "MPhil",
 				"class": "mphil",
 				"url": "https://jhluo.com/",
 				"image": "img/people/jiehui.jpg"
 			},
 			{
 				"name": "Chengzhong Liu",
-				"position": "PhD Candidate",
+				"position": "PhD",
 				"class": "phd",
 				"image": "img/people/chengzhong.jpg"
 			},
 			{
 				"name": "Shuai Ma",
-				"position": "PhD Candidate",
+				"position": "PhD",
 				"class": "phd",
 				"url": "https://shuaima.cc/",
 				"image": "img/people/shuai.jpg"
 			},
 			{
 				"name": "Qian Zhu",
-				"position": "PhD Candidate",
+				"position": "PhD",
 				"class": "phd",
 				"url": "https://zhuqian.org/",
 				"image": "img/people/qian.jpg"
 			},
 			{
 				"name": "Chengbo Zheng",
-				"position": "PhD Candidate",
+				"position": "PhD",
 				"class": "phd",
 				"image": "img/people/chengbo.jpg",
 				"url": "https://www.cbzheng.link/"
 			},
 			{
 				"name": "Qingyu Guo",
-				"position": "PhD Candidate",
+				"position": "PhD",
 				"class": "phd",
 				"url": "https://qingyuguo.github.io/",
 				"image": "img/people/qingyu.jpg"
 			},
 			{
 				"name": "Changyang He",
-				"position": "PhD Candidate",
+				"position": "PhD",
 				"class": "phd",
 				"url": "https://hechangyang.com/",
 				"image": "img/people/hechangyang.jpg"
 			},
 			{
 				"name": "Haotian Li",
-				"position": "PhD Candidate",
+				"position": "PhD",
 				"class": "phd",
 				"url": "https://haotian-li.com/",
 				"image": "img/people/lihaotian.jpg"

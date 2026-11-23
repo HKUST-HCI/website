@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HCI Initiative Content Review</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">MONTHLY CONTENT GATE</p>
+      <h1>Review remote updates before publication</h1>
+      <p class="lede">Nothing is written to approved content until a reviewer confirms every item and records their identity.</p>
+    </header>
+    <section id="status" class="notice">Loading staged batch...</section>
+    <form id="review-form">
+      <section>
+        <div class="section-heading"><h2>News</h2><span id="news-count"></span></div>
+        <p class="hint">A News item is eligible only when its text explicitly matches a person in People → Current Members. The source page owner is never treated as a match. Blocked items cannot be approved.</p>
+        <div id="news-list"></div>
+      </section>
+      <section>
+        <div class="section-heading"><h2>Publications</h2><span id="publication-count"></span></div>
+        <p class="hint">Only 2025/2026 papers from Xiaojuan Ma's Google Scholar whose first author matches a current PhD, MPhil, or postdoctoral member in People can be approved. Each paper keeps its Scholar source and verified DOI or venue link separately.</p>
+        <div id="publication-list"></div>
+      </section>
+      <section class="approval">
+        <h2>Approval record</h2>
+        <div class="quick-actions">
+          <button id="approve-all-btn" type="button">Approve all eligible items</button>
+        </div>
+        <label>Reviewer name <input id="reviewer-name" required></label>
+        <label>Review date <input id="review-date" type="date" required></label>
+        <label>Rejection reason (required only when rejecting)<textarea id="reject-reason" placeholder="Describe the problem that needs to be fixed."></textarea></label>
+        <label class="check"><input id="confirmed" type="checkbox" required> I reviewed and approve the selected updates.</label>
+        <div class="decision-actions">
+          <button type="submit">Approve and write update</button>
+          <button id="reject-btn" class="reject-button" type="button">Reject update</button>
+        </div>
+      </section>
+    </form>
+  </main>
+  <script src="review.js"></script>
+</body>
+</html>

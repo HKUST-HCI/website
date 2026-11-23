@@ -64,7 +64,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-newer') // newer
 
     grunt.registerTask('default', [
-        'newer:copy:static',
+        'copy:static',
         'exec:mustache',
         'exec:tailwindcss',
     ])

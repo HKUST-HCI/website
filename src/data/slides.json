@@ -1,6 +1,16 @@
 [
     {
-        "title": "We attended CHI ‘24 in Honolulu, Hawai‘i",
+        "title": "We attended CHI 2026 in Barcelona, Spain",
+        "image": "img/life/20260420/3c76c7e907226b1c9fb2508bf0633f6.jpg",
+        "url": null
+    },
+    {
+        "title": "We attended CHI 2025 in Yokohama, Japan",
+        "image": "img/life/20250430/5e211b07eb2032678909fe89e43b872.jpg",
+        "url": null
+    },
+    {
+        "title": "We attended CHI '24 in Honolulu, Hawaii",
         "image": "img/events/chi-24.jpg",
         "url": null
     },

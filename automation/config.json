@@ -1,0 +1,9 @@
+{
+  "source_url": "https://www.cse.ust.hk/~mxj/",
+  "scholar_url": "https://scholar.google.com/citations?user=TN0zm80AAAAJ&hl=en",
+  "people_file": "../build/people.html",
+  "data_dir": "data",
+  "review_host": "127.0.0.1",
+  "review_port": 8766,
+  "request_timeout_seconds": 30
+}

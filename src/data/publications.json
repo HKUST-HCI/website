@@ -1,5 +1,315 @@
 [
     {
+        "year": 2026,
+        "papers": [
+            {
+                "category": "Conference",
+                "title": "CoNewsReader: Supporting Comprehensive Understanding and Raising Critical Thoughts on Social Media News Through Comments",
+                "authorLine": "K Yuan, G Chen, S Liang, H Lin, Q Guo, D Liu, X Ma, Z Peng",
+                "venue": "Proceedings of the ACM on Human-Computer Interaction, vol. 10, no. 6, pp. 1-36",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3816913",
+                    "doi": "https://doi.org/10.1145/3816913",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:CdxZDUztZiMC"
+                }
+            },
+            {
+                "category": "Journal",
+                "title": "The speculative future of conversational AI for neurocognitive disorder screening: a multi-stakeholder perspective",
+                "authorLine": "J Hu, R Niu, Q Du, C Xiang, Y Zuo, J Jeung, X Ma",
+                "venue": "International Journal of Human-Computer Studies, vol. 216, pp. 103892",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1016/j.ijhcs.2026.103892",
+                    "doi": "https://doi.org/10.1016/j.ijhcs.2026.103892",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:3NQIlFlcGxIC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "Understanding Human Engagement with AI-Extended Characters in Creative Media: A Preliminary Investigation into AI Talk Shows",
+                "authorLine": "Y Tang, W Qiu, Y Zhang, B Zhang, W Zhang, X Ma, H Qu",
+                "venue": "Proceedings of the 2026 Conference on Creativity and Cognition, pp. 1292-1297",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3803784.3816817",
+                    "doi": "https://doi.org/10.1145/3803784.3816817",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:-mN3Mh-tlDkC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "What Makes a Meme Relieving?: Analyzing the Efficacy of Design Elements of Internet Memes on Exam Stress Relief for University Students",
+                "authorLine": "Z Xu, J Hu, S Zhou, X Ma",
+                "venue": "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-5",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772363.3798612",
+                    "doi": "https://doi.org/10.1145/3772363.3798612",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:CB2v5VPnA5kC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "AI Clone Companions and\" Dream Girl\" Fans: How Idol-Based Agents Reshape Parasocial Relationships Across Real and Virtual Domains",
+                "authorLine": "K Yuan, TK Wang, J Du, Y Zhang, Z Pan, X Ma",
+                "venue": "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-8",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772363.3798482",
+                    "doi": "https://doi.org/10.1145/3772363.3798482",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:PYBJJbyH-FwC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "Friend, Foe, or Bot? Exploring Intergroup Dynamics in Hybrid Human-Bot Teams",
+                "authorLine": "A Zhunis, Z Pan, Y Zhang, X Ma",
+                "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-29",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772318.3791939",
+                    "doi": "https://doi.org/10.1145/3772318.3791939",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:MhiOAD_qIWkC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "Exploring Aggressors’ In‑Match Cognitive and Emotional Formation and Toxic Behavior Trajectories in MOBA Games",
+                "authorLine": "K Yuan, H Lyu, R Zhang, H Murugu, X Ma",
+                "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-22",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772318.3790272",
+                    "doi": "https://doi.org/10.1145/3772318.3790272",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:1taIhTC69MYC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "Investigating How Physical Surfaces Can Serve as Common-Region Cues for Perceptual Grouping of Virtual Elements in Augmented Reality",
+                "authorLine": "X Yang, X Hu, HN Liang, X Ma",
+                "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-20",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772318.3790315",
+                    "doi": "https://doi.org/10.1145/3772318.3790315",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:FiytvqdAVhgC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "How Do Human Creators Embrace Human-AI Co-Creation? A Perspective on Human Agency of Screenwriters",
+                "authorLine": "Y Tang, J Zhou, H Li, X Xie, X Ma, H Qu",
+                "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-19",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772318.3790300",
+                    "doi": "https://doi.org/10.1145/3772318.3790300",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:j7_hQOaDUrUC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "When LLMs Enter Everyday Feminism on Chinese Social Media: Opportunities and Risks for Women's Empowerment",
+                "authorLine": "R Zhang, Z Pan, K Yuan, Q Chen, Y Tian, H Qu, X Ma",
+                "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-21",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772318.3790616",
+                    "doi": "https://doi.org/10.1145/3772318.3790616",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:7BrZ7Jt4UNcC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "\" Without AI, I Would Never Share This Online\": Unpacking How LLMs Catalyze Women's Sharing of Gendered Experiences on Social Media",
+                "authorLine": "R Zhang, Z Pan, H Yi, H Qu, X Ma",
+                "venue": "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-7",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772363.3798483",
+                    "doi": "https://doi.org/10.1145/3772363.3798483",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:nRpfm8aw39MC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "DuoDrama: Supporting Screenplay Refinement Through LLM-Assisted Human Reflection",
+                "authorLine": "Y Tang, X Chen, H Li, X Xie, X Ma, H Qu",
+                "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-20",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772318.3790568",
+                    "doi": "https://doi.org/10.1145/3772318.3790568",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:PaBasH6fAo0C"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "Legitimizing, Developing, and Sustaining Feminist HCI in East Asia: Challenges and Opportunities",
+                "authorLine": "R Zhang, R Wan, J Li, D Kang, Y Qin, Y Wang, Z Pan, T Knearem, H Qu, ...",
+                "venue": "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-4",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772363.3778806",
+                    "doi": "https://doi.org/10.1145/3772363.3778806",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:MpfHP-DdYjUC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "From Human Pragmatic Language Skills to Conversational Agent Design: A Systematic Review of Transfer Strategies",
+                "authorLine": "J Hu, X Yao, Z Huang, D Liang, D Yang, D Liu, J Li, Y Zhang, X Ma",
+                "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, pp. 1-21",
+                "year": 2026,
+                "links": {
+                    "url": "https://doi.org/10.1145/3772318.3792787",
+                    "doi": "https://doi.org/10.1145/3772318.3792787",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:LdasjJ6CEcoC"
+                }
+            }
+        ]
+    },
+    {
+        "year": 2025,
+        "papers": [
+            {
+                "category": "Conference",
+                "title": "Rethinking Personality Assessment from Human-Agent Dialogues: Fewer Rounds May Be Better Than More",
+                "authorLine": "B Zhang, Z Liao, X Li, C Zhou, J Liu, X Ma, Y Bian",
+                "venue": "Findings of the Association for Computational Linguistics: EMNLP 2025, pp. 5357-5380",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.18653/v1/2025.findings-emnlp.287",
+                    "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.287",
+                    "source": "https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.287.pdf"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "OceanVive: An Immersive Visualization System for Communicating Complex Oceanic Phenomena",
+                "authorLine": "Y Ouyang, Y Wu, X Wang, L Xie, W Cheng, J Gan, Q Li, X Ma",
+                "venue": "2025 IEEE Visualization and Visual Analytics (VIS), pp. 326-330",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1109/vis60296.2025.00071",
+                    "doi": "https://doi.org/10.1109/vis60296.2025.00071",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:tH6gc1N1XXoC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "From Platform Migration to Cultural Integration: the Ingress and Diffusion of# wlw from TikTok to RedNote in Queer Women Communities",
+                "authorLine": "Z Pan, R Zhang, J Luo, Y Zhang, Y Deng, X Ma",
+                "venue": "Companion Publication of the 2025 Conference on Computer-Supported Cooperative Work and Social Computing, pp. 227-232",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1145/3715070.3749230",
+                    "doi": "https://doi.org/10.1145/3715070.3749230",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:ubry08Y2EpUC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "PaperBridge: Crafting Research Narratives through Human-AI Co-Exploration",
+                "authorLine": "R Zhang, Y Ouyang, L Shen, Y Tang, X Ma, H Qu, X Xu",
+                "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology, pp. 1-21",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1145/3746059.3747713",
+                    "doi": "https://doi.org/10.1145/3746059.3747713",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:artPoR2Yc-kC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "Understanding Screenwriters' Practices, Attitudes, and Future Expectations in Human-AI Co-Creation",
+                "authorLine": "Y Tang, H Li, M Lan, X Ma, H Qu",
+                "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, pp. 1-18",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1145/3706598.3714120",
+                    "doi": "https://doi.org/10.1145/3706598.3714120",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:Ak0FvsSvgGUC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "Signaling Human Intentions to Service Robots: Understanding the Use of Social Cues during In-Person Conversations",
+                "authorLine": "H Lyu, X Wang, N Zhang, S Ma, Q Zhu, Y Luo, F Tsung, X Ma",
+                "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, pp. 1-21",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1145/3706598.3714235",
+                    "doi": "https://doi.org/10.1145/3706598.3714235",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:BJbdYPG6LGMC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "\" I Love the Internet Again\": Exploring the Interaction Inception of\" TikTok Refugees\" Flocking into RedNote",
+                "authorLine": "K Yuan, L Zhang, H Lyu, Z Pan, Y Zhang, J Li, B Guo, J Hu, Q Guo, X Ma",
+                "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems, pp. 1-8",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1145/3706599.3719738",
+                    "doi": "https://doi.org/10.1145/3706599.3719738",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:HIFyuExEbWQC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "InsightBridge: Enhancing Empathizing with Users through Real-Time Information Synthesis and Visual Communication",
+                "authorLine": "J Li, Y Zhang, C Zheng, D Liu, Z Huang, X Ma",
+                "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, pp. 1-15",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1145/3706598.3713640",
+                    "doi": "https://doi.org/10.1145/3706598.3713640",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:QYdC8u9Cj1oC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "JournalAIde: Empowering Older Adults in Digital Journal Writing",
+                "authorLine": "S Zhou, W Lin, Z Xu, X Wei, R Huang, X Ma, M Fan",
+                "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, pp. 1-19",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1145/3706598.3713339",
+                    "doi": "https://doi.org/10.1145/3706598.3713339",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:OTTXONDVkokC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "ACKnowledge: A Computational Framework for Human Compatible Affordance-based Interaction Planning in Real-world Contexts",
+                "authorLine": "Z Pan, X Zhang, Z Li, Z Peng, M Fan, X Ma",
+                "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, pp. 1-20",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1145/3706598.3713791",
+                    "doi": "https://doi.org/10.1145/3706598.3713791",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:WJVC3Jt7v1AC"
+                }
+            },
+            {
+                "category": "Conference",
+                "title": "Scaffolded Turns and Logical Conversations: Designing Humanized LLM-Powered Conversational Agents for Hospital Admission Interviews",
+                "authorLine": "D Liu, Y Zhang, B Zhao, S Ma, C Shi, X Ma",
+                "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, pp. 1-23",
+                "year": 2025,
+                "links": {
+                    "url": "https://doi.org/10.1145/3706598.3714196",
+                    "doi": "https://doi.org/10.1145/3706598.3714196",
+                    "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=TN0zm80AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TN0zm80AAAAJ:2VqYfGB8ITEC"
+                }
+            }
+        ]
+    },
+    {
         "year": 2024,
         "papers": [
             {

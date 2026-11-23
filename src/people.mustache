@@ -4,6 +4,7 @@
 <head>
     {{> head}}
     <script src="people.js"></script>
+    <link rel="stylesheet" type="text/css" href="theme.css">
 </head>
 
 <body>
@@ -12,9 +13,9 @@
         <main>
             {{#people}}
             <section>
-                <h2 class="text-2xl font-title mb-6 mt-10">{{type}}</h2>
+                <h2 class="people-section-title text-2xl font-title mb-6 mt-10">{{type}}</h2>
                 <div class="text-center">
-                    <div class="flex flex-wrap  gap-2 md:gap-8">
+                    <div class="people-grid flex flex-wrap gap-2 md:gap-8">
                         {{#members}}
                         <article class="avatar group mb-6 overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500
                                 relative w-12 h-12 rounded-full border-2
@@ -22,6 +23,7 @@
                                 md:w-38 md:border-none
                                 lg:w-52" style="border-color: {{color}}" data-name="{{name}}"
                             data-position="{{position}}" data-url="{{url}}">
+                            {{#maintainerBadge}}<span class="maintainer-badge {{class}}" aria-label="{{label}}">{{generation}}</span>{{/maintainerBadge}}
                             <img src="{{image}}" alt="Photo of {{{name}}}" class="flex-none object-cover
                                 w-full
                                 sm:aspect-5/6">

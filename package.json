@@ -19,8 +19,14 @@
 	"scripts": {
 		"tailwind": "tailwindcss -i ./src/tailwind.css -o ./build/tailwind.css --minify",
 		"mustache": "node scripts/mustache.js",
+		"sync:approved": "node scripts/sync-approved-content.js",
 		"watch": "grunt watch",
-		"build": "grunt"
+		"build": "grunt",
+		"update": "python automation/monthly_update.py monthly",
+		"update:scan": "python automation/monthly_update.py scan",
+		"update:review": "python automation/monthly_update.py review",
+		"update:enrich": "python automation/monthly_update.py enrich-publications",
+		"update:validate": "python automation/monthly_update.py validate-incremental"
 	},
 	"license": "MIT"
 }

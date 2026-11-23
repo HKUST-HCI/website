@@ -12,7 +12,11 @@
         "url": "publications.html"
     },
     {
-        "name": "Contact",
+        "name": "Life",
+        "url": "life.html"
+    },
+    {
+        "name": "Join us",
         "url": "contact.html"
     }
 ]

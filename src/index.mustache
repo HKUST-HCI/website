@@ -4,14 +4,30 @@
 <head>
     {{> head}}
     <script src="index.js"></script>
+    <style>
+    :root { --ink:#e7e5df; --muted:#a3a6a1; --paper:#0b0c0d; --panel:#141617; --nav:#080909; --nav-hover:#252827; --accent:#b9d36b; --warm:#c39b5b; --rule:#2e3231; }
+    html { background:var(--paper); } body { background:radial-gradient(circle at 85% 4%,#1d2522 0,#0b0c0d 31rem),var(--paper); color:var(--ink); font-family:"Noto Sans","Helvetica Neue",Arial,sans-serif; letter-spacing:.005em; }
+    header.bg-zinc-700 { background:linear-gradient(110deg,#050606 0%,#111414 62%,#252b28 100%); box-shadow:0 1px 0 rgba(185,211,107,.24),0 16px 42px rgba(0,0,0,.4); } header nav a { color:#e7e5df; transition:background .2s ease,color .2s ease; } header nav a:hover { color:var(--accent); background:var(--nav-hover); }
+    main.bg-white, .card, .bg-white { background:linear-gradient(145deg,#191c1c,#111313); box-shadow:0 10px 32px rgba(0,0,0,.3); border:1px solid #2a2e2c; } #slider { background:#171b1b; border:1px solid #343a36; } #slider img { filter:saturate(.68) contrast(1.05) brightness(.78); } #slider-controls button { background:rgba(0,0,0,.48); } #slider-controls button:hover { background:rgba(185,211,107,.72); color:#101210; } #slider-slides div { background:rgba(0,0,0,.76); color:#f0eee7; border-left:2px solid var(--accent); }
+    .content h2, aside h2 { color:#f1efe9; font-family:"Noto Sans","Helvetica Neue",Arial,sans-serif; letter-spacing:.14em; text-transform:uppercase; font-size:.9em; font-weight:600; } .content p, .content li, aside p { color:#aeb2ad; } .content a, aside a { color:var(--accent); } .content a:hover, aside a:hover { color:#e5efb5; } .content li::marker { color:#aeb2ad; } .content hr { border-color:var(--rule); } body:after { content:""; display:block; height:22px; background:repeating-linear-gradient(135deg,#0b0c0d 0 8px,#222725 8px 9px); border-top:1px solid #343a36; opacity:.8; }
+    header img { filter:drop-shadow(0 0 14px rgba(185,211,107,.08)); } aside h2:after { content:""; display:block; width:30px; margin-top:9px; border-bottom:2px solid var(--accent); } #main-content { border-top:1px solid #303633; }
+    header h1 { font-family:"DM Mono",monospace; font-size:.72rem!important; letter-spacing:.12em; text-transform:uppercase; color:#aeb5ad; }
+    nav a { font-family:"Noto Sans","Helvetica Neue",Arial,sans-serif; letter-spacing:.12em; }
+    #slider-slides div, #slider-controls button { font-family:"DM Mono",monospace; }
+    .content p, .content li, aside p { font-family:"Noto Sans","Helvetica Neue",Arial,sans-serif; font-size:.9em; letter-spacing:0; line-height:1.52; font-weight:400; }
+    .content p { margin-top:.55rem; margin-bottom:.55rem; }
+    .content li { margin-top:.18rem; margin-bottom:.18rem; }
+    .content h2, aside h2 { font-family:"Noto Sans","Helvetica Neue",Arial,sans-serif; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="theme.css">
 </head>
 
-<body>
+<body class="home-page">
     {{> header}}
 
     <div class="container mx-auto px-4 text-lg">
-        <div class="flex flex-wrap md:flex-nowrap md:gap-x-8 gap-y-8">
-            <div class="w-full md:w-2/3">
+        <div class="home-columns flex flex-wrap md:flex-nowrap md:gap-x-8 gap-y-8">
+            <div class="home-main-column w-full md:w-2/3">
                 <!--POST-->
                 <main class="bg-white rounded-sm shadow-md p-8">
                     <div id="slider" class="w-full h-[230px] relative">
@@ -99,17 +115,16 @@
                 <!--END POST-->
             </div>
             <!--SIDEBAR-->
-            <div class="w-full md:w-1/3">
+            <div class="home-sidebar-column w-full md:w-1/3">
                 <!-- <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showCalendars=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hcihkust%40gmail.com&amp;color=%231B887A&amp;ctz=Asia%2FHong_Kong" style="border-width:0" width="390" height="300" frameborder="0" scrolling="no"></iframe> -->
-                <aside class="bg-white rounded-sm shadow-md p-8">
+                <aside class="home-sidebar bg-white rounded-sm shadow-md p-8">
                     <h2 class="font-bold uppercase">Highlight</h2>
                     <div id="highlight" class="text-base">
-                        <p class="mt-2">
-                            We are looking for Postdoc, PhD, MPhil, and Visiting Intern.
+                        <p class="highlight-welcome mt-2">
+                            We warmly welcome students, researchers, and collaborators interested in exploring opportunities with the HCI Initiative.
                         </p>
                         <p class="mt-2">
-                            <a href="https://www.cse.ust.hk/~mxj/" class="link">For potential PhD, MPhil, MScIT, and
-                                UROP students</a>
+                            <a href="contact.html" class="highlight-link link">Explore faculty research and application details &rarr;</a>
                         </p>
                     </div>
 
@@ -122,11 +137,16 @@
                     </div>
 
                     <h2 class="font-bold uppercase mt-6">Recent News</h2>
-                    <div id="recent-news" class="text-base">
+                    <div id="recent-news" class="text-base news-years" tabindex="0" aria-label="Recent news; scroll for more updates">
                         {{#news}}
-                        <p class="mt-2">
-                            [{{{time}}}] {{{content}}}
-                        </p>
+                        <details class="news-year" {{#open}}open{{/open}}>
+                            <summary><span>{{year}}</span><small>{{count}} updates</small></summary>
+                            <div class="news-year-items">
+                                {{#items}}
+                                <p class="mt-2"><strong class="news-date">[{{time}}]</strong> {{{content}}}</p>
+                                {{/items}}
+                            </div>
+                        </details>
                         {{/news}}
                     </div>
 

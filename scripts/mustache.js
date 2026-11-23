@@ -47,6 +47,23 @@ const pages = fs.readdirSync('./src', { withFileTypes: true })
 let PEOPLE = JSON.parse(fs.readFileSync(`./src/data/people.json`, 'utf8').toString());
 
 const dataPreprocessors = {
+    news: (items) => {
+        const years = [];
+        const byYear = new Map();
+        items.forEach(item => {
+            const match = String(item.time || '').match(/\b(20\d{2})\b/);
+            const year = match ? match[1] : 'Other';
+            if (!byYear.has(year)) {
+                const group = { year, count: 0, items: [], open: years.length === 0 };
+                byYear.set(year, group);
+                years.push(group);
+            }
+            const group = byYear.get(year);
+            group.items.push(item);
+            group.count += 1;
+        });
+        return years;
+    },
     publications: (data) => {
         data.forEach(year => {
             year.papers.forEach(publication => {

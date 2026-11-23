@@ -1,0 +1,1454 @@
+{
+  "approvedAt": "2026-11-08T08:01:51+00:00",
+  "reviewer": "Kangyu Yuan",
+  "reviewDate": "2026-11-08",
+  "items": [
+    {
+      "id": "news-9",
+      "time": "Aug 2026",
+      "content": "'CoNewsReader: Supporting Comprehensive Understanding and Raising Critical Thoughts on Social Media News Through Comments' received the Best Paper Honorable Mention Award @ CSCW2026! Congrat to Kangyu and Prof. Peng (SYSU team)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Kangyu Yuan"
+      ],
+      "matchEvidence": [
+        "kangyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-10",
+      "time": "Aug 2026",
+      "content": "CoNarrate: Computationally Modeling Information Prematureness and Scaffolding the Co-Construction of Patient Narratives in Asynchronous Telehealth @ UIST2026 Congrat to Dingdong and MSRA collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Dingdong Liu"
+      ],
+      "matchEvidence": [
+        "dingdong"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-11",
+      "time": "Aug 2026",
+      "content": "TactiPlay: Multi-Granularity Tactical Parsing and Video-Anchored Match Review for Amateur Badminton Players @ UIST2026 Congrat to Qiaoyi and the team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Qiaoyi Chen"
+      ],
+      "matchEvidence": [
+        "qiaoyi"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-13",
+      "time": "Jul 2026",
+      "content": "The Speculative Future of Conversational AI for Neurocognitive Disorder Screening: a Multi-Stakeholder Perspective @ IJHCS Congrat to Jiaxiong, collaborators, and Prof. Jeung (Tsinghua)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Jiaxiong Hu"
+      ],
+      "matchEvidence": [
+        "jiaxiong"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-14",
+      "time": "Jul 2026",
+      "content": "Understanding Human Engagement with AI-Extended Characters in Creative Media: A Preliminary Investigation into AI Talk Shows @ C&C2026 Poster Congrat to Yuying and collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yuying Tang"
+      ],
+      "matchEvidence": [
+        "yuying"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-16",
+      "time": "Jun 2026",
+      "content": "Collective Meaning-Making in the Real Person Shipping Community on Social Media @ CSCW2026 Poster Congrat to Ziqi and collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Ziqi Pan"
+      ],
+      "matchEvidence": [
+        "ziqi"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-17",
+      "time": "Jun 2026",
+      "content": "Beyond Conversation: How Deep Users Experience Companionship with Desktop Companion Robots @ RO-MAN2026 LBW Congrat to Heng and Ziqi",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Heng Zhang",
+        "Ziqi Pan"
+      ],
+      "matchEvidence": [
+        "heng",
+        "ziqi"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-18",
+      "time": "May 2026",
+      "content": "Designing AI-Infused Interactive Systems for Online Communities: A Systematic Literature Review @ CSCW2026 Congrat to Yuanhao and collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yuanhao Zhang"
+      ],
+      "matchEvidence": [
+        "yuanhao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-19",
+      "time": "May 2026",
+      "content": "CoNewsReader: Supporting Comprehensive Understanding and Raising Critical Thoughts on Social Media News Through Comments @ CSCW2026 Congrat to Kangyu and Prof. Peng (SYSU team)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Kangyu Yuan"
+      ],
+      "matchEvidence": [
+        "kangyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-22",
+      "time": "Mar 2026",
+      "content": "'Friend, Foe, or Bot? Exploring Intergroup Dynamics in Hybrid Human-Bot Teams' received the Best Paper Award @ CHI2026! Congrat to Assem, Ziqi, and Yuanhao",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Assem Zhunis",
+        "Yuanhao Zhang",
+        "Ziqi Pan"
+      ],
+      "matchEvidence": [
+        "assem",
+        "yuanhao",
+        "ziqi"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-24",
+      "time": "Mar 2026",
+      "content": "'Investigating How Physical Surfaces Can Serve as Common-Region Cues for Perceptual Grouping of Virtual Elements in Augmented Reality' received the Honorable Mention Award @ CHI2026! Congrat to Xuanhui, Xuning, and Prof. Liang",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Xuanhui Yang",
+        "Xuning Hu"
+      ],
+      "matchEvidence": [
+        "xuanhui",
+        "xuning"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-25",
+      "time": "Mar 2026",
+      "content": "Friend, Foe, or Bot? Exploring Intergroup Dynamics in Hybrid Human-Bot Teams @ CHI2026 Congrat to Assem and the team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Assem Zhunis"
+      ],
+      "matchEvidence": [
+        "assem"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-26",
+      "time": "Mar 2026",
+      "content": "Investigating How Physical Surfaces Can Serve as Common-Region Cues for Perceptual Grouping of Virtual Elements in Augmented Reality @ CHI2026 Congrat to Xuanhui and collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Xuanhui Yang"
+      ],
+      "matchEvidence": [
+        "xuanhui"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-27",
+      "time": "Mar 2026",
+      "content": "From Human Pragmatic Language Skills to Conversational Agent Design: A Systematic Review of Transfer Strategies @ CHI2026 Congrat to Jiaxiong, the team, and collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Jiaxiong Hu"
+      ],
+      "matchEvidence": [
+        "jiaxiong"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-28",
+      "time": "Mar 2026",
+      "content": "How Do Human Creators Embrace Human-AI Co-Creation? A Perspective on Human Agency of Screenwriters @ CHI2026 Congrat to Yuying, Prof. Qu (VIS Lab), and the MSRA team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu",
+        "Yuying Tang"
+      ],
+      "matchEvidence": [
+        "Prof. Qu",
+        "yuying"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-29",
+      "time": "Mar 2026",
+      "content": "DuoDrama: Supporting Screenplay Refinement Through LLM-Assisted Human Reflection @ CHI2026 Congrat to Yuying, Prof. Qu (VIS Lab), and the MSRA team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu",
+        "Yuying Tang"
+      ],
+      "matchEvidence": [
+        "Prof. Qu",
+        "yuying"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-30",
+      "time": "Mar 2026",
+      "content": "When LLMs Enter Everyday Feminism on Chinese Social Media: Opportunities and Risks for Women's Empowerment @ CHI2026 Congrat to Runhua, the team, Prof. Qu and collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu",
+        "Runhua Zhang"
+      ],
+      "matchEvidence": [
+        "Prof. Qu",
+        "runhua"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-31",
+      "time": "Mar 2026",
+      "content": "\"Shall We Dig Deeper?\": Designing and Evaluating Strategies for LLM Agents to Advance Knowledge Co-Construction in Asynchronous Online Discussions @ CHI2026 Congrat to Yuanhao, the team, and collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yuanhao Zhang"
+      ],
+      "matchEvidence": [
+        "yuanhao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-32",
+      "time": "Mar 2026",
+      "content": "Exploring Aggressors' In-Match Cognitive and Emotional Formation and Toxic Behavior Trajectories in MOBA Games @ CHI2026 Congrat to Kangyu and the team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Kangyu Yuan"
+      ],
+      "matchEvidence": [
+        "kangyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-35",
+      "time": "Mar 2026",
+      "content": "What Makes a Meme Relieving?: Analyzing the Efficacy of Design Elements of Internet Memes on Exam Stress Relief for University Students @ CHI2026 Poster Congrat to Zuyu and the team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Zuyu Xu"
+      ],
+      "matchEvidence": [
+        "zuyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-36",
+      "time": "Mar 2026",
+      "content": "AI Clone Companions and \"Dream Girl\" Fans: How Idol-Based Agents Reshape Parasocial Relationships Across Real and Virtual Domains @ CHI2026 Poster Congrat to Kangyu and the team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Kangyu Yuan"
+      ],
+      "matchEvidence": [
+        "kangyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-37",
+      "time": "Mar 2026",
+      "content": "\"Without AI, I Would Never Share This Online\": Unpacking How LLMs Catalyze Women's Sharing of Gendered Experiences on Social Media @ CHI2026 Poster Congrat to Runhua and the team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Runhua Zhang"
+      ],
+      "matchEvidence": [
+        "runhua"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-39",
+      "time": "Feb 2026",
+      "content": "Exploring the Grassroots Understanding and Practices of Collective Memory Co-Contribution in a University Community @ GROUP 2027 Congrat to Zeyu, Junze, and Kangyu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Junze Li",
+        "Kangyu Yuan"
+      ],
+      "matchEvidence": [
+        "junze",
+        "kangyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-41",
+      "time": "Jan 2026",
+      "content": "ESR-Coach: Leveraging Large Language Models for Training People to Provide Emotionally Supportive Responses @ IUI 2026 Congrat to Gongyao, Junze, and Prof. Luo",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Junze Li",
+        "Qiong Luo"
+      ],
+      "matchEvidence": [
+        "junze",
+        "Prof. Luo"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-43",
+      "time": "Nov 2025",
+      "content": "Mixed Reality Scenic Live Streaming for Cultural Heritage: Visual Interactions in a Historic Landscape @ ICHEC (ChineseCHI) 2025 Congrat to Zeyu, Chengzhong, Yuanhao, and Chuhan",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yuanhao Zhang"
+      ],
+      "matchEvidence": [
+        "yuanhao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-45",
+      "time": "Sep 2025",
+      "content": "Rethinking Personality Assessment from Human-Agent Dialogues @ EMNLP 2025 Findings Congrat to Baiqiao and Prof. Bian's team (SDU)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Baiqiao Zhang"
+      ],
+      "matchEvidence": [
+        "baiqiao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-46",
+      "time": "Aug 2025",
+      "content": "Exploring the Evolvement of User Engagement in Online Creative Community under the Surge of Generative AI: A Case Study of DeviantArt @ CSCW 2025 Congrat to Qingyu, Kangyu, and the team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Kangyu Yuan"
+      ],
+      "matchEvidence": [
+        "kangyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-49",
+      "time": "Jul 2025",
+      "content": "PaperBridge: Crafting Research Narratives through Human-AI Co-Exploration @ UIST 2025 Congrat to Runhua and Prof. Qu (VisLab team)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu",
+        "Runhua Zhang"
+      ],
+      "matchEvidence": [
+        "Prof. Qu",
+        "runhua"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-50",
+      "time": "Jul 2025",
+      "content": "OceanVive: An ImmersiveVisualization System for CommunicatingComplex Oceanic Phenomena @ IEEE VIS 2025 Short Congrat to Yang, Yuchen, Prof. Li (ShanghaiTech), and CORE",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yang Ouyang"
+      ],
+      "matchEvidence": [
+        "yang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-51",
+      "time": "Jun 2025",
+      "content": "From Platform Migration to Cultural Integration: the Ingress and Diffusion @ CSCW 2025 Poster Congrat to Ziqi, Runhua, Jiehui, Yuanhao, and Yue",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Runhua Zhang",
+        "Yuanhao Zhang",
+        "Ziqi Pan"
+      ],
+      "matchEvidence": [
+        "runhua",
+        "yuanhao",
+        "ziqi"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-53",
+      "time": "Mar 2025",
+      "content": "\"Signaling Human Intentions to Service Robots: Understanding the Use of Social Cues during In-Person Conversations\" received the Honorable Mention Award @ CHI2025! Congrat to Hanfang, Xiaoyu, Nandi, Shuai, Qian, Prof. Luo (CityU), and Prof. Tsung (HKUST-GZ)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Hanfang Lyu",
+        "Qiong Luo"
+      ],
+      "matchEvidence": [
+        "hanfang",
+        "Prof. Luo"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-54",
+      "time": "Mar 2025",
+      "content": "'\"Let's Resolve Conflicts\": A Human-AI Deliberation Framework for AI-Assisted Decision-Making' received the Honorable Mention Award @ CHI2025! Congrat to Shuai, Qiaoyi, Xinru, Chengbo, Prof. Peng (SYSU), and Prof. Yin (Purdue)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Qiaoyi Chen"
+      ],
+      "matchEvidence": [
+        "qiaoyi"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-56",
+      "time": "Mar 2025",
+      "content": "InsightBridge: Enhancing Empathizing with Users through Real-Time Information Synthesis and Visual Communication @ CHI2025 Congrat to Junze, Yue, Chengbo, Dingdong, and Zeyu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Dingdong Liu",
+        "Junze Li"
+      ],
+      "matchEvidence": [
+        "dingdong",
+        "junze"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-57",
+      "time": "Mar 2025",
+      "content": "Scaffolded Turns and Logical Conversations: Designing Humanized LLM-Powered Conversational Agents for Hospital Admission Interviews @ CHI2025 Congrat to Dingdong, Yujing, Bolin, Shuai, and Prof. Shi (SoutheasternU)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Bolin Zhao",
+        "Dingdong Liu"
+      ],
+      "matchEvidence": [
+        "bolin",
+        "dingdong"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-58",
+      "time": "Mar 2025",
+      "content": "Signaling Human Intentions to Service Robots: Understanding the Use of Social Cues during In-Person Conversations @ CHI2025 Congrat to Hanfang, Xiaoyu, Nandi, Shuai, Qian, Prof. Luo (CityU), and Prof. Tsung (HKUST-GZ)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Hanfang Lyu",
+        "Qiong Luo"
+      ],
+      "matchEvidence": [
+        "hanfang",
+        "Prof. Luo"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-59",
+      "time": "Mar 2025",
+      "content": "ACKnowledge: A Computational Framework for Human Compatible Affordance-based Interaction Planning in Real-world Contexts @ CHI2025 Congrat to Ziqi, Xiucheng, Zisu, Prof. Peng (SYSU), and Prof. Fan (HKUST-GZ)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Ziqi Pan"
+      ],
+      "matchEvidence": [
+        "ziqi"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-60",
+      "time": "Mar 2025",
+      "content": "CoKnowledge: Supporting Assimilation of Time-synced Collective Knowledge in Online Science Videos @ CHI2025 Congrat to Yuanhao, Yumeng, Xiyuan, and collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yuanhao Zhang"
+      ],
+      "matchEvidence": [
+        "yuanhao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-61",
+      "time": "Mar 2025",
+      "content": "\"Let's Resolve Conflicts\": A Human-AI Deliberation Framework for AI-Assisted Decision-Making @ CHI2025 Congrat to Shuai, Qiaoyi, Xinru, Chengbo, Prof. Peng (SYSU), and Prof. Yin (Purdue)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Qiaoyi Chen"
+      ],
+      "matchEvidence": [
+        "qiaoyi"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-63",
+      "time": "Mar 2025",
+      "content": "Understanding Screenwriters' Practices, Attitudes, and Future Expectations in Human-AI Co-Creation @ CHI2025 Congrat to Yuying, Dr. Li (MSRA), and Prof. Qu's team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu",
+        "Yuying Tang"
+      ],
+      "matchEvidence": [
+        "Prof. Qu",
+        "yuying"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-65",
+      "time": "Mar 2025",
+      "content": "JournalAIde: Empowering Older Adults in Digital Journal Writing @ CHI2025 Congrat to Shixu and Prof. Fan's team (HKUST-GZ)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Shixu Zhou"
+      ],
+      "matchEvidence": [
+        "shixu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-67",
+      "time": "Mar 2025",
+      "content": "QCM: A Curvature Manipulation Method to Suppress Discomfort in Redirected Walking @ CHI2025 Congrat to Prof. Yang's and Prof Bian's team (ShandongU)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yang Ouyang"
+      ],
+      "matchEvidence": [
+        "yang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-70",
+      "time": "Feb 2025",
+      "content": "\"I Love The Internet Again\": Interaction Inception of \"TikTok Refugees\" in RedNote @ CHI2025 LBW Congrat to Kangyu and the HKUST team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Kangyu Yuan"
+      ],
+      "matchEvidence": [
+        "kangyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-75",
+      "time": "Aug 2024",
+      "content": "\"A Dialogue System Architecture for Humanoid Robots Targeting Patinet Interview Tasks\" won the 3rd place for the Best Industry Application Award (Bronze Price) @ RO-MAN2024 Congrat to Yifan, Dingdong, Yejin, Prof. Shi and the Grace project team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Dingdong Liu"
+      ],
+      "matchEvidence": [
+        "dingdong"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-76",
+      "time": "Aug 2024",
+      "content": "DiscipLink: Unfolding Interdisciplinary Information Seeking Process via Human-AI Co-Exploration @ ACM UIST 2024 Congrat to Chengbo, Yuanhao, Zeyu, Chuhan, and Minrui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yuanhao Zhang"
+      ],
+      "matchEvidence": [
+        "yuanhao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-78",
+      "time": "Aug 2024",
+      "content": "AR Scenic Live-Streaming for an Interactive and Collective Experience @ ISMAR 2024 Poster Congrat to Zeyu, Zuyu, Yuanhao, Chengzhong, Chuhan, and Dr. Zhao's team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yuanhao Zhang",
+        "Zuyu Xu"
+      ],
+      "matchEvidence": [
+        "yuanhao",
+        "zuyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-79",
+      "time": "July 2024",
+      "content": "CompositingVis: Exploring Interaction for Creating Composite Visualizations in Immersive Environments @ IEEE Vis 2024 Congrat to Qian, Prof. Yang (GeogiaTech) and the team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yang Ouyang"
+      ],
+      "matchEvidence": [
+        "yang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-82",
+      "time": "May 2024",
+      "content": "A Dialogue System Architecture for Humanoid Robots Targeting Patinet Interview Tasks @ RO-MAN2024 Congrat to Yifan, Dingdong, Yejin, Prof. Shi and the Grace project team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Dingdong Liu"
+      ],
+      "matchEvidence": [
+        "dingdong"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-84",
+      "time": "May 2024",
+      "content": "Exploring Scaffolding Techniques for Agent-Administered Brief Cognitive Screening in Hospital Settings @ DIS2024 WiP Congrat to Dingdong and the Grace project team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Dingdong Liu"
+      ],
+      "matchEvidence": [
+        "dingdong"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-87",
+      "time": "Mar 2024",
+      "content": "Charting the Future of AI in Project-Based Learning @ CHI2024 Congrat to Chengbo, Kangyu, Bingcan, Reza, Shuai, and Prof. Peng",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Kangyu Yuan"
+      ],
+      "matchEvidence": [
+        "kangyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-88",
+      "time": "Mar 2024",
+      "content": "Designing Scaffolding Strategies for Conversational Agents in Dialog Task of Neurocognitive Disorders Screening @ CHI2024 Congrat to Jiaxiong, Junze and the HKUST-CUHK team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Jiaxiong Hu",
+        "Junze Li"
+      ],
+      "matchEvidence": [
+        "jiaxiong",
+        "junze"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-89",
+      "time": "Mar 2024",
+      "content": "DiaryHelper: Exploring the Use of an Automatic Contextual Information Recording Agent for Elicitation Diary Study @ CHI2024 Congrat to Junze, Jiaxiong and our collaborators",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Jiaxiong Hu",
+        "Junze Li"
+      ],
+      "matchEvidence": [
+        "jiaxiong",
+        "junze"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-91",
+      "time": "Mar 2024",
+      "content": "Sharing Frissons among Online Video Viewers: Exploring the design of Affective Communication for Aesthetic Chills @ CHI2024 Congrat to Zeyu, Yuanhao and the team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yuanhao Zhang"
+      ],
+      "matchEvidence": [
+        "yuanhao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-97",
+      "time": "Jan 2024",
+      "content": "Problem-solving Analysis Test System, Test Method and Test Software @ Chinese Patent Granted Congrat to Meng and Prof. Qu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu"
+      ],
+      "matchEvidence": [
+        "Prof. Qu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-98",
+      "time": "Dec 2023",
+      "content": "FARPLS: A Feature-Augmented Robot Trajectory Preference Labeling System to Assist Human Labelers’ Preference Elicitation @ IUI 2024 Congrat to Hanfang, Chuhan, Mingfei and the HKPC team",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Hanfang Lyu"
+      ],
+      "matchEvidence": [
+        "hanfang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-100",
+      "time": "Nov 2023",
+      "content": "Designing the Conversational Agent: Asking Follow-up Questions for Information Elicitation @ CSCW 2024 Congrat to Jiaxiong and Prof. Xu's team (Tsinghua Future Lab)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Jiaxiong Hu"
+      ],
+      "matchEvidence": [
+        "jiaxiong"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-105",
+      "time": "Aug 2023",
+      "content": "Storyfier: Exploring Vocabulary Learning Support with Text Generation Models @ UIST 2023 Congrat to Zhenhui, Xingbo & Prof. Qu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu"
+      ],
+      "matchEvidence": [
+        "Prof. Qu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-106",
+      "time": "July 2023",
+      "content": "NL2Color: Refining Color Palettes for Charts with Natural Language @ VIS 2023 Congrat to Chuhan, Dr. Cui (and MSRA team), Chengzhong, Chengbo & Prof. Luo",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Qiong Luo"
+      ],
+      "matchEvidence": [
+        "Prof. Luo"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-112",
+      "time": "Mar 2023",
+      "content": "CoArgue: Fostering Lurkers’ Contribution to Collective Arguments in CQA @ CHI 2023 Congrat to Chengzhong, Shixu, Dingdong, Junze & Zeyu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Dingdong Liu",
+        "Junze Li",
+        "Shixu Zhou"
+      ],
+      "matchEvidence": [
+        "dingdong",
+        "junze",
+        "shixu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-114",
+      "time": "Mar 2023",
+      "content": "What Makes Creators Engage with Online Critiques @ CHI 2023 Congrat to Qingyu, Chao, Hanfang & Zhenhui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Hanfang Lyu"
+      ],
+      "matchEvidence": [
+        "hanfang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-116",
+      "time": "Mar 2023",
+      "content": "RetroLens: A Human-AI Collaborative System for Multi-step Retrosynthetic Route Planning @ CHI 2023 Congrat to Chuhan, Shuai, Chengbo & Prof. Luo",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Qiong Luo"
+      ],
+      "matchEvidence": [
+        "Prof. Luo"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-120",
+      "time": "Oct 2022",
+      "content": "What Do Users Think of Promotional Gamification Schemes? A Qualitative Case Study in a QA Website @ Methods Recognition Award of CSCW 2022 Congrat to Reza, Yuanhao, Yongjin, and Prof. Hui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pan Hui",
+        "Yuanhao Zhang"
+      ],
+      "matchEvidence": [
+        "Prof. Hui",
+        "yuanhao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-125",
+      "time": "July 2022",
+      "content": "CReBot: Exploring Interactive Question Prompts for Critical Paper Reading @ IJHCS Congrat to Zhenhui, Yuzhi, Hanqi, and Zuyu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Zuyu Xu"
+      ],
+      "matchEvidence": [
+        "zuyu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-126",
+      "time": "July 2022",
+      "content": "MedChemLens: An Interactive Visual Tool to Support Direction Selection in Interdisciplinary Experimental Research of Medicinal Chemistry @ IEEE VIS 2022 Congrat to Chuhan, Fei, Yicheng, Prof. Luo and Prof. Chen",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Qiong Luo"
+      ],
+      "matchEvidence": [
+        "Prof. Luo"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-130",
+      "time": "Jun 2022",
+      "content": "Our paper \"When Gamification Spoils Your Learning\" received the Honorable Mention Award @ L@S 2022 Congrat to Reza, Bingcan, Yuanhao, and Prof. Hui (and his group)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pan Hui",
+        "Yuanhao Zhang"
+      ],
+      "matchEvidence": [
+        "Prof. Hui",
+        "yuanhao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-131",
+      "time": "May 2022",
+      "content": "PlanHelper: Supporting Activity Plan Construction with Answer Posts in CQA @ CSCW 2022 Congrat to Chengzhong, Zeyu, Dingdong, Shixu, and Zhenhui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Dingdong Liu",
+        "Shixu Zhou"
+      ],
+      "matchEvidence": [
+        "dingdong",
+        "shixu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-132",
+      "time": "May 2022",
+      "content": "What Do Users Think of Promotional Gamification Schemes? A Qualitative Case Study in a QA Website @ CSCW 2022 Congrat to Reza, Yuanhao, Yongjin, and Prof. Hui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pan Hui",
+        "Yuanhao Zhang"
+      ],
+      "matchEvidence": [
+        "Prof. Hui",
+        "yuanhao"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-133",
+      "time": "May 2022",
+      "content": "More Gamification Is Not Always Better: A Case Study of Promotional Gamification in a QA Website @ CSCW 2022 Congrat to Reza and Prof. Hui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pan Hui"
+      ],
+      "matchEvidence": [
+        "Prof. Hui"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-136",
+      "time": "May 2022",
+      "content": "A Personalized Visual Aid for Selections of Appearance Building Products with Long-term Effects @ CHI 2022 Congrat to Chuhan and Prof. Luo",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Qiong Luo"
+      ],
+      "matchEvidence": [
+        "Prof. Luo"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-140",
+      "time": "Mar 2022",
+      "content": "What Do Users Think of Promotional Gamification Schemes @ CSCW 2022 Congrat to Reza and Prof. Hui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pan Hui"
+      ],
+      "matchEvidence": [
+        "Prof. Hui"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-141",
+      "time": "Mar 2022",
+      "content": "When Gamification Spoils Your Learning: A Qualitative Case Study of Gamification Misuse in a Language-Learning App @ L@S 2022 Congrat to Reza and Prof. Hui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pan Hui"
+      ],
+      "matchEvidence": [
+        "Prof. Hui"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-148",
+      "time": "Jan 2022",
+      "content": "Persua: A Visual Interactive System to Enhance the Persuasiveness of Arguments in Online Discussion @ CSCW 2022 Congrat to Meng, Qian, Xingbo, Fei, and Prof. Qu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu"
+      ],
+      "matchEvidence": [
+        "Prof. Qu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-155",
+      "time": "Jul 2021",
+      "content": "Exploring Health Rumor Characteristics and Debunking Efforts on Chinese Social Media during COVID-19 @ ICWSM 2022 Congrat to Wenjie, Sitong, Zhenhui, Chuhan, and Prof. Yang (GeorgiaTech)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yang Ouyang"
+      ],
+      "matchEvidence": [
+        "yang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-165",
+      "time": "Apr 2021",
+      "content": "Student Barriers to Active Learning in Synchronous Online Classes @ L@Scale 2021 Congrat to Reza, Yankun, Ehsan, and Prof. Hui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pan Hui"
+      ],
+      "matchEvidence": [
+        "Prof. Hui"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-168",
+      "time": "Dec 2020",
+      "content": "Characterizing Student Engagement Moods for Dropout Prediction in Question Pool @ CSCW 2021 Congrat to Reza and Prof. Hui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pan Hui"
+      ],
+      "matchEvidence": [
+        "Prof. Hui"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-171",
+      "time": "Dec 2020",
+      "content": "Support-Seekers’ Community Knowledge on Expressed Satisfaction in Mental Health Communities @ CHI 2021 Congrat to Zhenhui, Qingyu, Ka Wing, and Prof. Diyi Yang",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yang Ouyang"
+      ],
+      "matchEvidence": [
+        "yang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-176",
+      "time": "July 2020",
+      "content": "QLens: Visual Analytics of Multi-step Problem-solving @ IEEE VIS 2020 Congrat to Meng, Prof. Qu (and the HKUST VIS team), and Dr. Xu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu"
+      ],
+      "matchEvidence": [
+        "Prof. Qu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-181",
+      "time": "Feb 2020",
+      "content": "SeqDynamics: Visual Analytics for Evaluating Online Problem-solving Dynamics @ EuroVis 2020 Congrat to Meng, David, Tim, Prof. Qu (and the VIS team)",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu"
+      ],
+      "matchEvidence": [
+        "Prof. Qu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-189",
+      "time": "Dec 2019",
+      "content": "VoiceCoach for Public Speaking @ CHI 2020 Congrat to Xingbo, Prof. Qu (and the HKUST VIS team), and Zhida",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu"
+      ],
+      "matchEvidence": [
+        "Prof. Qu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-200",
+      "time": "Aug 2019",
+      "content": "Tensor-based Embedding for Small Sample Humor Recognition @ EMNLP2019 Congrat to Andrew, Zhenjie, and Prof. Papalexakis",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Andrew B. Horner"
+      ],
+      "matchEvidence": [
+        "andrew"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-205",
+      "time": "June 2019",
+      "content": "Churn Prediction in QA Forums @ PRICAI2019 Congrat to Reza and Prof. Hui",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pan Hui"
+      ],
+      "matchEvidence": [
+        "Prof. Hui"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-207",
+      "time": "May 2019",
+      "content": "Cross-City Transfer Learning @ IJCAI2019 Congrat to Leye and Prof. Yang",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yang Ouyang"
+      ],
+      "matchEvidence": [
+        "yang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-208",
+      "time": "May 2019",
+      "content": "Emotional Characteristics of Rain Sound Effects @ ICMC 2019 Congrat to Alice and Prof. Horner",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Andrew B. Horner"
+      ],
+      "matchEvidence": [
+        "Prof. Horner"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-212",
+      "time": "Jan 2019",
+      "content": "Emotional Intelligence of Personality-Driven Virtual Agent @ WWW 2019 Congrat to Emily and Prof. Fung",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Pascale Fung"
+      ],
+      "matchEvidence": [
+        "Prof. Fung"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-213",
+      "time": "Jan 2019",
+      "content": "Rating Worker and Task in Collaborative Crowd Computing @ WWW 2019 Congrat to George and Prof. Yang",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yang Ouyang"
+      ],
+      "matchEvidence": [
+        "yang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-214",
+      "time": "Dec 2018",
+      "content": "Ridesharing Detection by Transfer Learning @ Artificial Intelligence Congrat to Leye, Prof. Zhang, and Prof. Yang",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yang Ouyang"
+      ],
+      "matchEvidence": [
+        "yang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-217",
+      "time": "Dec 2018",
+      "content": "PeerLens - Learning Path Planning @ CHI 2019 Congrat to Meng, Mingfei, Prof. Qu and other co-authors",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu"
+      ],
+      "matchEvidence": [
+        "Prof. Qu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-219",
+      "time": "Aug 2018",
+      "content": "WeSeer: Cascade Prediction of WeChat Articles @ TVCG Congrat to Quan and Prof. Qu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu"
+      ],
+      "matchEvidence": [
+        "Prof. Qu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-223",
+      "time": "Aug 2018",
+      "content": "Emotion of Rain Sound Effect @ ICMC 2018 Congrat to Alice and Prof. Horner",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Andrew B. Horner"
+      ],
+      "matchEvidence": [
+        "Prof. Horner"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-228",
+      "time": "May 2018",
+      "content": "Word Association for Humor Recognition @ COLING 2018 Congrat to Andrew",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Andrew B. Horner"
+      ],
+      "matchEvidence": [
+        "andrew"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-230",
+      "time": "March 2018",
+      "content": "Co-design of Interactive Analytics System @ DIS 2018 Congrat to Quan, Ziming, and Prof. Qu",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Huamin Qu"
+      ],
+      "matchEvidence": [
+        "Prof. Qu"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-233",
+      "time": "Feb 2018",
+      "content": "Emotional Expression of Voice Agent @ CHI 2018 LBW Congrat to Yang, Xi and Prof. Cao",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Yang Ouyang"
+      ],
+      "matchEvidence": [
+        "yang"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-238",
+      "time": "Sep 2017",
+      "content": "Predicting Word Association Strengths @ EMNLP 2017 Congrat to Andrew",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Andrew B. Horner"
+      ],
+      "matchEvidence": [
+        "andrew"
+      ],
+      "memberMatchStatus": "accepted"
+    },
+    {
+      "id": "news-240",
+      "time": "Aug 2017",
+      "content": "Word Association for Humour Recognition @ SemEval, ACL 2017 Congrat to Andrew",
+      "sourceUrl": "https://www.cse.ust.hk/~mxj/",
+      "decision": "approved",
+      "duplicateCount": 0,
+      "matchedMembers": [
+        "Andrew B. Horner"
+      ],
+      "matchEvidence": [
+        "andrew"
+      ],
+      "memberMatchStatus": "accepted"
+    }
+  ]
+}

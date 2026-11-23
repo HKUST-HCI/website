@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life | HKUST HCI Initiative</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js?v=20261110-4"></script>
+<link rel="stylesheet" href="theme.css?v=20261110-19">
+</head>
+<body>
+    <header class="bg-zinc-700 text-white lg:pb-4 mb-8">
+        <div class="container mx-auto px-4 flex justify-between items-center gap-x-8 flex-wrap">
+            <div class="flex-none basis-auto md:basis-full lg:basis-auto text-center">
+                <a class="inline-block" href="index.html">
+                    <img src="img/logo.svg" class="w-40 md:w-60 xl:w-72" alt="Human-Computer Interaction Initiative @ HKUST">
+                </a>
+                <h1 class="sr-only md:not-sr-only text-sm xl:text-base">Human-Computer Interaction Initiative @ HKUST</h1>
+            </div>
+            <div class="md:hidden relative">
+                <button id="mobile-nav-button" class="px-2 h-16 text-xl relative" type="button" aria-haspopup="menu" aria-controls="mobile-nav"><i class="fa fa-bars"></i></button>
+            </div>
+            <nav id="site-nav" class="my-2 flex-auto self-end w-full md:w-auto overflow-x-auto lg:overflow-x-visible hidden md:block">
+                <ul class="flex flex-row font-bold text-lg uppercase text-center font-title" role="menu">
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="index.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem">Home</a></li>
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="people.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem">People</a></li>
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="publications.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem">Publications</a></li>
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="life.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem" aria-current="page">Life</a></li>
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="contact.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem">Join us</a></li>
+                    <li class="theme-toggle-item"><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to day mode" title="Day mode"><span aria-hidden="true">&#9675;</span></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-4">
+        <main class="life-page bg-white rounded-sm shadow-md p-5 md:p-8">
+            <div class="life-intro">
+                <p class="life-kicker">Beyond the research</p>
+                <h2>Life at HKUST HCI Initiative</h2>
+                <p>Snapshots of the people, places, and moments that shape our community.</p>
+            </div>
+
+            <div class="life-years">
+                <details class="life-year" open>
+                    <summary><span>2026</span></summary>
+                    <div class="life-gallery">
+                        <article class="life-entry"><div class="life-carousel" data-interval="5000" aria-label="Photos from the MSRA HK Visit"><div class="life-slides"><img src="img/life/20260116/f395bc4e94b0e8ba546bfe46b11b9cf.jpg" alt="MSRA HK Visit" loading="lazy"></div></div><div class="life-caption"><p class="life-date">January 2026</p><h3>MSRA HK Visit</h3><p>We visited MSRA in Hong Kong and exchanged ideas.</p></div></article>
+                        <article class="life-entry life-entry-reverse"><div class="life-carousel" data-interval="5000" aria-label="Photos from CHI 2026"><div class="life-slides"><img src="img/life/20260420/3c76c7e907226b1c9fb2508bf0633f6.jpg" alt="CHI 2026" loading="lazy"></div></div><div class="life-caption"><p class="life-date">April 2026</p><h3>CHI 2026</h3><p>We gathered in Barcelona for CHI 2026.</p></div></article>
+                        <article class="life-entry"><div class="life-carousel" data-interval="5000" aria-label="Photos from the Shenzhen Team Activity"><div class="life-slides"><img src="img/life/20260725/b85275191357c7eb67d6d084e9153b2.jpg" alt="Shenzhen Team Activity" loading="lazy"><img src="img/life/20260725/e1cb707f789133095e8ec61ccb2737d.jpg" alt="Shenzhen Team Activity" loading="lazy"></div></div><div class="life-caption"><p class="life-date">July 2026</p><h3>Shenzhen Team Activity</h3><p>We spent time together during a Shenzhen team activity.</p></div></article>
+                        <article class="life-entry life-entry-reverse"><div class="life-carousel" data-interval="5000" aria-label="Photos from HHME Changsha, China"><div class="life-slides"><img src="img/life/20260815/4b51ef2e2e0cc03575e7987c588610c.jpg" alt="HHME Changsha, China" loading="lazy"><img src="img/life/20260815/e5705974368fb28d6bf41c179273d67.jpg" alt="HHME Changsha, China" loading="lazy"></div></div><div class="life-caption"><p class="life-date">August 2026</p><h3>HHME Changsha, China</h3><p>We joined the HHME gathering in Changsha, China.</p></div></article>
+                        <article class="life-entry"><div class="life-carousel" data-interval="5000" aria-label="Photos from Shek O Hiking"><div class="life-slides"><img src="img/life/20261030/016a42eaa12217e1bb1d92896b4fbcf.jpg" alt="Shek O Hiking" loading="lazy"><img src="img/life/20261030/5d3f31bb215234408c622c8b364cc01.jpg" alt="Shek O Hiking" loading="lazy"><img src="img/life/20261030/9dbfdb3d633fdb9af146fe412b1679b.jpg" alt="Shek O Hiking" loading="lazy"><img src="img/life/20261030/a48bb95dd1b54c57d44a067216990d1.jpg" alt="Shek O Hiking" loading="lazy"><img src="img/life/20261030/d44262b49d617443a5214cb3d78d531.jpg" alt="Shek O Hiking" loading="lazy"><img src="img/life/20261030/f647216fa404900830455cc9381d438.jpg" alt="Shek O Hiking" loading="lazy"></div></div><div class="life-caption"><p class="life-date">October 2026</p><h3>Shek O Hiking</h3><p>We enjoy a day hiking together at Shek O.</p></div></article>
+                    </div>
+                </details>
+
+                <details class="life-year">
+                    <summary><span>2025</span></summary>
+                    <div class="life-gallery">
+                        <article class="life-entry"><div class="life-carousel" data-interval="5000" aria-label="Photos from Longji Hiking"><div class="life-slides"><img src="img/life/20250317/0131f7dd5aef54628b4d232a4965eae.jpg" alt="Longji Hiking" loading="lazy"><img src="img/life/20250317/72b8dc9da7c065c1aa8b3d47558c41d.jpg" alt="Longji Hiking" loading="lazy"><img src="img/life/20250317/acaf7ef74f55ace0c58b94cef33efd8.jpg" alt="Longji Hiking" loading="lazy"><img src="img/life/20250317/b2d72a5c3c1bce440ecf1d617078ad0.jpg" alt="Longji Hiking" loading="lazy"><img src="img/life/20250317/f766bcd3b30a6d6cb4a22d0efb00084.jpg" alt="Longji Hiking" loading="lazy"></div></div><div class="life-caption"><p class="life-date">March 2025</p><h3>Longji Hiking</h3><p>We went hiking together in Longji.</p></div></article>
+                        <article class="life-entry"><div class="life-carousel" data-interval="5000" aria-label="Photos from CHI 2025"><div class="life-slides"><img src="img/life/20250430/5e211b07eb2032678909fe89e43b872.jpg" alt="CHI 2025" loading="lazy"><img src="img/life/20250430/77fe376e1119dd2eac4fa7d0fea25fe.jpg" alt="CHI 2025" loading="lazy"><img src="img/life/20250430/c2e9b90807a5a9b9048e1397951ec4e.jpg" alt="CHI 2025" loading="lazy"></div></div><div class="life-caption"><p class="life-date">April 2025</p><h3>CHI 2025</h3><p>We gathered with the HCI community at CHI 2025.</p></div></article>
+                        <article class="life-entry life-entry-reverse"><div class="life-carousel" data-interval="5000" aria-label="Photos from Izu Japen"><div class="life-slides"><img src="img/life/20250427/0679aa56bce5ec568a15bf10c431ef3.jpg" alt="Izu Japen" loading="lazy"><img src="img/life/20250427/0cb0c0534efd3ea15a7560835b32226.jpg" alt="Izu Japen" loading="lazy"><img src="img/life/20250427/31430201cdfeb29168a6200db20bb7b.jpg" alt="Izu Japen" loading="lazy"><img src="img/life/20250427/6189e4bdc724ea3e9786a31cd4ebbaf.jpg" alt="Izu Japen" loading="lazy"><img src="img/life/20250427/73f4bd7bf7ee09e15d68aaab03aaa1b.jpg" alt="Izu Japen" loading="lazy"><img src="img/life/20250427/b61205ed82a4e7b5d86b22844cfa366.jpg" alt="Izu Japen" loading="lazy"><img src="img/life/20250427/b7e9671c46cb55be7473c9df69f2385.jpg" alt="Izu Japen" loading="lazy"><img src="img/life/20250427/e98702a98be5e83d5390c6d652ce5d4.jpg" alt="Izu Japen" loading="lazy"></div></div><div class="life-caption"><p class="life-date">April 2025</p><h3>Izu Japen</h3><p>We enjoyed Izu before CHI 2025.</p></div></article>
+                        <article class="life-entry life-entry-reverse"><div class="life-carousel" data-interval="5000" aria-label="Photos from the Shenzhen Team Activity"><div class="life-slides"><img src="img/life/20250802/19770a90eea7e1e77eb1ae60bda1253.jpg" alt="Shenzhen Team Activity" loading="lazy"><img src="img/life/20250802/730bdc078bb8de5a77a1ea5ec5a1ab8.jpg" alt="Shenzhen Team Activity" loading="lazy"></div></div><div class="life-caption"><p class="life-date">August 2025</p><h3>Shenzhen Team Activity</h3><p>We gathered for a team activity in Shenzhen.</p></div></article>
+                        <article class="life-entry"><div class="life-carousel" data-interval="5000" aria-label="Photos from the CHI Deadline Breakdown Group"><div class="life-slides"><img src="img/life/20250822/f95fbf72b4b90e3af4168de2bcba6e6.jpg" alt="CHI Deadline Breakdown Group" loading="lazy"></div></div><div class="life-caption"><p class="life-date">August 2025</p><h3>CHI Deadline Breakdown Group</h3><p>We experienced the deadline rush and breakdown together.</p></div></article>
+                        <article class="life-entry life-entry-reverse"><div class="life-carousel" data-interval="5000" aria-label="Photos from CSCW 2025"><div class="life-slides"><img src="img/life/20251020/8afc9cf8bc283a6a6699fd2e7ee2ef7.jpg" alt="CSCW 2025" loading="lazy"></div></div><div class="life-caption"><p class="life-date">October 2025</p><h3>CSCW 2025</h3><p>We connected with researchers at CSCW 2025.</p></div></article>
+                        <article class="life-entry"><div class="life-carousel" data-interval="5000" aria-label="Future Lab, Tsing Hua University, Visit"><div class="life-slides"><img src="img/life/20251207/150e3521d0ce13aed0d1409556b3cb0.jpg" alt="Future Lab, Tsing Hua University, Visit" loading="lazy"><img src="img/life/20251207/bc7bd188fb8141d99e4bd9288c6f4cc.jpg" alt="Future Lab, Tsing Hua University, Visit" loading="lazy"><img src="img/life/20251207/f35eaca471126d8d1bd79fd25236a00.jpg" alt="Future Lab, Tsing Hua University, Visit" loading="lazy"></div></div><div class="life-caption"><p class="life-date">December 2025</p><h3>Future Lab, Tsing Hua University, Visit</h3><p>We visited the Future Lab at Tsing Hua University and met graduated members.</p></div></article>
+                    </div>
+                </details>
+
+                <details class="life-year">
+                    <summary><span>2024</span></summary>
+                    <div class="life-gallery">
+                        <article class="life-entry"><div class="life-carousel" data-interval="5000" aria-label="Photos from Ocean Park"><div class="life-slides"><img src="img/life/20241103/7c446e372230babb62bfa8b78eb2784.jpg" alt="Ocean Park" loading="lazy"><img src="img/life/20241103/d91853a5c82bd5715e29dadc0c23d4f.jpg" alt="Ocean Park" loading="lazy"><img src="img/life/20241103/e59ab555fc7c79aadb299f1d7c0f367.jpg" alt="Ocean Park" loading="lazy"></div></div><div class="life-caption"><p class="life-date">November 2024</p><h3>Ocean Park</h3><p>We enjoyed Halloween together at Ocean Park.</p></div></article>
+                        <article class="life-entry life-entry-reverse"><div class="life-carousel" data-interval="5000" aria-label="Photos from the Shenzhen Team Activity"><div class="life-slides"><img src="img/life/20241222/da070e8b9e8bc91a1d68ae7db2b3b37.jpg" alt="Shenzhen Team Activity" loading="lazy"></div></div><div class="life-caption"><p class="life-date">December 2024</p><h3>Shenzhen Team Activity</h3><p>We gathered for a year-end activity in Shenzhen.</p></div></article>
+                    </div>
+                </details>
+            </div>
+        </main>
+    </div>
+
+    <footer class="bg-zinc-700 text-white py-2 mt-8">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <img src="img/logo.svg" class="w-32" alt="logo">
+            <div class="float-right text-center text-xs">
+                <p><small>Authored by <a href="https:&#x2F;&#x2F;yellowzeyu.com&#x2F;en&#x2F;" class="link">Zeyu Huang</a> <a href="#" class="link">Dongyu Liu</a> <a href="#" class="link">Qing Chen</a> <a href="http:&#x2F;&#x2F;conglei.org&#x2F;" class="link">Conglei Shi</a></small></p>
+                <p><small>Maintained by <a href="https://yuanky123.github.io/" class="link">Kangyu Yuan</a></small></p>
+                <p><small>&copy; 2022 All rights reserved.</small></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.querySelectorAll('.life-gallery').forEach(function (gallery) {
+            Array.from(gallery.children)
+                .sort(function (first, second) {
+                    var firstDate = first.querySelector('.life-date').textContent.trim();
+                    var secondDate = second.querySelector('.life-date').textContent.trim();
+                    return Date.parse(secondDate) - Date.parse(firstDate);
+                })
+                .forEach(function (activity) {
+                    gallery.appendChild(activity);
+                });
+        });
+        document.querySelectorAll('.life-carousel').forEach(function (carousel) {
+            var slides = Array.from(carousel.querySelectorAll('.life-slides img'));
+            slides.forEach(function (slide) {
+                function markPortrait() {
+                    if (slide.naturalHeight > slide.naturalWidth) {
+                        slide.classList.add('is-portrait');
+                    }
+                }
+                if (slide.complete) markPortrait();
+                else slide.addEventListener('load', markPortrait, { once: true });
+            });
+            if (slides.length < 2) {
+                if (slides[0]) slides[0].classList.add('is-active');
+                return;
+            }
+            var index = 0;
+            var dots = document.createElement('div');
+            dots.className = 'life-carousel-dots';
+            slides.forEach(function (_, slideIndex) {
+                var dot = document.createElement('button');
+                dot.type = 'button';
+                dot.setAttribute('aria-label', 'Show photo ' + (slideIndex + 1));
+                dot.addEventListener('click', function () { show(slideIndex); restart(); });
+                dots.appendChild(dot);
+            });
+            carousel.appendChild(dots);
+            var prev = document.createElement('button');
+            prev.className = 'life-carousel-prev';
+            prev.type = 'button';
+            prev.setAttribute('aria-label', 'Previous photo');
+            prev.innerHTML = '<i class="fa fa-angle-left"></i>';
+            var next = document.createElement('button');
+            next.className = 'life-carousel-next';
+            next.type = 'button';
+            next.setAttribute('aria-label', 'Next photo');
+            next.innerHTML = '<i class="fa fa-angle-right"></i>';
+            carousel.appendChild(prev);
+            carousel.appendChild(next);
+            function show(nextIndex) {
+                index = (nextIndex + slides.length) % slides.length;
+                slides.forEach(function (slide, i) { slide.classList.toggle('is-active', i === index); });
+                dots.querySelectorAll('button').forEach(function (dot, i) { dot.classList.toggle('is-active', i === index); });
+            }
+            function restart() {
+                clearInterval(carousel.lifeTimer);
+                carousel.lifeTimer = setInterval(function () { show(index + 1); }, Number(carousel.dataset.interval) || 5000);
+            }
+            prev.addEventListener('click', function () { show(index - 1); restart(); });
+            next.addEventListener('click', function () { show(index + 1); restart(); });
+            carousel.addEventListener('mouseenter', function () { clearInterval(carousel.lifeTimer); });
+            carousel.addEventListener('mouseleave', restart);
+            show(0);
+            restart();
+        });
+    </script>
+</body>
+</html>
