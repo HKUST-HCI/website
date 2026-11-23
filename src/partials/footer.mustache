@@ -1,16 +1,16 @@
 <footer class="bg-zinc-700 text-white py-2 mt-8">
     <div class="container mx-auto px-4 flex justify-between items-center">
-        <img src="img/logo.svg" class="w-32" alt="Human-Computer Interaction Initiative @ HKUST">
-        <div class="float-right text-center text-xs">
+        <img src="img/logo.svg" class="w-32 logo-on-dark" alt="Human-Computer Interaction Initiative @ HKUST"><img src="img/logo-dark.svg" class="w-32 logo-on-light" alt="" aria-hidden="true">
+        <div class="float-right text-center text-xs footer-credits">
             {{#maintainer}}
             <p><small>Authored by
                 {{#authors}}
-                <a href="{{url}}" class="link">{{name}}</a>
+                <a href="{{url}}" class="link person-link">{{name}}</a>
                 {{/authors}}
             </small></p>
             <p><small>Maintained by
                 {{#maintainers}}
-                <a href="{{url}}" class="link">{{name}}</a>
+                {{separator}}<a href="{{url}}" class="link person-link">{{name}}</a>
                 {{/maintainers}}
             </small></p>
             {{/maintainer}}

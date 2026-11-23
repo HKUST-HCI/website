@@ -5,6 +5,11 @@ build/
 src/data/cache.html
 src/data/publication-old.json
 src/data/scrape.json
+docs/people-homepage-audit-*.md
+docs/publication-images/
+docs/brand-spec.md
+automation/data/curated-hci-publications-*.json
+automation/data/hci-affiliation-audit-*.md
 
 # Logs
 logs
@@ -48,6 +53,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+node_modules
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)

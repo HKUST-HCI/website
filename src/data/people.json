@@ -83,13 +83,15 @@
 				"name": "Junze Li",
 				"position": "Postdoc",
 				"class": "staff",
-				"image": "img/people/junze.jpg"
+				"image": "img/people/junze.jpg?v=4db3161b",
+				"url": "https://junzeleo.github.io/"
 			},
 			{
 				"name": "Dingdong Liu",
 				"position": "Postdoc",
 				"class": "staff",
-				"image": "img/people/dingdong.jpg"
+				"image": "img/people/dingdong.jpg?v=0101489d",
+				"url": "https://dingdong-liu.github.io/"
 			},
 			{
 				"name": "Yang Ouyang",
@@ -154,7 +156,8 @@
 				"name": "Xuanhui Yang",
 				"position": "PhD Candidate",
 				"class": "phd",
-				"image": "img/people/xuanhui.jpg"
+				"image": "img/people/xuanhui.jpg",
+				"url": "https://yang-xuanhui.github.io/"
 			},
 			{
 				"name": "Shixu Zhou",
@@ -167,7 +170,7 @@
 				"position": "PhD Candidate",
 				"class": "phd",
 				"image": "img/people/yuying.jpg",
-				"url": "https://yuyingtang1999.github.io/"
+				"url": "https://madeby-yuyingtang.github.io/"
 			},
 			{
 				"name": "Runhua Zhang",
@@ -180,8 +183,13 @@
 				"name": "Baiqiao Zhang",
 				"position": "PhD Student",
 				"class": "phd",
-				"image": "img/people/baiqiao.jpg",
-				"url": "https://sleepybq.github.io"
+				"image": "img/people/baiqiao.jpg?v=d98ee4b0",
+				"url": "https://baiqiaozhang.cc/",
+				"maintainerBadge": {
+					"class": "current",
+					"label": "Second-generation Maintainer",
+					"generation": "2"
+				}
 			},
 			{
 				"name": "Weiying Liu",
@@ -218,7 +226,8 @@
 				"name": "Yue Zhang",
 				"position": "PhD Student",
 				"class": "phd",
-				"image": "img/people/yuezhang.jpg"
+				"image": "img/people/yuezhang.jpg",
+				"url": "https://yuezhang-edward.github.io/"
 			},
 			{
 				"name": "Xiaoyu Wang",
@@ -232,6 +241,12 @@
 				"position": "Honorary Member",
 				"class": "intern",
 				"image": "img/people/heidan.jpg"
+			},
+			{
+				"name": "Benben",
+				"position": "Honorary Member",
+				"class": "intern",
+				"image": "img/people/benben.jpg"
 			}
 		]
 	},

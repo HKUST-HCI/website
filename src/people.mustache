@@ -3,67 +3,45 @@
 
 <head>
     {{> head}}
-    <script src="people.js"></script>
     <link rel="stylesheet" type="text/css" href="theme.css">
 </head>
 
-<body>
+<body class="people-page site-shell">
     {{> header}}
-    <div class="container mx-auto px-4">
-        <main>
-            {{#people}}
-            <section>
-                <h2 class="people-section-title text-2xl font-title mb-6 mt-10">{{type}}</h2>
-                <div class="text-center">
-                    <div class="people-grid flex flex-wrap gap-2 md:gap-8">
-                        {{#members}}
-                        <article class="avatar group mb-6 overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500
-                                relative w-12 h-12 rounded-full border-2
-                                sm:w-28 sm:h-auto sm:rounded-md sm:border
-                                md:w-38 md:border-none
-                                lg:w-52" style="border-color: {{color}}" data-name="{{name}}"
-                            data-position="{{position}}" data-url="{{url}}">
-                            {{#maintainerBadge}}<span class="maintainer-badge {{class}}" aria-label="{{label}}">{{generation}}</span>{{/maintainerBadge}}
-                            <img src="{{image}}" alt="Photo of {{{name}}}" class="flex-none object-cover
-                                w-full
-                                sm:aspect-5/6">
-                            <button class="md:hidden absolute top-0 left-0 w-full h-full"
-                                aria-describedby="#mobile-person-tooltip"></button>
-                            {{#url}}<a
-                                class="hidden md:flex flex-col justify-end items-stretch absolute top-0 left-0 w-full h-full group-hover:cursor-pointer group-hover:underline decoration-white"
-                                href="{{.}}">{{/url}}
-                                {{^url}}<div
-                                    class="hidden md:flex flex-col justify-end items-stretch absolute top-0 left-0 w-full h-full">
-                                    {{/url}}
-                                    <div class="py-1 text-center text-white" style="background-color: {{color}}">
-                                        <p class="font-title text-sm lg:text-base">{{name}}</p>
-                                        <p class="text-xs lg:test-sm">{{position}}</p>
-                                    </div>
-                                    {{^url}}
-                                </div>{{/url}}
-                                {{#url}}</a>{{/url}}
-                        </article>
-                        {{/members}}
-                        <!-- <div class="w-56 h-0"></div>
-                        <div class="w-56 h-0"></div>
-                        <div class="w-56 h-0"></div>
-                        <div class="w-56 h-0"></div>
-                        <div class="w-56 h-0"></div>
-                        <div class="w-56 h-0"></div> -->
-                    </div>
+<div id="site-scroll" class="site-scroll" role="region" aria-label="Page content" tabindex="0">
+    <div class="site-container">
+        <main class="people-canvas">
+            <h1 class="sr-only">People</h1>
+
+            {{#peopleSections}}
+            <section id="{{id}}" class="people-group{{#isAlumni}} people-group--alumni{{/isAlumni}}" aria-labelledby="heading-{{id}}">
+                <div class="people-group-header">
+                    <h2 id="heading-{{id}}" class="people-group-title">{{title}}</h2>
+                </div>
+                <div class="people-cards{{#isAlumni}} people-cards--alumni{{/isAlumni}}">
+                    {{#members}}
+                    <article class="person-card" data-position="{{position}}">
+                        {{#url}}<a href="{{.}}" class="person-card-link" target="_blank" rel="noopener noreferrer">{{/url}}
+                        {{^url}}<div class="person-card-link">{{/url}}
+                            <div class="person-photo">
+                                {{#maintainerBadge}}<span class="maintainer-badge {{class}}" role="img" title="{{label}}" aria-label="{{label}}">M{{generation}}</span>{{/maintainerBadge}}
+                                <img src="{{image}}" alt="Photo of {{{name}}}"{{#lazyImg}} loading="lazy"{{/lazyImg}}>
+                            </div>
+                            <div class="person-meta">
+                                <p class="person-name"><span class="person-name-text">{{name}}</span></p>
+                                <p class="person-role">{{position}}</p>
+                            </div>
+                        {{#url}}</a>{{/url}}
+                        {{^url}}</div>{{/url}}
+                    </article>
+                    {{/members}}
                 </div>
             </section>
-            {{/people}}
-            <article id="mobile-person-tooltip" class="tooltip bg-zinc-800 text-white py-1 px-2 rounded-md"
-                role="tooltip">
-                <div class="tooltip-arrow" data-popper-arrow></div>
-                <p class="name font-title">(Name)</p>
-                <p class="position text-sm">(Position)</p>
-                <a href="#" class="link text-sm">Personal webpage</a>
-            </article>
+            {{/peopleSections}}
         </main>
     </div>
     {{> footer}}
+</div>
 </body>
 
 </html>

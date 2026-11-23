@@ -1,0 +1,45 @@
+details.animated-disclosure,
+.animated-mobile-nav { box-sizing: border-box; }
+details.animated-disclosure > summary { list-style: none; }
+details.animated-disclosure > summary::-webkit-details-marker { display: none; }
+details.animated-disclosure > summary::before,
+details.animated-disclosure > summary::after,
+details.animated-disclosure > summary .pub-year-title::before {
+    content: none !important;
+    display: none !important;
+}
+.disclosure-icon {
+    position: relative;
+    display: inline-block;
+    width: .875rem;
+    height: .875rem;
+    flex: 0 0 .875rem;
+    align-self: center;
+    color: var(--accent);
+}
+.disclosure-icon::before,
+.disclosure-icon::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: currentColor;
+    border-radius: 1px;
+}
+.disclosure-icon::before { width: .75rem; height: 1.5px; transform: translate(-50%, -50%); }
+.disclosure-icon::after {
+    width: 1.5px;
+    height: .75rem;
+    transform: translate(-50%, -50%) scaleY(1);
+    transform-origin: center;
+    opacity: 1;
+    transition: transform 240ms cubic-bezier(.22,1,.36,1), opacity 160ms ease-out;
+}
+details[data-disclosure-open='true'] > summary .disclosure-icon::after {
+    transform: translate(-50%, -50%) scaleY(0);
+    opacity: 0;
+}
+.life-year > summary > .disclosure-icon { margin-right: .55rem; }
+@media (prefers-reduced-motion: reduce) {
+    .disclosure-icon::after { transition: none; }
+}

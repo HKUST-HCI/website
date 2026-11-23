@@ -173,6 +173,51 @@ def publication_key(item: dict[str, Any]) -> str:
     )
 
 
+def publication_doi(item: dict[str, Any]) -> str:
+    links = item.get("links") or {}
+    for value in (item.get("doi"), links.get("doi"), item.get("publicationUrl"), links.get("url"), item.get("url")):
+        doi = urllib.parse.unquote(str(value or "").strip()).lower()
+        doi = re.sub(r"^(?:https?://(?:dx\.)?doi\.org/|doi:\s*)", "", doi)
+        if re.fullmatch(r"10\.\d{4,9}/\S+", doi):
+            return doi
+    return ""
+
+
+def same_publication(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    left_doi, right_doi = publication_doi(left), publication_doi(right)
+    if left_doi and right_doi:
+        return left_doi == right_doi
+    left_title = re.sub(r"[\W_]+", " ", str(left.get("title") or "").lower()).strip()
+    right_title = re.sub(r"[\W_]+", " ", str(right.get("title") or "").lower()).strip()
+    return bool(left_title) and left_title == right_title and str(left.get("year", "")).strip() == str(right.get("year", "")).strip()
+
+
+def merge_publication_fields(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(existing)
+    for key, value in incoming.items():
+        if value is None or value == "" or value == [] or value == {}:
+            continue
+        if key == "links" and isinstance(value, dict):
+            merged[key] = {
+                **(merged.get(key) or {}),
+                **{name: link for name, link in value.items() if link},
+            }
+        else:
+            merged[key] = value
+    return merged
+
+
+def merge_approved_publications(existing: list[dict[str, Any]], incoming: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    merged = [dict(item) for item in existing]
+    for item in incoming:
+        index = next((i for i, old in enumerate(merged) if same_publication(old, item)), None)
+        if index is None:
+            merged.append(dict(item))
+        else:
+            merged[index] = merge_publication_fields(merged[index], item)
+    return merged
+
+
 def filter_incremental_publications(
     scraped: list[dict[str, Any]],
     approved: list[dict[str, Any]],
@@ -478,25 +523,32 @@ def load_people_names(path: Path) -> list[str]:
 
 
 def load_current_people(path: Path) -> list[dict[str, str]]:
-    """Read every person in the People page's Current Members section."""
-    source = path.read_text(encoding="utf-8")
-    heading = re.search(r"<h2\b[^>]*>\s*Current Members\s*</h2>", source, flags=re.I)
-    if not heading:
-        raise ValueError(f"No Current Members section found in {path}")
-    section_end = source.find("</section>", heading.end())
-    if section_end < 0:
-        raise ValueError(f"Could not find end of Current Members section in {path}")
-    section = source[heading.end():section_end]
-    people = [
-        {"name": clean_text(html.unescape(name)), "position": clean_text(html.unescape(position))}
-        for name, position in re.findall(
-            r'<article\b[^>]*data-name="([^"]+)"[^>]*data-position="([^"]+)"',
-            section,
-            flags=re.I,
-        )
+    """Read current members from the site's source data, independent of page layout."""
+    groups = load_json(path, None)
+    if not isinstance(groups, list):
+        raise ValueError(f"Expected a People JSON list in {path}")
+    current_groups = [
+        group for group in groups
+        if isinstance(group, dict)
+        and str(group.get("type", "")).strip().casefold() == "current members"
     ]
+    if not current_groups:
+        raise ValueError(f"No Current Members group found in {path}")
+    people = []
+    for group in current_groups:
+        members = group.get("members")
+        if not isinstance(members, list):
+            raise ValueError(f"Invalid Current Members list in {path}")
+        for person in members:
+            if not isinstance(person, dict):
+                raise ValueError(f"Invalid current member in {path}")
+            name = clean_text(str(person.get("name") or ""))
+            position = clean_text(str(person.get("position") or ""))
+            if not name or not position:
+                raise ValueError(f"Current members require a name and position in {path}")
+            people.append({"name": name, "position": position})
     if not people:
-        raise ValueError(f"No people found in Current Members section in {path}")
+        raise ValueError(f"No people found in Current Members group in {path}")
     return sorted(people, key=lambda person: person["name"].casefold())
 
 
@@ -1450,15 +1502,8 @@ def approve(data_dir: Path, people_path: Path, payload: dict[str, Any]) -> tuple
     approved_at = now_iso()
     write_json(data_dir / "approved-news.json", {"approvedAt": approved_at, "reviewer": reviewer, "reviewDate": review_date, "items": news})
     if publications:
-        publication_output = publications
-        if review.get("mergeApprovedPublications"):
-            existing_publications = load_json(data_dir / "approved-publications.json", {}).get("items", [])
-            replacements = {str(item.get("id")): item for item in publications if item.get("id")}
-            publication_output = [
-                replacements.pop(str(item.get("id")), item)
-                for item in existing_publications
-            ]
-            publication_output.extend(replacements.values())
+        existing_publications = load_json(data_dir / "approved-publications.json", {}).get("items", [])
+        publication_output = merge_approved_publications(existing_publications, publications)
         write_json(data_dir / "approved-publications.json", {"approvedAt": approved_at, "reviewer": reviewer, "reviewDate": review_date, "items": publication_output})
     sync_and_build_site()
     append_audit(data_dir, {

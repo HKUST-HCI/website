@@ -1,17 +1,16 @@
 <header class="bg-zinc-700 text-white lg:pb-4 mb-8">
     <div class="container mx-auto px-4 flex justify-between items-center gap-x-8 flex-wrap">
         <div class="flex-none basis-auto md:basis-full lg:basis-auto text-center">
-            <a class="inline-block" href="index.html">
-                <img src="img/logo.svg" class="w-40 md:w-60 xl:w-72" alt="Human-Computer Interaction Initiative @ HKUST">
+            <a class="block" href="index.html" aria-label="Human-Computer Interaction Initiative at HKUST - Home">
+                <img src="img/logo.svg" class="w-40 md:w-60 xl:w-72 logo-on-dark" alt=""><img src="img/logo-dark.svg" class="w-40 md:w-60 xl:w-72 logo-on-light" alt="" aria-hidden="true">
             </a>
-            <h1 class="sr-only md:not-sr-only text-sm xl:text-base">Human-Computer Interaction Initiative @ HKUST</h1>
         </div>
         <div class="md:hidden relative">
-            <button id="mobile-nav-button" class="px-2 h-16 text-xl relative" type="button" aria-haspopup="menu" aria-controls="mobile-nav">
+            <button id="mobile-nav-button" class="px-2 h-16 text-xl relative" type="button" aria-haspopup="menu" aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation">
                 <i class="fa fa-bars"></i>
             </button>
         </div>
-        <nav id="site-nav" class="my-2 flex-auto self-end w-full md:w-auto overflow-x-auto lg:overflow-x-visible hidden md:block">
+        <nav id="site-nav" class="my-2 flex-auto w-full md:w-auto overflow-x-auto lg:overflow-x-visible hidden md:block">
             <ul class="flex flex-row font-bold text-lg uppercase text-center font-title" role="menu">
                 {{#nav}}
                 <li class="first:ml-auto last:mr-auto lg:last:mr-0">

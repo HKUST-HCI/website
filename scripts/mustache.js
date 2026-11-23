@@ -1,5 +1,8 @@
 const fs = require('fs');
 const mustache = require('mustache');
+const { publicationView } = require('./publication-view');
+const venueMarks = require('../src/data/publication-venues.json');
+const publicationImages = require('../src/data/publication-images.json');
 
 // Define colors {{{
 
@@ -65,11 +68,15 @@ const dataPreprocessors = {
         return years;
     },
     publications: (data) => {
-        data.forEach(year => {
+        data.forEach((year, idx) => {
+            year.count = year.papers.length;
+            year.open = idx === 0;
             year.papers.forEach(publication => {
                 if (!publication.authorLine && !!publication.authors) {
                     publication.authorLine = publication.authors.join(', ');
                 }
+                publication.categoryLower = (publication.category || '').toLowerCase();
+                Object.assign(publication, publicationView(publication, year.year, venueMarks, publicationImages));
             })
         });
         return data;
@@ -98,10 +105,11 @@ const dataPreprocessors = {
                 p.url = PEOPLE_NAME_BY_URL[p.name] || '#'
             }
         })
-        data.maintainers.forEach(p => {
+        data.maintainers.forEach((p, index) => {
             if (!p.url) {
                 p.url = PEOPLE_NAME_BY_URL[p.name] || '#'
             }
+            p.separator = index === 0 ? '' : index === data.maintainers.length - 1 ? ' and ' : ', ';
         })
         return data
     }
@@ -137,11 +145,68 @@ const data = fs.readdirSync('./src/data')
         return { ...acc, [name]: d }
     }, { people: dataPreprocessors.people ? dataPreprocessors.people(PEOPLE) : PEOPLE });
 
+// Derived view-models for clean multi-column layouts
+const currentGroup = data.people.find(g => /current/i.test(g.type)) || data.people[0];
+const pastGroup = data.people.find(g => /past|alumni/i.test(g.type));
+const peopleSections = [];
+if (currentGroup) {
+    const faculty = currentGroup.members.filter(m => m.class === 'faculty_in' || m.class === 'faculty_out');
+    const postdocs = currentGroup.members.filter(m => m.class === 'staff');
+    const students = currentGroup.members.filter(m => m.class !== 'faculty_in' && m.class !== 'faculty_out' && m.class !== 'staff');
+    if (faculty.length) peopleSections.push({ id: 'faculty', title: 'Faculty', count: faculty.length, isAlumni: false, lazyImg: false, members: faculty });
+    if (postdocs.length) peopleSections.push({ id: 'postdocs', title: 'Postdoctoral Fellows', count: postdocs.length, isAlumni: false, lazyImg: true, members: postdocs });
+    if (students.length) peopleSections.push({ id: 'students', title: 'Students & Members', count: students.length, isAlumni: false, lazyImg: true, members: students });
+}
+if (pastGroup && pastGroup.members.length) {
+    peopleSections.push({ id: 'alumni', title: 'Alumni & Past Members', count: pastGroup.members.length, isAlumni: true, lazyImg: true, members: pastGroup.members });
+}
+data.peopleSections = peopleSections;
+
+const allPapers = (data.publications || []).flatMap(y => y.papers || []);
+const pubYears = (data.publications || []).map(y => Number(y.year)).filter(Boolean);
+data.publicationSummary = {
+    total: allPapers.length,
+    minYear: pubYears.length ? Math.min(...pubYears) : '',
+    maxYear: pubYears.length ? Math.max(...pubYears) : '',
+    conferenceCount: allPapers.filter(p => (p.category || '').toLowerCase() === 'conference').length,
+    journalCount: allPapers.filter(p => (p.category || '').toLowerCase() === 'journal').length,
+    bookCount: allPapers.filter(p => (p.category || '').toLowerCase().includes('book')).length,
+};
+data.newsCount = (data.news || []).reduce((sum, g) => sum + (g.count || 0), 0);
+
 // }}}
+
+const siteOrigin = 'https://hci.cse.ust.hk';
+const siteName = 'HKUST HCI Initiative';
+const homeUrl = `${siteOrigin}/`;
+const pageDetails = {
+    index: ['Human-Computer Interaction Initiative at HKUST', 'The HKUST HCI Initiative brings together researchers in human-computer interaction at the Hong Kong University of Science and Technology. Explore our research, people, and publications.'],
+    people: [`People | ${siteName}`, 'Meet the faculty, postdoctoral fellows, students, and alumni of the HKUST Human-Computer Interaction Initiative.'],
+    publications: [`Publications | ${siteName}`, 'Browse publications from the HKUST HCI Initiative by year, with links to papers and BibTeX citations.'],
+    life: [`Life | ${siteName}`, 'See photographs from conferences, lab visits, and community activities at the HKUST HCI Initiative.'],
+    contact: [`Join Us | ${siteName}`, 'Explore research opportunities with faculty in the HKUST Human-Computer Interaction Initiative.'],
+    projects: [`Projects | ${siteName}`, 'Explore research projects and demos from the HKUST Human-Computer Interaction Initiative.'],
+    'research-private-policy': [`Research Privacy Policy | ${siteName}`, 'Read the general privacy policy for research projects at the HKUST HCI Initiative.'],
+};
+const canonicalUrls = [];
 
 pages.forEach(page => {
     const name = page.split('.')[0];
     const template = fs.readFileSync(`./src/${page}`).toString();
-    const html = mustache.render(template, data, partials);
+    const details = pageDetails[name];
+    const pageMeta = details
+        ? { title: details[0], description: details[1], canonical: name === 'index' ? homeUrl : `${siteOrigin}/${name}.html` }
+        : { title: name === 'supporters' ? `Supporters | ${siteName}` : siteName, noindex: name !== 'advanced', canonical: name === 'advanced' ? homeUrl : '' };
+    if (details) canonicalUrls.push(pageMeta.canonical);
+    const html = mustache.render(template, { ...data, pageMeta }, partials);
     fs.writeFileSync(`./build/${name}.html`, html);
 });
+
+fs.writeFileSync('./build/sitemap.xml', [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ...canonicalUrls.sort().map(url => `  <url><loc>${url}</loc></url>`),
+    '</urlset>',
+    '',
+].join('\n'));
+fs.writeFileSync('./build/robots.txt', `User-agent: *\nAllow: /\nSitemap: ${siteOrigin}/sitemap.xml\n`);

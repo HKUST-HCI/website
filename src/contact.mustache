@@ -1,45 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>{{> head}}<link rel="stylesheet" type="text/css" href="theme.css"></head>
-<body>
+<head>
+    {{> head}}
+    <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body class="contact-body site-shell">
 {{> header}}
-<div class="container mx-auto px-4">
-  <main class="contact-page contact-editorial">
-    <section class="join-section" aria-labelledby="join-title">
-      <h2 id="join-title">Join us</h2>
-      <p class="join-intro"><strong>We warmly welcome students, researchers, and collaborators interested in exploring opportunities with the HCI Initiative. Explore the faculty profiles below to find research that interests you.</strong></p>
+<div id="site-scroll" class="site-scroll" role="region" aria-label="Page content" tabindex="0">
+<div class="site-container">
+  <main class="contact-canvas">
+    <header class="page-intro-header">
+      <div>
+        <h2 id="join-title" class="page-hero-title">Join us</h2>
+        <p class="page-hero-subtitle">We warmly welcome students, researchers, and collaborators interested in exploring opportunities with the HCI Initiative. Explore the faculty profiles below to find research that interests you.</p>
+      </div>
+    </header>
 
-      <article class="contact-faculty">
-        <img class="contact-faculty-photo" src="img/people/faculty-huamin.jpg" alt="Prof. Huamin Qu">
-        <div class="contact-faculty-copy">
+    <section class="join-faculty-list" aria-labelledby="join-title">
+      <article class="join-faculty-row">
+        <img class="join-faculty-photo" src="img/people/faculty-huamin.jpg" alt="Prof. Huamin Qu">
+        <div class="join-faculty-copy">
           <h3>Prof. Huamin Qu</h3>
+          <p class="join-faculty-meta">Chair Professor &middot; Department of Computer Science and Engineering</p>
           <p>Prof. Qu leads research in visualization and human&ndash;computer interaction, including urban informatics, social-network analysis, e-learning, text visualization, explainable AI, and mobile augmented reality. His <a href="https://vis.cse.ust.hk/" target="_blank" rel="noopener noreferrer">HKUST VisLab</a> brings together researchers working across visual analytics, AI, immersive technologies, and data-driven applications.</p>
           <p>If you are interested in his research and would like to explore opportunities, please read the <a href="https://vis.cse.ust.hk/" target="_blank" rel="noopener noreferrer">VisLab group information</a> and its contact guidance. You can also learn more on <a href="http://huamin.org/" target="_blank" rel="noopener noreferrer">Prof. Qu's homepage</a>.</p>
+          <div class="join-links-row">
+            <a href="https://vis.cse.ust.hk/" target="_blank" rel="noopener noreferrer" class="pill">HKUST VisLab &nearr;</a>
+            <a href="http://huamin.org/" target="_blank" rel="noopener noreferrer" class="pill">Prof. Qu's Homepage &nearr;</a>
+          </div>
         </div>
       </article>
 
-      <article class="contact-faculty">
-        <img class="contact-faculty-photo" src="img/people/faculty-xiaojuan.jpg" alt="Prof. Xiaojuan Ma">
-        <div class="contact-faculty-copy">
+      <article class="join-faculty-row">
+        <img class="join-faculty-photo" src="img/people/faculty-xiaojuan.jpg" alt="Prof. Xiaojuan Ma">
+        <div class="join-faculty-copy">
           <h3>Prof. Xiaojuan Ma</h3>
+          <p class="join-faculty-meta">Associate Professor &middot; Department of Computer Science and Engineering</p>
           <p>Prof. Ma studies data-driven Human-Engaged Computing: how people and intelligent systems can build balanced, mutually supportive relationships. Her group explores human&ndash;AI collaboration in decision-making, problem-solving, critical and creative thinking, communication, and collaboration, with applications in education, health, design, social computing, AI, data, and XR. See her <a href="https://www.cse.ust.hk/~mxj/" target="_blank" rel="noopener noreferrer">homepage</a> and <a href="https://www.cse.ust.hk/~mxj/research.html" target="_blank" rel="noopener noreferrer">research topics</a> for more details.</p>
-          <p>We warmly welcome students, researchers, and collaborators interested in joining our group and exploring new research ideas. <strong class="application-notice">Individual applications are considered through the forms below only. We do not have the bandwidth to respond to individual email inquiries.</strong> For PhD/MPhil applications, postdoctoral positions, and research assistant positions, please complete the <a href="https://forms.gle/dvfQ3LhuRJvWYuUK8" target="_blank" rel="noopener noreferrer">Degree &amp; Academic Opportunities form</a>. For research internships, UROP opportunities, and research collaboration proposals, please use the <a href="https://forms.gle/6Qhuj61SNwynEA1KA" target="_blank" rel="noopener noreferrer">Research Experience &amp; Collaboration form</a>.</p>
+          <p>We warmly welcome students, researchers, and collaborators interested in joining our group and exploring new research ideas. <strong class="application-notice">Individual applications are considered through the forms below only. We do not have the bandwidth to respond to individual email inquiries.</strong></p>
+
+          <div class="join-form-grid">
+            <a href="https://forms.gle/dvfQ3LhuRJvWYuUK8" target="_blank" rel="noopener noreferrer" class="join-form-card">
+              <span class="join-form-title">Degree &amp; Academic Opportunities &nearr;</span>
+              <span class="join-form-desc">PhD/MPhil applications, postdoctoral positions, and research assistant positions.</span>
+            </a>
+            <a href="https://forms.gle/6Qhuj61SNwynEA1KA" target="_blank" rel="noopener noreferrer" class="join-form-card">
+              <span class="join-form-title">Research Experience &amp; Collaboration &nearr;</span>
+              <span class="join-form-desc">Research internships, UROP opportunities, and research collaboration proposals.</span>
+            </a>
+          </div>
+
           <p><strong class="faculty-recommendation">However, we especially welcome recommendations sent directly by faculty members.</strong> Recommending professors are invited to email Prof. Ma at <a href="mailto:hcihkust@gmail.com">hcihkust@gmail.com</a>.</p>
         </div>
       </article>
 
-      <article class="contact-faculty">
-        <img class="contact-faculty-photo" src="img/people/faculty-arpit.jpg" alt="Prof. Arpit Narechania">
-        <div class="contact-faculty-copy">
+      <article class="join-faculty-row">
+        <img class="join-faculty-photo" src="img/people/faculty-arpit.jpg" alt="Prof. Arpit Narechania">
+        <div class="join-faculty-copy">
           <h3>Prof. Arpit Narechania</h3>
+          <p class="join-faculty-meta">Assistant Professor &middot; Department of Computer Science and Engineering</p>
           <p>Prof. Narechania directs the <a href="https://datavisards.com/" target="_blank" rel="noopener noreferrer">DataVisards Lab</a>, which designs and evaluates tools that help people collaborate with one another and with AI in data-driven analysis and decision-making. Current themes include human&ndash;agent interaction, analytic guidance and provenance, natural and explainable interfaces, and visual analytics across application domains.</p>
           <p>If you are interested in his research and would like to get in touch, please review the <a href="https://datavisards.com/" target="_blank" rel="noopener noreferrer">lab's information and contact guidance</a>. More about his work is available on <a href="https://narechania.com/" target="_blank" rel="noopener noreferrer">Prof. Narechania's homepage</a>.</p>
+          <div class="join-links-row">
+            <a href="https://datavisards.com/" target="_blank" rel="noopener noreferrer" class="pill">DataVisards Lab &nearr;</a>
+            <a href="https://narechania.com/" target="_blank" rel="noopener noreferrer" class="pill">Prof. Narechania's Homepage &nearr;</a>
+          </div>
         </div>
       </article>
     </section>
-
   </main>
 </div>
 {{> footer}}
+</div>
 </body>
 </html>

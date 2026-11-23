@@ -1,5 +1,5 @@
 const themeStorageKey = 'hci-initiative-theme'
-const systemTheme = window.matchMedia('(prefers-color-scheme: light)')
+const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
 
 function readSavedTheme() {
     try {
@@ -32,13 +32,21 @@ function renderThemeToggle() {
     const toggle = document.getElementById('theme-toggle')
     if (!toggle) return
 
+    if (!toggle.querySelector('.theme-toggle-icon')) {
+        toggle.innerHTML = `
+            <svg class="theme-toggle-icon theme-toggle-icon--sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+            </svg>
+            <svg class="theme-toggle-icon theme-toggle-icon--moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path>
+            </svg>`
+    }
+
     const switchingToLight = document.documentElement.dataset.theme === 'dark'
-    toggle.setAttribute('aria-live', 'polite')
-    toggle.setAttribute('aria-label', switchingToLight ? 'Switch to day mode' : 'Switch to night mode')
-    toggle.title = switchingToLight ? 'Day mode' : 'Night mode'
-    toggle.innerHTML = switchingToLight
-        ? '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle></svg>'
-        : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.2A8.4 8.4 0 0 1 8.8 3.8 8.5 8.5 0 1 0 20.2 15.2Z"></path></svg>'
+    const label = switchingToLight ? 'Switch to day mode' : 'Switch to night mode'
+    toggle.setAttribute('aria-label', label)
+    toggle.title = label
 }
 
 function switchTheme() {
@@ -48,7 +56,7 @@ function switchTheme() {
     renderThemeToggle()
 }
 
-applyTheme(readRequestedTheme() || readSavedTheme() || (systemTheme.matches ? 'light' : 'dark'))
+applyTheme(readRequestedTheme() || readSavedTheme() || (systemTheme.matches ? 'dark' : 'light'))
 
 // Event delegation works even if the header button is rendered later.
 document.addEventListener('click', function (event) {
@@ -59,19 +67,29 @@ document.addEventListener('click', function (event) {
 })
 
 document.addEventListener('DOMContentLoaded', function () {
+    const scrollRegion = document.getElementById('site-scroll')
+    if (scrollRegion) {
+        function syncScrollGutter() {
+            const width = scrollRegion.offsetWidth - scrollRegion.clientWidth
+            document.documentElement.style.setProperty('--site-scrollbar-width', `${width}px`)
+        }
+        syncScrollGutter()
+        if ('ResizeObserver' in window) new ResizeObserver(syncScrollGutter).observe(scrollRegion)
+        else window.addEventListener('resize', syncScrollGutter, { passive: true })
+    }
     const nav = document.getElementById('site-nav')
-    const mobileNavButton = document.getElementById('mobile-nav-button')
 
-    if (nav && mobileNavButton) {
-        mobileNavButton.addEventListener('click', function () {
-            nav.classList.toggle('hidden')
+    if (nav) {
+        const currentPage = window.location.pathname.split('/').pop() || 'index.html'
+        nav.querySelectorAll('a[href]').forEach(function (link) {
+            if (link.getAttribute('href') === currentPage) link.setAttribute('aria-current', 'page')
         })
     }
 
     if (nav && nav.querySelector('ul') && !document.getElementById('theme-toggle')) {
         const toggleItem = document.createElement('li')
         toggleItem.className = 'theme-toggle-item'
-        toggleItem.innerHTML = '<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to day mode"><span aria-hidden="true">&#9675;</span></button>'
+        toggleItem.innerHTML = '<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to day mode"></button>'
         nav.querySelector('ul').appendChild(toggleItem)
     }
 
@@ -80,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function followSystemTheme(event) {
     if (readSavedTheme()) return
-    applyTheme(event.matches ? 'light' : 'dark')
+    applyTheme(event.matches ? 'dark' : 'light')
     renderThemeToggle()
 }
 
