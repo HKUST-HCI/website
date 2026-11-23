@@ -2,29 +2,21 @@
     {
         "title": "We attended CHI 2026 in Barcelona, Spain",
         "image": "img/life/20260420/3c76c7e907226b1c9fb2508bf0633f6.jpg",
-        "url": null,
-        "width": 2280,
-        "height": 1280
+        "url": null
     },
     {
         "title": "We attended CHI 2025 in Yokohama, Japan",
         "image": "img/life/20250430/5e211b07eb2032678909fe89e43b872.jpg",
-        "url": null,
-        "width": 1917,
-        "height": 1280
+        "url": null
     },
     {
         "title": "We attended CHI '24 in Honolulu, Hawaii",
         "image": "img/events/chi-24.jpg",
-        "url": null,
-        "width": 1280,
-        "height": 720
+        "url": null
     },
     {
         "title": "HKUST HCI Initiative attended the Greater Bay Area Pre-CHI 2024 event",
         "image": "img/events/gba-pre-chi-2024.jpg",
-        "url": null,
-        "width": 1706,
-        "height": 640
+        "url": null
     }
 ]

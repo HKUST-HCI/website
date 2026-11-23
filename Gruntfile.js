@@ -12,37 +12,6 @@ const gruntConfig = {
                     dest: 'build/',
                 },
             ]
-        },
-        // Self-hosted web fonts (Google Fonts is unreliable from mainland China).
-        fonts: {
-            files: [
-                {
-                    expand: true,
-                    flatten: true,
-                    cwd: 'node_modules/@fontsource/',
-                    src: [
-                        'fira-sans/files/fira-sans-latin{,-ext}-{400,500,600}-normal.woff2',
-                    ],
-                    dest: 'build/fonts/',
-                },
-            ]
-        },
-        carousel: {
-            files: [{
-                expand: true,
-                cwd: 'node_modules/',
-                src: [
-                    'embla-carousel/embla-carousel.umd.js',
-                    'embla-carousel-auto-scroll/embla-carousel-auto-scroll.umd.js',
-                ],
-                dest: 'build/vendor/',
-            }, {
-                src: 'src/embla-license.txt',
-                dest: 'build/vendor/embla-carousel/LICENSE',
-            }, {
-                src: 'src/embla-license.txt',
-                dest: 'build/vendor/embla-carousel-auto-scroll/LICENSE',
-            }],
         }
     },
     exec: {
@@ -96,8 +65,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', [
         'copy:static',
-        'copy:fonts',
-        'copy:carousel',
         'exec:mustache',
         'exec:tailwindcss',
     ])

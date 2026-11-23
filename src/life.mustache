@@ -3,24 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{> metadata}}
+    <title>Life | HKUST HCI Initiative</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="disclosures.css">
-    <script src="disclosures.js"></script>
     <script src="main.js?v=20261110-4"></script>
 <link rel="stylesheet" href="theme.css?v=20261110-19">
-    <link rel="stylesheet" href="life.css">
 </head>
-<body class="life-body site-shell">
-    {{> header}}
-<div id="site-scroll" class="site-scroll" role="region" aria-label="Page content" tabindex="0">
+<body>
+    <header class="bg-zinc-700 text-white lg:pb-4 mb-8">
+        <div class="container mx-auto px-4 flex justify-between items-center gap-x-8 flex-wrap">
+            <div class="flex-none basis-auto md:basis-full lg:basis-auto text-center">
+                <a class="inline-block" href="index.html">
+                    <img src="img/logo.svg" class="w-40 md:w-60 xl:w-72" alt="Human-Computer Interaction Initiative @ HKUST">
+                </a>
+                <h1 class="sr-only md:not-sr-only text-sm xl:text-base">Human-Computer Interaction Initiative @ HKUST</h1>
+            </div>
+            <div class="md:hidden relative">
+                <button id="mobile-nav-button" class="px-2 h-16 text-xl relative" type="button" aria-haspopup="menu" aria-controls="mobile-nav"><i class="fa fa-bars"></i></button>
+            </div>
+            <nav id="site-nav" class="my-2 flex-auto self-end w-full md:w-auto overflow-x-auto lg:overflow-x-visible hidden md:block">
+                <ul class="flex flex-row font-bold text-lg uppercase text-center font-title" role="menu">
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="index.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem">Home</a></li>
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="people.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem">People</a></li>
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="publications.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem">Publications</a></li>
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="life.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem" aria-current="page">Life</a></li>
+                    <li class="first:ml-auto last:mr-auto lg:last:mr-0"><a href="contact.html" class="block px-4 py-3 cursor-pointer hover:text-zinc-800 hover:bg-zinc-200 transition" role="menuitem">Join us</a></li>
+                    <li class="theme-toggle-item"><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to day mode" title="Day mode"><span aria-hidden="true">&#9675;</span></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div class="site-container">
-        <main class="life-page life-canvas">
-            <header class="page-intro-header life-intro-header">
-                <h2 class="page-hero-title">Life @ HKUST HCI Initiative</h2>
-            </header>
+    <div class="container mx-auto px-4">
+        <main class="life-page bg-white rounded-sm shadow-md p-5 md:p-8">
+            <div class="life-intro">
+                <p class="life-kicker">Beyond the research</p>
+                <h2>Life at HKUST HCI Initiative</h2>
+                <p>Snapshots of the people, places, and moments that shape our community.</p>
+            </div>
 
             <div class="life-years">
                 <details class="life-year" open>
@@ -58,8 +78,82 @@
         </main>
     </div>
 
-    {{> footer}}
-</div>
-    <script src="life.js"></script>
+    <footer class="bg-zinc-700 text-white py-2 mt-8">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <img src="img/logo.svg" class="w-32" alt="logo">
+            <div class="float-right text-center text-xs">
+                <p><small>Authored by <a href="https:&#x2F;&#x2F;yellowzeyu.com&#x2F;en&#x2F;" class="link">Zeyu Huang</a> <a href="#" class="link">Dongyu Liu</a> <a href="#" class="link">Qing Chen</a> <a href="http:&#x2F;&#x2F;conglei.org&#x2F;" class="link">Conglei Shi</a></small></p>
+                <p><small>Maintained by <a href="https://yuanky123.github.io/" class="link">Kangyu Yuan</a></small></p>
+                <p><small>&copy; 2022 All rights reserved.</small></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.querySelectorAll('.life-gallery').forEach(function (gallery) {
+            Array.from(gallery.children)
+                .sort(function (first, second) {
+                    var firstDate = first.querySelector('.life-date').textContent.trim();
+                    var secondDate = second.querySelector('.life-date').textContent.trim();
+                    return Date.parse(secondDate) - Date.parse(firstDate);
+                })
+                .forEach(function (activity) {
+                    gallery.appendChild(activity);
+                });
+        });
+        document.querySelectorAll('.life-carousel').forEach(function (carousel) {
+            var slides = Array.from(carousel.querySelectorAll('.life-slides img'));
+            slides.forEach(function (slide) {
+                function markPortrait() {
+                    if (slide.naturalHeight > slide.naturalWidth) {
+                        slide.classList.add('is-portrait');
+                    }
+                }
+                if (slide.complete) markPortrait();
+                else slide.addEventListener('load', markPortrait, { once: true });
+            });
+            if (slides.length < 2) {
+                if (slides[0]) slides[0].classList.add('is-active');
+                return;
+            }
+            var index = 0;
+            var dots = document.createElement('div');
+            dots.className = 'life-carousel-dots';
+            slides.forEach(function (_, slideIndex) {
+                var dot = document.createElement('button');
+                dot.type = 'button';
+                dot.setAttribute('aria-label', 'Show photo ' + (slideIndex + 1));
+                dot.addEventListener('click', function () { show(slideIndex); restart(); });
+                dots.appendChild(dot);
+            });
+            carousel.appendChild(dots);
+            var prev = document.createElement('button');
+            prev.className = 'life-carousel-prev';
+            prev.type = 'button';
+            prev.setAttribute('aria-label', 'Previous photo');
+            prev.innerHTML = '<i class="fa fa-angle-left"></i>';
+            var next = document.createElement('button');
+            next.className = 'life-carousel-next';
+            next.type = 'button';
+            next.setAttribute('aria-label', 'Next photo');
+            next.innerHTML = '<i class="fa fa-angle-right"></i>';
+            carousel.appendChild(prev);
+            carousel.appendChild(next);
+            function show(nextIndex) {
+                index = (nextIndex + slides.length) % slides.length;
+                slides.forEach(function (slide, i) { slide.classList.toggle('is-active', i === index); });
+                dots.querySelectorAll('button').forEach(function (dot, i) { dot.classList.toggle('is-active', i === index); });
+            }
+            function restart() {
+                clearInterval(carousel.lifeTimer);
+                carousel.lifeTimer = setInterval(function () { show(index + 1); }, Number(carousel.dataset.interval) || 5000);
+            }
+            prev.addEventListener('click', function () { show(index - 1); restart(); });
+            next.addEventListener('click', function () { show(index + 1); restart(); });
+            carousel.addEventListener('mouseenter', function () { clearInterval(carousel.lifeTimer); });
+            carousel.addEventListener('mouseleave', restart);
+            show(0);
+            restart();
+        });
+    </script>
 </body>
 </html>
